@@ -7,14 +7,14 @@ import { Link, Img } from './'
 const Header = () => (
   <div className="row">
     <div className="col-12">
-      <div className="row mt-4">
+      <div className="row mt-2 mt-md-4">
 
         <div className="col-4">
           <div className="sendBox">
             <Link to="/" hover={true}>
               <div className="sendBoxContents pt-3 pb-4">
                 <h1>Academics</h1>
-                <p>My work at University of Washington</p>
+                <p>My work at University</p>
               </div>
             </Link>
           </div>
@@ -36,7 +36,7 @@ const Header = () => (
             <Link to="/" hover={true}>
               <div className="sendBoxContents pt-3 pb-4">
                 <h1>Personal</h1>
-                <p>My other work</p>
+                <p>My side projects</p>
               </div>
             </Link>
           </div>
