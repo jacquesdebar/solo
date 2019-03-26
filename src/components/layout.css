@@ -1,0 +1,13 @@
+.narrowPanel {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  height: 800px;
+}
+
+@media (max-width: 850px) {
+  .narrowPanel {
+    width: 95%;
+  }
+}

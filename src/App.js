@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+
+import Home from './Home';
 import './App.css';
+
+import { Layout } from './components';
+// import { Layout } from './components'
+
+const HomePage = () => (
+  <Layout>
+    <Home />
+  </Layout>
+)
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          {/*} <img src={logo} className="App-logo" alt="logo" /> */}
-          <h1 className="my-n5">
-            Jacques DeBar
-          </h1>
-          {/*}<a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>*/}
-          <p>Check back soon.</p>
-        </header>
-      </div>
+      <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+      </Switch>
+    </BrowserRouter>
     );
   }
 }

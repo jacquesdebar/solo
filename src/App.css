@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  /* background: URL('tester/png'); */
+  background-color: yellow;
 }
 
 .App-logo {
@@ -17,8 +19,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: 'SF Compact Display';
+  font-weight: 900;
   /* color: white; */
   color: #0a0a0a;
+  /* border: 4px solid black; */
+  background-color: #aec4e8;
+  background-image: url('bgTileW-01.png');
+  /* background: URL('tester.png') repeat; */
 }
 
 .App-link {
