@@ -56,11 +56,11 @@ const Header = () => (
 )
 
 const Footer = () => (
-  <div className="row mt-5 mb-3">
+  <div className="row mt-2 mb-3 pt-3">
     <div className="col-7 float-left text-left mt-1" id="footer-text">
       <span>20, University of Washington c/o 2020</span>
     </div>
-    <div className="col-5 foat-right text-right">
+    <div className="col-5 float-right text-right">
       <span id="ikonz" className="d-inline-block">
         {/* <div>
           <Link to="letterboxd.com/jacquesdebar">
@@ -84,6 +84,7 @@ export default ({ children }) => (
   <div className="narrowPanel">
     <Header />
     {children}
+    <div className="col-2 mx-auto mt-5" style={{borderTop:"2px solid black"}} />
     <Footer />
   </div>
 
