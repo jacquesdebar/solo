@@ -58,7 +58,7 @@ const Header = () => (
 const Footer = () => (
   <div className="row mt-2 mb-3 pt-3">
     <div className="col-7 float-left text-left mt-1" id="footer-text">
-      <span>20, University of Washington c/o 2020</span>
+      <span>&copy; Jacques DeBar 2019</span>
     </div>
     <div className="col-5 float-right text-right">
       <span id="ikonz" className="d-inline-block">
