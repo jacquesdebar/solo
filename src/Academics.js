@@ -14,43 +14,51 @@ export default () => (
       </div>
 
       {/* sections */}
-      <div className="row my-4 d-block">
-        <h2 className="mb-2">SportsPrediction</h2>
-        <h3 className="course mb-3">INFO 449: iOS Development</h3>
-        <p>an iOS app for predicting sporting events</p>
-        <div className="row justify-content-center">
-          <Img src="/spDevices.png" className style={{width:"50%"}} />
+      <div className="row my-4">
+        <div className="col-12">
+          <h2 className="mb-2">SportsPrediction</h2>
+          <h3 className="course mb-3">INFO 449: iOS Development</h3>
+          <p>an iOS app for predicting sporting events</p>
+          <div className="row justify-content-center">
+            <Img src="/spDevices.png" className style={{width:"50%"}} />
+          </div>
         </div>
       </div>
       {/* an ios app that allows for predicting the outcomes of sporting events and
       competing against other players to see who is the best predictor */}
 
-      <div className="row my-5 d-block">
-        <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">BROCKHAMPTON Infographic</h2></a>
-        <h3 className="course mb-3">INFO 362: Visual Information Design</h3>
-        <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
-        <div className="row justify-content-center">
-          <Img src="/scBHF.png" className style={{width:"100%"}} />
+      <div className="row my-5">
+        <div className="col-12">
+          <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">BROCKHAMPTON Infographic</h2></a>
+          <h3 className="course mb-3">INFO 362: Visual Information Design</h3>
+          <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
+          <div className="row justify-content-center">
+            <Img src="/scBHF.png" className style={{width:"100%"}} />
+          </div>
         </div>
       </div>
 
-      <div className="row my-5 d-block">
-        <a href="http://students.washington.edu/jdebar/kiosk.html"><h2 className="mb-2">Husky Kiosk</h2></a>
-        <h3 className="course mb-3">INFO 360: Design Methods</h3>
-        <p>an informational website targeted towards formerly-incarcerated UW students</p>
-        <div className="row justify-content-center">
-          <Img src="/compHK.png" className style={{width:"100%"}} />
+      <div className="row my-5">
+        <div className="col-12">
+          <a href="http://students.washington.edu/jdebar/kiosk.html"><h2 className="mb-2">Husky Kiosk</h2></a>
+          <h3 className="course mb-3">INFO 360: Design Methods</h3>
+          <p>an informational website targeted towards formerly-incarcerated UW students</p>
+          <div className="row justify-content-center">
+            <Img src="/compHK.png" className style={{width:"100%"}} />
+          </div>
         </div>
       </div>
 
-      <div className="row my-5 d-block">
-        <h2 className="mb-2">Swordfish</h2>
-        <h3 className="course mb-3">INFO 340: Client-Side Web Development</h3>
-        <p>an econometrics web app built around stock regression</p>
+      <div className="row my-5">
+        <div className="col-12">
+          <h2 className="mb-2">Swordfish</h2>
+          <h3 className="course mb-3">INFO 340: Client-Side Web Development</h3>
+          <p>an econometrics web app built around stock regression</p>
 
 
-        <div className="row justify-content-center">
-          <Img src="/compSF.png" className style={{width:"100%"}} />
+          <div className="row justify-content-center">
+            <Img src="/compSF.png" className style={{width:"100%"}} />
+          </div>
         </div>
       </div>
       {/*     People are generally excited about stocks due to their speculative nature
@@ -87,12 +95,14 @@ export default () => (
         </div>
       </div> */}
 
-      <div className="row my-5 d-block">
-        <a href="https://andrewmahoneyf.shinyapps.io/CryptoCorrelation/"><h2 className="mb-2">CryptoCorrelation</h2></a>
-        <h3 className="course mb-3">INFO 201: Technical Foundations</h3>
-        <p>an R shiny app studying potential correlations between Google search volume for cryptocurrencies and the cryptocurrencies' prices</p>
-        <div className="row justify-content-center">
-          <Img src="/scCrypto.png" className style={{width:"100%"}} />
+      <div className="row my-5">
+        <div className="col-12">
+          <a href="https://andrewmahoneyf.shinyapps.io/CryptoCorrelation/"><h2 className="mb-2">CryptoCorrelation</h2></a>
+          <h3 className="course mb-3">INFO 201: Technical Foundations</h3>
+          <p>an R shiny app studying potential correlations between Google search volume for cryptocurrencies and the cryptocurrencies' prices</p>
+          <div className="row justify-content-center">
+            <Img src="/scCrypto.png" className style={{width:"100%"}} />
+          </div>
         </div>
       </div>
 

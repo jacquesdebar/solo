@@ -11,7 +11,7 @@ const Header = () => (
 
         <div className="col-4">
           <div className="sendBox">
-            <Link to="/" hover={true}>
+            <Link to="/academics" hover={true}>
               <div className="sendBoxContents pt-3 pb-4">
                 <h1>Academics</h1>
                 <p>My work at University</p>
@@ -22,7 +22,7 @@ const Header = () => (
 
         <div className="col-4">
           <div className="sendBox mx-auto">
-            <Link to="/" hover={true}>
+            <Link to="/freelance" hover={true}>
               <div className="sendBoxContents pt-3 pb-4">
                 <h1>Freelance</h1>
                 <p>My work for others</p>
@@ -33,7 +33,7 @@ const Header = () => (
 
         <div className="col-4">
           <div className="sendBox float-right">
-            <Link to="/" hover={true}>
+            <Link to="/personal" hover={true}>
               <div className="sendBoxContents pt-3 pb-4">
                 <h1>Personal</h1>
                 <p>My side projects</p>
@@ -67,11 +67,11 @@ const Footer = () => (
             <Img src="/Lbi-01.png" style={{height:"16px"}} />
           </Link>
         </div> */}
-        <a href="mailto:j@jacquesdebar.com"><i class="fas fa-envelope-square"></i></a>
+        <a href="mailto:j@jacquesdebar.com"><i className="fas fa-envelope-square"></i></a>
         <a id="instagram" href="https://www.instagram.com/jacquesdebar"><i className="fab fa-instagram" aria-label="instagram"></i></a>
         <a id="linkedin" href="https://www.linkedin.com/in/jacquesdebar/"><i className="fab fa-linkedin" aria-label="linkedin"></i></a>
         <a id="facebook" href="https://www.facebook.com/jacques.debar/"><i className="fab fa-facebook" aria-label="facebook"></i></a>
-        <a id="github" href="https://github.com/jacquesdebar/"><i class="fab fa-github" aria-label="facebook"></i></a>
+        <a id="github" href="https://github.com/jacquesdebar/"><i className="fab fa-github" aria-label="facebook"></i></a>
         <a id="spotify" href="https://open.spotify.com/user/1225938472?si=tz5RTn4NRh-HO3vfL53jzQ"><i className="fab fa-spotify" aria-label="spotify"></i></a>
       </span>
     {/*<span>&copy; Jacques DeBar {new Date().getFullYear()}</span>*/}

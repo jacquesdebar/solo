@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 import Home from './Home';
 import Academics from './Academics'
+import Freelance from './Freelance'
+import Personal from './Personal'
 import './App.css';
 
 import { Layout } from './components';
@@ -22,6 +23,19 @@ const AcademicsPage = () => (
   </Layout>
 )
 
+const FreelancePage = () => (
+  <Layout>
+    <Freelance />
+  </Layout>
+)
+
+const PersonalPage = () => (
+  <Layout>
+    <Personal />
+  </Layout>
+)
+
+
 class App extends Component {
   render() {
     return (
@@ -29,6 +43,8 @@ class App extends Component {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/academics" component ={AcademicsPage} />
+        <Route exact path="/freelance" component ={FreelancePage} />
+        <Route exact path="/personal" component ={PersonalPage} />
       </Switch>
     </BrowserRouter>
     );
