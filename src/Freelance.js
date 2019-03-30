@@ -29,11 +29,25 @@ export default () => (
 
       <div className="row my-5">
         <div className="col-12">
+          <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">Joed</h2></a>
+          <h3 className="course mb-3">album over art</h3>
+          <p>young EDM artist based out of seattle</p>
+          <div className="row">
+            <Img src="/joseSq.png" className="mb-4" style={{width:"80%"}} />
+            <Img src="/joseBan.png" className="" style={{width:"80%"}}  />
+          </div>
+        </div>
+      </div>
+
+
+      <div className="row my-5">
+        <div className="col-12">
           <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">HHSA</h2></a>
           <h3 className="course mb-3">UW Hip Hop Student Association</h3>
-          <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
-          <div className="row justify-content-center">
-            <Img src="/scBHF.png" className style={{width:"100%"}} />
+          <p>dedicated to providing the UW community with hip hop events</p>
+          <div className="row">
+            <Img src="/hDanceShort.png" className="mx-2" style={{width:"40%"}} />
+            <Img src="/hSessions.png" className="mx-2" style={{width:"40%"}}  />
           </div>
         </div>
       </div>
