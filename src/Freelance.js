@@ -20,7 +20,7 @@ export default () => (
           <h3 className="course mb-3">web designer, graphic designer, & videographer</h3>
           <p>a neo-soul band based out of seattle</p>
           <div className="row justify-content-center">
-            <Img src="/iuSite.png" className style={{width:"80%"}} />
+            <Img src="/iuSite.png" alt="iustew.com screencap" className style={{width:"80%"}} />
           </div>
         </div>
       </div>
@@ -32,9 +32,9 @@ export default () => (
           <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">Joed</h2></a>
           <h3 className="course mb-3">album cover art</h3>
           <p>young EDM artist based out of seattle</p>
-          <div className="row">
-            <Img src="/joseSq.png" className="mb-4" style={{width:"80%"}} />
-            <Img src="/joseBan.png" className="" style={{width:"80%"}}  />
+          <div className="row justify-content-center mt-5">
+            <Img src="/joseSq.png" alt="joed cover" className="mb-4" style={{width:"80%"}} />
+            <Img src="/joseBan.png" alt="joed banner" className="" style={{width:"80%"}}  />
           </div>
         </div>
       </div>
@@ -45,9 +45,9 @@ export default () => (
           <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">HHSA</h2></a>
           <h3 className="course mb-3">UW Hip Hop Student Association</h3>
           <p>dedicated to providing the UW community with hip hop events</p>
-          <div className="row">
-            <Img src="/hDanceShort.png" className="mx-2" style={{width:"40%"}} />
-            <Img src="/hSessions.png" className="mx-2" style={{width:"40%"}}  />
+          <div className="row justify-content-center mt-5">
+            <Img src="/hhR1.png" alt="HHSA Radio promo" className="mx-2" style={{width:"40%"}} />
+            <Img src="/hhS2.png" alt="HHSA sessions promo" className="mx-2" style={{width:"40%"}}  />
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ export default () => (
           <h3 className="course mb-3">INFO 449: iOS Development</h3>
           <p>an iOS app for predicting sporting events</p>
           <div className="row justify-content-center">
-            <Img src="/spDevices.png" className style={{width:"50%"}} />
+            <Img src="/spDevices.png" alt="SportsPrediction screencaps" className style={{width:"50%"}} />
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default () => (
           <h3 className="course mb-3">INFO 362: Visual Information Design</h3>
           <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
           <div className="row justify-content-center">
-            <Img src="/scBHF.png" className style={{width:"100%"}} />
+            <Img src="/scBHF.png" alt="BROCKHAMPTON infographics" className style={{width:"100%"}} />
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default () => (
           <h3 className="course mb-3">INFO 360: Design Methods</h3>
           <p>an informational website targeted towards formerly-incarcerated UW students</p>
           <div className="row justify-content-center">
-            <Img src="/compHK.png" className style={{width:"100%"}} />
+            <Img src="/compHK.png" alt="Husky Kiosk screencaps" className style={{width:"100%"}} />
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default () => (
 
 
           <div className="row justify-content-center">
-            <Img src="/compSF.png" className style={{width:"100%"}} />
+            <Img src="/compSF.png" alt="Swordfish screencaps" className style={{width:"100%"}} />
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ export default () => (
           <h3 className="course mb-3">INFO 201: Technical Foundations</h3>
           <p>an R shiny app studying potential correlations between Google search volume for cryptocurrencies and the cryptocurrencies' prices</p>
           <div className="row justify-content-center">
-            <Img src="/scCrypto.png" className style={{width:"100%"}} />
+            <Img src="/scCrypto.png" alt="CryptoCorrelation screencap" className style={{width:"100%"}} />
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ const Header = () => (
 
         <div className="col-4">
           <div className="sendBox float-right">
-            <Link to="/personal" hover={true}>
+            <Link to="/" hover={true}>
               <div className="sendBoxContents pt-3 pb-4">
                 <h1>Personal</h1>
                 <p>My side projects</p>
