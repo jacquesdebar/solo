@@ -30,7 +30,7 @@ export default () => (
       <div className="row my-5">
         <div className="col-12">
           <a href="https://jacquesdebar.wixsite.com/website-83"><h2 className="mb-2">Joed</h2></a>
-          <h3 className="course mb-3">album over art</h3>
+          <h3 className="course mb-3">album cover art</h3>
           <p>young EDM artist based out of seattle</p>
           <div className="row">
             <Img src="/joseSq.png" className="mb-4" style={{width:"80%"}} />
