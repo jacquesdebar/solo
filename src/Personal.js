@@ -16,11 +16,10 @@ export default () => (
       {/* sections */}
       <div className="row my-4">
         <div className="col-12">
-          <a href="https://iustew.com"><h2 className="mb-2">i///u</h2></a>
-          <h3 className="course mb-3">web designer, graphic designer, & videographer</h3>
-          <p>a neo-soul band based out of seattle</p>
+          <a href="https://iustew.com"><h2 className="mb-2">TBD</h2></a>
+          <h3 className="course mb-3">asdf</p>
           <div className="row justify-content-center">
-            <Img src="/iuSite.png" alt="iustew.com screencap" className style={{width:"80%"}} />
+            {/* <Img src="/iuSite.png" alt="iustew.com screencap" className style={{width:"80%"}} /> */}
           </div>
         </div>
       </div>
