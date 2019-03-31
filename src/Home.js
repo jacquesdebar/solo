@@ -31,7 +31,7 @@ export default () => (
           becoming more and more interconnected and collaborative.
           <br/>
           <br/>
-          You can contact me at <a href="mailto:j@jacquesdebar.com">j@jacquesdebar.com</a>.
+          You can contact me at <a href="mailto:j@jacquesdebar.com">jacques.debar@gmail.com</a>.
 
           </p>
         </div>

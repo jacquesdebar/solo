@@ -9,7 +9,8 @@ import Personal from './Personal'
 import './App.css';
 
 import { Layout } from './components';
-// import { Layout } from './components'
+
+
 
 const HomePage = () => (
   <Layout>
