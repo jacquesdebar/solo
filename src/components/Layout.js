@@ -67,7 +67,7 @@ const Footer = () => (
             <Img src="/Lbi-01.png" style={{height:"16px"}} />
           </Link>
         </div> */}
-        <a href="mailto:j@jacquesdebar.com"><i className="fas fa-envelope-square"></i></a>
+        <a href="mailto:jacques.debar@gmail.com"><i className="fas fa-envelope-square"></i></a>
         <a id="instagram" href="https://www.instagram.com/jacquesdebar"><i className="fab fa-instagram" aria-label="instagram"></i></a>
         <a id="linkedin" href="https://www.linkedin.com/in/jacquesdebar/"><i className="fab fa-linkedin" aria-label="linkedin"></i></a>
         <a id="facebook" href="https://www.facebook.com/jacques.debar/"><i className="fab fa-facebook" aria-label="facebook"></i></a>

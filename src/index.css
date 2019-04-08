@@ -19,14 +19,14 @@ Img {
   align-self: center;
 }
 
-.course {
+.team {
   color: #666;
   font-style: italic;
-  font-size: 1.5vw;
+  font-size: 1em;
 }
 
 .pgTitle {
-  font-size: 4vw;
+  font-size: 3.5em;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
 }
