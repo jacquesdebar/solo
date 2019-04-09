@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Img } from './components'
+import { Img } from './components'
 
 
 export default () => (
@@ -17,12 +17,12 @@ export default () => (
       <div className="row my-4">
         <div className="col-12">
           <h2 className="mb-2">SportsPrediction</h2>
-          <h3 className="team mb-3">with <a class="teammate" href="https://www.linkedin.com/in/hari-kaushik-302869128/">Hari
-          Kaushik</a>, <a class="teammate" href="https://www.linkedin.com/in/chaitanyagangavarapu/">Chaitanya
-          Gangavarapu</a>, and <a class="teammate" href="https://www.linkedin.com/in/nhytrek/">Nick
+          <h3 className="team mb-3">with <a className="teammate" href="https://www.linkedin.com/in/hari-kaushik-302869128/">Hari
+          Kaushik</a>, <a className="teammate" href="https://www.linkedin.com/in/chaitanyagangavarapu/">Chaitanya
+          Gangavarapu</a>, and <a className="teammate" href="https://www.linkedin.com/in/nhytrek/">Nick
           Hyrtek</a>.</h3>
           <div className="row justify-content-center">
-            <Img src="/spDevices.png" alt="SportsPrediction screencaps" className style={{width:"50%"}} />
+            <Img src="/spDevices.png" alt="SportsPrediction screencaps" style={{width:"50%"}} />
           </div>
           <div className="mt-2">
             <p>SportsPrediction is an iOS app for predicting sporting events and competing
@@ -44,7 +44,7 @@ export default () => (
           {/*<h3 className="course mb-3">INFO 362: Visual Information Design</h3>*/}
           <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
           <div className="row justify-content-center">
-            <Img src="/scBHF.png" alt="BROCKHAMPTON infographics" className style={{width:"100%"}} />
+            <Img src="/scBHF.png" alt="BROCKHAMPTON infographics" style={{width:"100%"}} />
           </div>
           <div className="mt-2">
             <p>I made the BROCKHAMPTON infographic depicted above to showcase the diverse
@@ -64,12 +64,12 @@ export default () => (
       <div className="row my-5">
         <div className="col-12">
           <a href="http://students.washington.edu/jdebar/kiosk.html"><h2 className="mb-2">Husky Kiosk</h2></a>
-          <h3 className="team mb-3">with <a class="teammate" href="https://www.linkedin.com/in/bnguyen12/">Benny
-          Nguyen</a> and <a class="teammate" href="https://www.linkedin.com/in/nicola-kalderash-bba38256/">Nicola
+          <h3 className="team mb-3">with <a className="teammate" href="https://www.linkedin.com/in/bnguyen12/">Benny
+          Nguyen</a> and <a className="teammate" href="https://www.linkedin.com/in/nicola-kalderash-bba38256/">Nicola
           Kalderash</a>.</h3>
           {/*<h3 className="course mb-3">INFO 360: Design Methods</h3>*/}
           <div className="row justify-content-center">
-            <Img src="/compHK.png" alt="Husky Kiosk screencaps" className style={{width:"100%"}} />
+            <Img src="/compHK.png" alt="Husky Kiosk screencaps" style={{width:"100%"}} />
           </div>
           <div className="mt-2">
             <p>Husky Kiosk focuses on empowering formerly-incarcerated students at the University
@@ -90,12 +90,12 @@ export default () => (
       <div className="row my-5">
         <div className="col-12">
           <h2 className="mb-2">Swordfish</h2>
-          <h3 className="team mb-3">with <a class="teammate" href="https://www.linkedin.com/in/robert-lin1/">Robi
-          Lin</a>, <a class="teammate" href="https://www.linkedin.com/in/oscar-avatare/">Oscar
-          Avatare</a>, and <a class="teammate" href="https://www.linkedin.com/in/lucas-woo-84103966/">Lucas
+          <h3 className="team mb-3">with <a className="teammate" href="https://www.linkedin.com/in/robert-lin1/">Robi
+          Lin</a>, <a className="teammate" href="https://www.linkedin.com/in/oscar-avatare/">Oscar
+          Avatare</a>, and <a className="teammate" href="https://www.linkedin.com/in/lucas-woo-84103966/">Lucas
           Woo</a>.</h3>
           <div className="row justify-content-center">
-            <Img src="/compSF.png" alt="Swordfish screencaps" className style={{width:"100%"}} />
+            <Img src="/compSF.png" alt="Swordfish screencaps" style={{width:"100%"}} />
           </div>
           <div className="mt-2">
             <p>Swordfish is an econometrics app centered built around stock regression.
@@ -147,13 +147,13 @@ export default () => (
       <div className="row my-5">
         <div className="col-12">
           <a href="https://andrewmahoneyf.shinyapps.io/CryptoCorrelation/"><h2 className="mb-2">CryptoCorrelation</h2></a>
-          <h3 className="team mb-3">with <a class="teammate" href="https://www.linkedin.com/in/amahoneyfernandes/">Andrew
-          Mahoney-Fernandes</a>, <a class="teammate" href="https://www.linkedin.com/in/pulith-silva-34726a117/">Pulith Silva
-          Gangavarapu</a>, and <a class="teammate" href="https://www.linkedin.com/in/james-lee-5a992a115/">James
+          <h3 className="team mb-3">with <a className="teammate" href="https://www.linkedin.com/in/amahoneyfernandes/">Andrew
+          Mahoney-Fernandes</a>, <a className="teammate" href="https://www.linkedin.com/in/pulith-silva-34726a117/">Pulith Silva
+          Gangavarapu</a>, and <a className="teammate" href="https://www.linkedin.com/in/james-lee-5a992a115/">James
           Lee</a>.</h3>
           {/*<h3 className="course mb-3">INFO 201: Technical Foundations</h3>*/}
           <div className="row justify-content-center">
-            <Img src="/scCrypto.png" alt="CryptoCorrelation screencap" className style={{width:"100%"}} />
+            <Img src="/scCrypto.png" alt="CryptoCorrelation screencap" style={{width:"100%"}} />
           </div>
           <div className="mt-2">
             <p>For my INFO 201 (Technological Foundations) course, I worked with a team
