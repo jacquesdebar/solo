@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link, Img } from './components'
+import { Link, Img, Resume } from './components'
+import { Button } from 'reactstrap';
 
 
 export default () => (
@@ -35,7 +36,10 @@ export default () => (
           You can contact me at <a href="mailto:j@jacquesdebar.com">jacques.debar@gmail.com</a>.
 
           </p>
+
+
         </div>
+        <Resume/>
       </div>
     </div>
   </div>
