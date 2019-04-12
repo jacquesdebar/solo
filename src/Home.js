@@ -39,7 +39,7 @@ export default () => (
 
 
         </div>
-        {/*<Resume/>*/}
+        <Resume/>
       </div>
     </div>
   </div>
