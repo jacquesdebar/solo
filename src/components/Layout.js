@@ -1,6 +1,7 @@
 import React from 'react'
 import './layout.css'
 import { Link, Img } from './'
+import Resume from './Resume'
 
 
 
@@ -9,6 +10,40 @@ const Header = () => (
     <div className="col-12">
       <div className="row mt-2 mt-md-4">
 
+        <div className="col-4">
+          <div className="sendBox">
+            <Link to="/" hover={true}>
+              <div className="sendBoxContents pt-3 pb-4">
+                <h1>Home</h1>
+                <p>background</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        <div className="col-4">
+          <div className="sendBox mx-auto">
+            <Link to="/academics" hover={true}>
+              <div className="sendBoxContents pt-3 pb-4">
+                <h1>Academics</h1>
+                <p>My work at University</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        <div className="col-4">
+          <div className="sendBox float-right">
+            <Link to="/freelance" hover={true}>
+              <div className="sendBoxContents pt-3 pb-4">
+                <h1>Freelance</h1>
+                <p>My work for others</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        {/*
         <div className="col-4">
           <div className="sendBox">
             <Link to="/academics" hover={true}>
@@ -31,6 +66,7 @@ const Header = () => (
           </div>
         </div>
 
+
         <div className="col-4">
           <div className="sendBox float-right">
             <Link to="/" hover={true}>
@@ -41,7 +77,7 @@ const Header = () => (
             </Link>
           </div>
         </div>
-
+        */}
 
       </div> {/* row end */}
 
@@ -59,6 +95,7 @@ const Footer = () => (
   <div className="row mt-2 mb-3 pt-3">
     <div className="col-7 float-left text-left mt-1" id="footer-text">
       <span>&copy; Jacques DeBar 2019</span>
+      {/*<Resume/>*/}
     </div>
     <div className="col-5 float-right text-right">
       <span id="ikonz" className="d-inline-block">
