@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link, Img, Resume } from './components'
 import { Button } from 'reactstrap';
-import BarChart from './BarChart'
-import WorldMap from './WorldMap'
-import BubbleChart from './BubbleChart';
 
 
 
@@ -45,30 +42,6 @@ export default () => (
         </div>
           <Resume/>
         <div>
-      {/*<BarChart data={[5,10,1,3]} size={[500,500]} />
-      <BubbleChart
-          width={800}
-          height={800}
-          fontFamily="Arial"
-          data={[
-            { label: 'CRM', value: 1 },
-            { label: 'API', value: 1 },
-            { label: 'Data', value: 1 },
-            { label: 'Commerce', value: 1 },
-            { label: 'AI', value: 3 },
-            { label: 'Management', value: 5 },
-            { label: 'Testing', value: 6 },
-            { label: 'Mobile', value: 9 },
-            { label: 'Conversion', value: 9 },
-            { label: 'Misc', value: 21 },
-            { label: 'Databases', value: 22 },
-            { label: 'DevOps', value: 22 },
-            { label: 'Javascript', value: 23 },
-            { label: 'Languages / Frameworks', value: 25 },
-            { label: 'Front End', value: 26 },
-            { label: 'Content', value: 26 },
-          ]}
-        />*/}
 
       </div>
       </div>
