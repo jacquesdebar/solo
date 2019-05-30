@@ -9,7 +9,7 @@ export default () => (
     <div className="col-12">
       <div className="row mx-4 my-4">
         <div className="col-8 mx-auto mb-4">
-          <Img src="/me.jpg" alt="me" className="" style={{}} />
+          <Img src="/me-midQual.jpg" alt="me" className="" style={{}} />
         </div>
       </div>
       <div className="row">
