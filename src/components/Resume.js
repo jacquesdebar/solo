@@ -23,7 +23,7 @@ export default class Resume extends React.Component {
       <div className="mx-auto mt-4">
         <button id="resumeButton" className="px-3 py-2" onClick={this.onOpenModal}>Résumé</button>
         <Modal open={open} onClose={this.onCloseModal} center>
-          <Img src="/resume2.png" alt="me" className="" style={{}} />
+          <Img src="/resume3.png" alt="me" className="" style={{}} />
         </Modal>
       </div>
     );
