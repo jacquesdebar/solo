@@ -1,21 +1,20 @@
-import React from 'react';
-import Img from './Img'
-import ReactDOM from 'react-dom';
-import Modal from 'react-responsive-modal';
-
+import React from "react";
+import Img from "./Img";
+// import ReactDOM from 'react-dom';
+import Modal from "react-responsive-modal";
 
 export default class Resume extends React.Component {
-  state = {
-    open: false,
-  };
+    state = {
+        open: false
+    };
 
-  onOpenModal = () => {
-    this.setState({ open: true });
-  };
+    onOpenModal = () => {
+        this.setState({ open: true });
+    };
 
-  onCloseModal = () => {
-    this.setState({ open: false });
-  };
+    onCloseModal = () => {
+        this.setState({ open: false });
+    };
 
   render() {
     const { open } = this.state;
