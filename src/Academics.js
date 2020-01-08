@@ -16,6 +16,29 @@ export default () => (
       {/* sections */}
       <div className="row my-4">
         <div className="col-12">
+          <h2 className="mb-2">Solstice Operating System</h2>
+          <h3 className="team mb-3">with <a className="teammate" href="https://www.ajayqi.com/">Ajay
+          Qi</a>, <a className="teammate" href="https://www.jessicaprasetyo.com/about">Jessica
+          Prasetyo</a>, <a className="teammate" href="https://www.linkedin.com/in/harini-gopal-8b53a2128/">Harini
+          Gopal</a>, <a className="teammate" href="https://www.linkedin.com/in/salem-gordon-357445196/">Salem
+          Gordin</a>, <a className="teammate" href="https://www.linkedin.com/in/daniel-in/">Daniel
+          In</a>, and <a className="teammate" href="https://carmelitogutierrez.com/">Carmelito
+          Gutierrez</a>.</h3>
+          <div className="row justify-content-center my-4">
+            <Img src="/SOLSTICE1/SOLSTICE1-09.jpg" alt="SportsPrediction screencaps" style={{width:"60%", marginLeft: "-80px"}} />
+          </div>
+          <div className="mt-2">
+            <p>Solstice is an operating system centered around balance and function. Consisting of 15 apps in total,
+            Solstice helps you reach your high points and supports you through your low points through promoting
+            healthy interactions with your device, aiming to limit the feelings of distraction and
+            cognitive overload that often come with modern, oversaturated interfaces.</p>
+          </div>
+        </div>
+      </div>
+      {/* an operating system centered around balance and funciton */}
+
+      <div className="row my-4">
+        <div className="col-12">
           <h2 className="mb-2">SportsPrediction</h2>
           <h3 className="team mb-3">with <a className="teammate" href="https://www.linkedin.com/in/hari-kaushik-302869128/">Hari
           Kaushik</a>, <a className="teammate" href="https://www.linkedin.com/in/chaitanyagangavarapu/">Chaitanya

@@ -8,6 +8,7 @@ import Home from './Home';
 import Academics from './Academics'
 import Freelance from './Freelance'
 import Personal from './Personal'
+import Solstice from './Solstice'
 import './App.css';
 
 import { Layout } from './components';
@@ -38,6 +39,12 @@ const PersonalPage = () => (
   </Layout>
 )
 
+const SolsticePage = () => (
+  <Layout>
+    <Solstice />
+  </Layout>
+)
+
 
 class App extends Component {
   render() {
@@ -48,6 +55,7 @@ class App extends Component {
         <Route exact path="/academics" component ={AcademicsPage} />
         <Route exact path="/freelance" component ={FreelancePage} />
         <Route exact path="/personal" component ={PersonalPage} />
+        <Route exact path="/solstice" component ={SolsticePage} />
       </Switch>
     </BrowserRouter>
     );

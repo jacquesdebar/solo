@@ -14,9 +14,9 @@ export default () => (
       </div>
       <div className="row">
         <div className="col-12">
-          <p>Hi. My name is Jacques, and I am a 21-year-old incoming senior at the University of Washington
+          <p>Hi. My name is Jacques, and I am a 21-year-old senior at the University of Washington
           studying <a href="https://ischool.uw.edu/programs/informatics">informatics</a>.
-          I work heavily with user interfaces, databases, and most of all, people. Through
+          I work heavily with user interfaces, data, and most of all, people. Through
           my studies I have learned and continue to learn how to build accessible technology
           and collaborate with development teams. My long-term goal is to utilize my skills
           in informatics towards a role in the music industry, but for now I am seeking to
