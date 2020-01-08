@@ -36,7 +36,7 @@ export default () => (
               </a>
               <h3 className="course mb-3">web developer and consultant</h3>
               <p>creative agency specializing in lifestyle, music, and entertainment</p>
-              <div className="row justify-content-center mb-4 mt-5">
+              <div className="row justify-content-center my-5">
                   <img src={possi} alt="loading..." className style={{ width: "80%" }}/>
               </div>
           </div>
@@ -51,7 +51,7 @@ competing against other players to see who is the best predictor */}
                     </a>
                     <h3 className="course mb-3">album cover art</h3>
                     <p>young EDM artist based out of seattle</p>
-                    <div className="row justify-content-center mb-4 mt-5">
+                    <div className="row justify-content-center my-5">
                         <Img src="/joseSq.png" alt="joed cover" className="mb-4" style={{ width: "80%" }} />
                         <Img src="/joseBan.png" alt="joed banner" className="" style={{ width: "80%" }} />
                     </div>
@@ -65,7 +65,7 @@ competing against other players to see who is the best predictor */}
                     </a>
                     <h3 className="course mb-3">designer and web developer</h3>
                     <p>dedicated to providing the UW community with hip hop events</p>
-                    <div className="row justify-content-center mt-y-4">
+                    <div className="row justify-content-center my-5">
                         <Img src="/hhR1.png" alt="HHSA Radio promo" className="mx-2" style={{ width: "60%" }} />
                         { /* <Img src="/hhS2.png" alt="HHSA sessions promo" className="mx-2" style={{ width: "40%" }} /> */ }
                     </div>
