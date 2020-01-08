@@ -1,10 +1,18 @@
-import React from "react";
-import { Img } from "./components";
-
+import React from 'react'
+import { Img } from './components'
 export default () => (
-    <div className="row">
+  <div className="row">
+    <div className="col-12">
+      {/* page title */}
+      <div className="row">
+        <div className="col-5">
+          <h1 className="mt-5 py-3 pgTitle">Academics</h1>
+        </div>
+      </div>
+
+      {/* sections */}
+      <div className="row my-4">
         <div className="col-12">
-<<<<<<< HEAD
           <h2 className="mb-2">Solstice Operating System</h2>
           <h3 className="team mb-3">with <a className="teammate" href="https://www.ajayqi.com/">Ajay
           Qi</a>, <a className="teammate" href="https://www.jessicaprasetyo.com/about">Jessica
@@ -48,50 +56,6 @@ export default () => (
         </div>
       </div>
       {/* an ios app that allows for predicting the outcomes of sporting events and
-=======
-            {/* page title */}
-            <div className="row">
-                <div className="col-5">
-                    <h1 className="mt-5 py-3 pgTitle">Academics</h1>
-                </div>
-            </div>
-
-            {/* sections */}
-            <div className="row my-4">
-                <div className="col-12">
-                    <h2 className="mb-2">SportsPrediction</h2>
-                    <h3 className="team mb-3">
-                        with{" "}
-                        <a className="teammate" href="https://www.linkedin.com/in/hari-kaushik-302869128/">
-                            Hari Kaushik
-                        </a>
-                        ,{" "}
-                        <a className="teammate" href="https://www.linkedin.com/in/chaitanyagangavarapu/">
-                            Chaitanya Gangavarapu
-                        </a>
-                        , and{" "}
-                        <a className="teammate" href="https://www.linkedin.com/in/nhytrek/">
-                            Nick Hyrtek
-                        </a>
-                        .
-                    </h3>
-                    <div className="row justify-content-center">
-                        <Img src="/spDevices.png" alt="SportsPrediction screencaps" style={{ width: "50%" }} />
-                    </div>
-                    <div className="mt-2">
-                        <p>
-                            SportsPrediction is an iOS app for predicting sporting events and competing against other
-                            users. In this app, users may see the sports games from the "Big Four" sports leagues (NBA,
-                            NFL, MLB, and NHL) on a given day and try to predict the winner. We track the user's
-                            prediction results, giving them individualized statistics and visualizations about their
-                            performance. If users do particularly well, they can make it onto the global leaderboard for
-                            the week, month, or year. We made this app using Xcode in INFO 449 (iOS Development).
-                        </p>
-                    </div>
-                </div>
-            </div>
-            {/* an ios app that allows for predicting the outcomes of sporting events and
->>>>>>> fd604d983c1d1c6ca9a0fb1d2254c89dad365690
       competing against other players to see who is the best predictor */}
 
             <div className="row my-5">
