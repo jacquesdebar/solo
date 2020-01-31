@@ -85,8 +85,9 @@ class App extends Component {
 
   componentDidMount () {
     // Set token
+    console.log('here')
     const _token = hash.access_token
-
+    console.log(_token)
     if (_token) {
       // Set token
       this.setState({
