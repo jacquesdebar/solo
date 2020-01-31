@@ -8,7 +8,6 @@ import Academics from "./pages/Academics";
 import Freelance from "./pages/Freelance";
 import Personal from "./pages/Personal";
 import Solstice from "./pages/Solstice";
-import Spotify from "./pages/Spotify";
 import "./css/App.css";
 
 import { Layout } from "./components";
@@ -43,10 +42,6 @@ const SolsticePage = () => (
   </Layout>
 )
 
-const SpotifyPage = () => (
-  <Spotify />
-)
-
 
 class App extends Component {
   render() {
@@ -58,7 +53,6 @@ class App extends Component {
         <Route exact path="/freelance" component ={FreelancePage} />
         <Route exact path="/personal" component ={PersonalPage} />
         <Route exact path="/solstice" component ={SolsticePage} />
-        <Route exact path="/spotify" component ={SpotifyPage} />
       </Switch>
     </BrowserRouter>
     );
