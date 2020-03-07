@@ -39,7 +39,7 @@ export default () => (
               className="teammate"
               href="https://www.linkedin.com/in/salem-gordon-357445196/"
             >
-              Salem Gordin
+              Salem Gordon
             </a>
             ,{" "}
             <a
