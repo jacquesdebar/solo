@@ -3,6 +3,7 @@ import React from "react";
 import { Img } from "../components";
 import possi from "../img/possi2s.gif";
 import trax from "../img/trax.gif";
+import wltvShow from "../img/wltvShow2.gif";
 
 export default () => (
   <div className="row">
@@ -36,10 +37,38 @@ export default () => (
       {/* an ios app that allows for predicting the outcomes of sporting events and
 competing against other players to see who is the best predictor */}
 
+      <div className="row my-4">
+        <div className="col-12">
+          <a href="https://www.possi.life/possi-studios">
+            <h2 className="mb-2">wltv</h2>
+          </a>
+          <h3 className="course mb-3">web developer</h3>
+          <p>
+            wltv (wilsonlikethevolleyball) is an electronic artist and offers
+            professional mixing and mastering to clients
+          </p>
+          <div className="row justify-content-center my-5">
+            <img
+              src={wltvShow}
+              alt="loading..."
+              className
+              style={{ width: "80%" }}
+            />
+          </div>
+        </div>
+      </div>
+      {/* an ios app that allows for predicting the outcomes of sporting events and
+competing against other players to see who is the best predictor */}
+
       {/* sections */}
       <div className="row my-4">
         <div className="col-12">
           <h2 className="mb-2">Spotify Client</h2>
+          <h3 className="course mb-3">creator</h3>
+          <p>
+            designed and built a web app using the Spotify API to help me track
+            new music releases and examine my own listening habits.
+          </p>
           <div className="row justify-content-center my-5">
             <img
               src={trax}
@@ -47,12 +76,6 @@ competing against other players to see who is the best predictor */}
               className
               style={{ width: "80%" }}
             />
-          </div>
-          <div className="mt-2">
-            <p>
-              I designed and built a web app using the Spotify API to help me
-              track new music releases and examine my own listening habits.
-            </p>
           </div>
         </div>
       </div>
