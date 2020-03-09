@@ -2,6 +2,7 @@ import React from "react";
 // import { Link, Img } from './components'
 import { Img } from "../components";
 import possi from "../img/possi2s.gif";
+import trax from "../img/trax.gif";
 
 export default () => (
   <div className="row">
@@ -12,6 +13,51 @@ export default () => (
           <h1 className="mt-5 py-3 pgTitle">Freelance</h1>
         </div>
       </div>
+
+      <div className="row my-4">
+        <div className="col-12">
+          <a href="https://www.possi.life/possi-studios">
+            <h2 className="mb-2">Possi</h2>
+          </a>
+          <h3 className="course mb-3">web developer and consultant</h3>
+          <p>
+            creative agency specializing in lifestyle, music, and entertainment
+          </p>
+          <div className="row justify-content-center my-5">
+            <img
+              src={possi}
+              alt="loading..."
+              className
+              style={{ width: "80%" }}
+            />
+          </div>
+        </div>
+      </div>
+      {/* an ios app that allows for predicting the outcomes of sporting events and
+competing against other players to see who is the best predictor */}
+
+      {/* sections */}
+      <div className="row my-4">
+        <div className="col-12">
+          <h2 className="mb-2">Spotify Client</h2>
+          <div className="row justify-content-center my-5">
+            <img
+              src={trax}
+              alt="loading..."
+              className
+              style={{ width: "80%" }}
+            />
+          </div>
+          <div className="mt-2">
+            <p>
+              I designed and built a web app using the Spotify API to help me
+              track new music releases and examine my own listening habits.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* an ios app that allows for predicting the outcomes of sporting events and
+      competing against other players to see who is the best predictor */}
 
       {/* sections */}
       <div className="row my-4">
@@ -35,28 +81,6 @@ export default () => (
       </div>
       {/* an ios app that allows for predicting the outcomes of sporting events and
       competing against other players to see who is the best predictor */}
-
-      <div className="row my-4">
-        <div className="col-12">
-          <a href="https://www.possi.life/possi-studios">
-            <h2 className="mb-2">Possi</h2>
-          </a>
-          <h3 className="course mb-3">web developer and consultant</h3>
-          <p>
-            creative agency specializing in lifestyle, music, and entertainment
-          </p>
-          <div className="row justify-content-center my-5">
-            <img
-              src={possi}
-              alt="loading..."
-              className
-              style={{ width: "80%" }}
-            />
-          </div>
-        </div>
-      </div>
-      {/* an ios app that allows for predicting the outcomes of sporting events and
-competing against other players to see who is the best predictor */}
 
       <div className="row my-5">
         <div className="col-12">
