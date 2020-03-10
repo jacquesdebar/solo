@@ -20,7 +20,7 @@ export default () => (
           <a href="https://www.possi.life/possi-studios">
             <h2 className="mb-2">Possi</h2>
           </a>
-          <h3 className="course mb-3">web developer and consultant</h3>
+          <h3 className="course mb-3">web development and consulting</h3>
           <p>
             creative agency specializing in lifestyle, music, and entertainment
           </p>
@@ -64,7 +64,7 @@ competing against other players to see who is the best predictor */}
       <div className="row my-4">
         <div className="col-12">
           <h2 className="mb-2">Spotify Client</h2>
-          <h3 className="course mb-3">creator</h3>
+          <h3 className="course mb-3">start-to-finish creation</h3>
           <p>
             designed and built a web app using the Spotify API to help me track
             new music releases and examine my own listening habits.
@@ -89,7 +89,7 @@ competing against other players to see who is the best predictor */}
             <h2 className="mb-2">i///u</h2>
           </a>
           <h3 className="course mb-3">
-            web designer, graphic designer, & videographer
+            web design, graphic design, & videography
           </h3>
           <p>a neo-soul band based out of seattle</p>
           <div className="row justify-content-center my-4">
@@ -134,7 +134,7 @@ competing against other players to see who is the best predictor */}
           <a href="https://www.facebook.com/UWHHSA/">
             <h2 className="mb-2">UW HHSA (Hip Hop Student Association)</h2>
           </a>
-          <h3 className="course mb-3">designer and web developer</h3>
+          <h3 className="course mb-3">design and web development</h3>
           <p>dedicated to providing the UW community with hip hop events</p>
           <div className="row justify-content-center my-5">
             <Img
