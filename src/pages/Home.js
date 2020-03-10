@@ -51,9 +51,9 @@ export default () => (
             You can contact me at{" "}
             <a href="mailto:j@jacquesdebar.com">jacques.debar@gmail.com</a>.
           </p>
-          <Link to="/spotify" hover={true}>
+          {/* <Link to="/spotify" hover={true}>
             <h1>Spotify Tracker</h1>
-          </Link>
+            </Link> */}
         </div>
         <Resume />
         <div></div>
