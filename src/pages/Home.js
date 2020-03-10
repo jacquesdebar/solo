@@ -20,12 +20,11 @@ export default () => (
               informatics
             </a>
             . I work heavily with user interfaces, databases, and most of all,
-            people. Through I work heavily with user interfaces, data, and most
-            of all, people. Through my studies I have learned and continue to
-            learn how to build accessible technology and collaborate with
-            development teams. My long-term goal is to utilize my skills in
-            informatics towards a role in the music industry, but for now I am
-            seeking to get famliar with the creative industry as a whole.
+            people. Through my studies I have learned and continue to learn how
+            to build accessible technology and collaborate with development
+            teams. My long-term goal is to utilize my skills in informatics
+            towards a role in the music industry, but for now I am seeking to
+            get famliar with the creative industry as a whole.
             <br />
             <br />
             On campus, I am involved in UW Arts & Entertainment, HHSA (Hip Hop
