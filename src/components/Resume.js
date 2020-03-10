@@ -4,25 +4,31 @@ import Img from "./Img";
 import Modal from "react-responsive-modal";
 
 export default class Resume extends React.Component {
-    state = {
-        open: false
-    };
+  state = {
+    open: false
+  };
 
-    onOpenModal = () => {
-        this.setState({ open: true });
-    };
+  onOpenModal = () => {
+    this.setState({ open: true });
+  };
 
-    onCloseModal = () => {
-        this.setState({ open: false });
-    };
+  onCloseModal = () => {
+    this.setState({ open: false });
+  };
 
   render() {
     const { open } = this.state;
     return (
       <div className="mx-auto mt-4">
-        <button id="resumeButton" className="px-3 py-2" onClick={this.onOpenModal}>Résumé</button>
+        <button
+          id="resumeButton"
+          className="px-3 py-2"
+          onClick={this.onOpenModal}
+        >
+          Résumé
+        </button>
         <Modal open={open} onClose={this.onCloseModal} center>
-          <Img src="/resume4.png" alt="me" className="" style={{}} />
+          <Img src="/mar2020resume.png" alt="me" className="" style={{}} />
         </Modal>
       </div>
     );
