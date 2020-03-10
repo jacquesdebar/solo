@@ -43,7 +43,9 @@ export default () => (
             and <a href="https://www.instagram.com/possilife/">Possi</a> for
             igniting my own creative drive and providing Seattle with a blooming
             young creative community than is becoming more and more
-            interconnected and collaborative.
+            interconnected and collaborative. After I graduate, I will be
+            working for <a href="https://www.quadio.com/">Quadio</a> in New York
+            City.
             <br />
             <br />
             You can contact me at{" "}
