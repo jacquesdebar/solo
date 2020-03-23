@@ -63,7 +63,7 @@ competing against other players to see who is the best predictor */}
       {/* sections */}
       <div className="row my-4">
         <div className="col-12">
-          <h2 className="mb-2">Spotify Client</h2>
+          <h2 className="mb-2">Spotify Tracker</h2>
           <h3 className="course mb-3">start-to-finish creation</h3>
           <p>
             designed and built a web app using the Spotify API to help me track
