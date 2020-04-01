@@ -82,6 +82,7 @@ const Header = () => (
           <Img src="/namePlate.png" style={{ width: "100%" }} />
         </Link>
       </div>
+      <div className="separator" />
     </div>
   </div>
 );

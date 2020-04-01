@@ -8,10 +8,13 @@ import Academics from "./pages/Academics";
 import Freelance from "./pages/Freelance";
 import Personal from "./pages/Personal";
 import Solstice from "./pages/Solstice";
+import NMF from "./pages/NMF";
 // import Spotify from "./pages/Spotify";
 import "./css/App.css";
 
-import { Layout } from "./components";
+// import { Home, Academics, Freelance, Personal, Solstice, NMF } from "./pages";
+
+import { Layout, Layout2 } from "./components";
 
 const HomePage = () => (
   <Layout>
@@ -43,6 +46,12 @@ const SolsticePage = () => (
   </Layout>
 );
 
+const NMFPage = () => (
+  <Layout2>
+    <NMF />
+  </Layout2>
+);
+
 // const SpotifyPage = () => (
 //   <Spotify />
 // )
@@ -57,6 +66,7 @@ class App extends Component {
           <Route exact path="/freelance" component={FreelancePage} />
           <Route exact path="/personal" component={PersonalPage} />
           <Route exact path="/solstice" component={SolsticePage} />
+          <Route exact path="/nmf" component={NMFPage} />
           {/* <Route exact path="/spotify" component ={SpotifyPage} /> */}
         </Switch>
       </BrowserRouter>

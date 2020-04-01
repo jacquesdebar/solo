@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link, Img, Resume } from './components'
-import { Img, Link, Resume } from "../components";
+import { Img, Resume } from "../components";
 // import { Button } from 'reactstrap';
 
 export default () => (
