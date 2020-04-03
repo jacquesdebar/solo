@@ -6,6 +6,7 @@ import "../css/nmf.css";
 
 // import te from "../img/327.png"
 import hero from "../img/327bg.jpg";
+import qadir from "../img/qadir.jpg";
 
 // import nmfBanner from "../img/nb3.png";
 import nmfBanner from "../img/nmfbwb.png";
@@ -52,10 +53,9 @@ export default () => (
       </div>
 
       <div className="d-flex flex-column align-items-left mb-5">
-        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>ABOUT</h3>
+        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>INTRO</h3>
         <p>
-          Each week, I highlight my favorite new releases. Lorem ipsum dolor sit
-          amet, vix ad clita semper, pri te quaestio laboramus. Ex duo maluisset
+          Lorem ipsum dolor sit amet, vix ad clita semper, pri te quaestio laboramus. Ex duo maluisset
           urbanitas efficiendi. An etiam suscipiantur cum, causae detraxit
           persecuti at pro. Ea has maluisset expetendis suscipiantur. Ex nec
           justo forensibus. Ne his ullamcorper interpretaris. Est tollit munere
@@ -67,23 +67,23 @@ export default () => (
       <div className="heroBox d-flex flex-column justify-content-center align-items-center">
         <div className="d-flex justify-content-center align-items-center">
           <p className="sotwL">single of the week</p>
-          <img className="heroImg mb-1" src={hero} alt="single of the week" />
+          <img className="heroImg mb-1" src={qadir} alt="single of the week" />
           <p className="sotwR">week of march 27</p>
         </div>
         <iframe
           className="heroImg"
-          src="https://open.spotify.com/embed/track/5yqxeoIvngFdi0hdjHov2O"
+          src="https://open.spotify.com/embed/track/0kE7ayRiDxzu9oSP22olNX"
           width="60%"
           height="80"
           frameborder="0"
           allowtransparency="true"
           allow="encrypted-media"
-          title="suicideDown"
+          title="qadir"
         ></iframe>
       </div>
 
       <div className="my-4 pt-3">
-        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>INTRO</h3>
+        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>ABOUT</h3>
         <p>
           Welcome to NMF. I have built this site to highlight my favorite new
           releases each week. They range from hip-hop to country, indie pop to
@@ -102,7 +102,6 @@ export default () => (
             <span style={{ textDecoration: "underline" }}>red</span> are ones I
             find to be truly exceptional.
           </span>
-          
         </p>
         <p>
           One last note: I don't display music from artists who have shown to be
@@ -119,12 +118,12 @@ export default () => (
           or DM me on Instagram (
           <a href="https://www.instagram.com/jacquesdebar/">@jacquesdebar</a>).
         </p>
-        { /*
+        {/*
         <p style={{ color: "#ff2121" }}>
           The projects detailed in{" "}
           <span style={{ textDecoration: "underline" }}>red</span> are ones I
           find to be truly exceptional.
-          </p> */ }
+          </p> */}
       </div>
 
       <div className="spacer d-flex flex-column align-items-center my-4">
