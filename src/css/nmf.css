@@ -68,6 +68,14 @@
   /* text-transform: uppercase; */
 }
 
+.weekCol {
+  padding-top: 232px;
+  padding-left: 12px;
+  height: 668px;
+  margin-right: 20px;
+  background-color: #ff2121
+}
+
 .albumBanner img {
   width: 64px;
   height: 64px;
