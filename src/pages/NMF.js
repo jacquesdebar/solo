@@ -26,6 +26,7 @@ import wilma from "../img/wilma.jpg";
 import pit from "../img/pit.jpg";
 import mward from "../img/mward.jpg";
 import jensen from "../img/jensen.jpg";
+import ashl from "../img/ashl.jpg";
 
 export default () => (
   <div className="row">
@@ -55,12 +56,12 @@ export default () => (
       <div className="d-flex flex-column align-items-left mb-5">
         <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>INTRO</h3>
         <p>
-          Lorem ipsum dolor sit amet, vix ad clita semper, pri te quaestio laboramus. Ex duo maluisset
-          urbanitas efficiendi. An etiam suscipiantur cum, causae detraxit
-          persecuti at pro. Ea has maluisset expetendis suscipiantur. Ex nec
-          justo forensibus. Ne his ullamcorper interpretaris. Est tollit munere
-          possit ei, eu rationibus elaboraret eam, mei commodo bonorum
-          reprimique id.
+          Lorem ipsum dolor sit amet, vix ad clita semper, pri te quaestio
+          laboramus. Ex duo maluisset urbanitas efficiendi. An etiam
+          suscipiantur cum, causae detraxit persecuti at pro. Ea has maluisset
+          expetendis suscipiantur. Ex nec justo forensibus. Ne his ullamcorper
+          interpretaris. Est tollit munere possit ei, eu rationibus elaboraret
+          eam, mei commodo bonorum reprimique id.
         </p>
       </div>
 
@@ -91,12 +92,12 @@ export default () => (
           feel are worth highlighting. Other weeks may boast a dozen brilliant
           albums to include. This is one of those weeks. I want to stress that{" "}
           <strong>this is a subjective site</strong> based upon my own taste and
-          brief experience with the projects. If you take issue with projects
-          that were or were not included, cool. Maybe I didn't know about it and
-          completely missed out on a great album. Maybe I heard it and hated
-          listening to it due to our clashing music tastes. Or more likely,
-          maybe I heard it and decided it was a fine album but did not hold up
-          to the others in the collection.{" "}
+          brief experience with the projects (and a little bit of Hari's as
+          well). If you take issue with projects that were or were not included,
+          cool. Maybe I didn't know about it and completely missed out on a
+          great album. Maybe I heard it and hated listening to it due to our
+          clashing music tastes. Or more likely, maybe I heard it and decided it
+          was a fine album but did not hold up to the others in the collection.{" "}
           <span style={{ color: "#ff2121" }}>
             The projects detailed in{" "}
             <span style={{ textDecoration: "underline" }}>red</span> are ones I
@@ -229,6 +230,18 @@ export default () => (
             runtime="43 MINUTES"
             img={jensen}
             albumId="jensen"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:0GETdJ0C2pHIqCFLoUa0rP"
+            title="Never Will"
+            artist="ashley mcbryde"
+            genre="country"
+            date="april 3 2020"
+            tracks="11"
+            runtime="39 MINUTES"
+            img={ashl}
+            albumId="ashl"
           ></Album>
           <div className="weekCol">
             <p
