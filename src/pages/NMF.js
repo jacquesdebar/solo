@@ -9,8 +9,11 @@ import hero from "../img/327bg.jpg";
 import qadir from "../img/qadir.jpg";
 
 // import nmfBanner from "../img/nb3.png";
-import nmfBanner from "../img/nmfbwb.png";
-import nmfCover from "../img/nmfTBO.png";
+import nmfDesktopBanner from "../img/nmfbwb.png";
+import nmfMobileBanner from "../img/nmfbwbCrop.png";
+import nmfW from "../img/nmfW.png";
+import nmfB from "../img/nmfB.png";
+import nmfD from "../img/nmfD.png";
 
 import knxwledge from "../img/1988.jpg";
 import gambino from "../img/315.jpg";
@@ -27,6 +30,7 @@ import pit from "../img/pit.jpg";
 import mward from "../img/mward.jpg";
 import jensen from "../img/jensen.jpg";
 import ashl from "../img/ashl.jpg";
+
 
 export default () => (
   <div className="row">
@@ -46,37 +50,40 @@ export default () => (
           justifyContent: "center"
         }}
       >
-        <img src={nmfBanner} alt="banner" style={{ width: "100vw" }} />
+        <img
+          src={nmfDesktopBanner}
+          alt="banner"
+          className="d-none d-md-block"
+          style={{ width: "100vw" }}
+          id="top"
+        />
+        <img
+          src={nmfMobileBanner}
+          alt="banner"
+          className="d-block d-md-none"
+          style={{ width: "100vw" }}
+          id="top"
+        />
       </div>
 
       <div className="weekOf mb-5">
         <p>Week of April 03, 2020</p>
       </div>
 
-      <div className="d-flex flex-column align-items-left mb-5">
-        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>INTRO</h3>
-        <p>
-          Lorem ipsum dolor sit amet, vix ad clita semper, pri te quaestio
-          laboramus. Ex duo maluisset urbanitas efficiendi. An etiam
-          suscipiantur cum, causae detraxit persecuti at pro. Ea has maluisset
-          expetendis suscipiantur. Ex nec justo forensibus. Ne his ullamcorper
-          interpretaris. Est tollit munere possit ei, eu rationibus elaboraret
-          eam, mei commodo bonorum reprimique id.
-        </p>
-      </div>
-
-      <div className="heroBox d-flex flex-column justify-content-center align-items-center">
+      <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
+        <p className="sotwTitle mb-0">QADIR</p>
+        <p className="sotwArtist mb-4">Nick Hakim</p>
         <div className="d-flex justify-content-center align-items-center">
           <p className="sotwL">single of the week</p>
           <img className="heroImg mb-1" src={qadir} alt="single of the week" />
-          <p className="sotwR">week of march 27</p>
+          <p className="sotwR">week of april 03</p>
         </div>
         <iframe
           className="heroImg"
           src="https://open.spotify.com/embed/track/0kE7ayRiDxzu9oSP22olNX"
           width="60%"
           height="80"
-          frameborder="0"
+          frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"
           title="qadir"
@@ -84,7 +91,9 @@ export default () => (
       </div>
 
       <div className="my-4 pt-3">
-        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>ABOUT</h3>
+        <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>
+          ABOUT THIS SITE
+        </h3>
         <p>
           Welcome to NMF. I have built this site to highlight my favorite new
           releases each week. They range from hip-hop to country, indie pop to
@@ -97,12 +106,10 @@ export default () => (
           cool. Maybe I didn't know about it and completely missed out on a
           great album. Maybe I heard it and hated listening to it due to our
           clashing music tastes. Or more likely, maybe I heard it and decided it
-          was a fine album but did not hold up to the others in the collection.{" "}
-          <span style={{ color: "#ff2121" }}>
-            The projects detailed in{" "}
-            <span style={{ textDecoration: "underline" }}>red</span> are ones I
-            find to be truly exceptional.
-          </span>
+          was a fine album but did not hold up to the others in the collection.
+          That being said, please do reach out and let me know if you think
+          there was something that flew under my radar and should be featured on
+          this page.
         </p>
         <p>
           One last note: I don't display music from artists who have shown to be
@@ -119,12 +126,12 @@ export default () => (
           or DM me on Instagram (
           <a href="https://www.instagram.com/jacquesdebar/">@jacquesdebar</a>).
         </p>
-        {/*
+
         <p style={{ color: "#ff2121" }}>
           The projects detailed in{" "}
           <span style={{ textDecoration: "underline" }}>red</span> are ones I
           find to be truly exceptional.
-          </p> */}
+        </p>
       </div>
 
       <div className="spacer d-flex flex-column align-items-center my-4">
@@ -222,7 +229,7 @@ export default () => (
           <Album
             className="albumCard"
             uri="spotify:album:1PLNMy6ozM4L9ZqGBkRruq"
-            title="The experience of repetition as death"
+            title="The experience of repetition..."
             artist="clarice jensen"
             genre="orchestral"
             date="april 3 2020"
@@ -326,49 +333,137 @@ export default () => (
           ></Album>
               
         </div>
-        <div className="cycle">
-          <div style={{ display: "flex" }} className="middleman"></div>
-        </div>
-        {/*
+      </div>
+      <div className="cycle">
+        <div style={{ display: "flex" }} className="middleman"></div>
+      </div>
+      {/*
         <div className="d-flex flex-row justify-content-center">
           <img src={te} alt="this week's notable releases" />
           <img className="hero" src={hero} alt="featured track of the week" />
         </div>
         */}
-        <div className="spacer d-flex flex-column align-items-center my-4">
-          &#10070;
-        </div>
-        <h2 className="nmfTitle">Best New Tracks</h2>
-        <div className="d-flex justify-content-center mb-1 mt-3">
-          {/*<img src={nmfCover} alt="nmf cover" style={{ width: "90%" }} />*/}
+      <div className="spacer d-flex flex-column align-items-center my-4">
+        &#10070;
+      </div>
+      <h2 className="nmfTitle">Best New Tracks</h2>
 
-          <div className="" style={{ border: "2px solid black", width: "90%" }}>
-            <img
-              src={nmfCover}
-              alt="nmf cover"
-              style={{ margin: "20%", width: "60%" }}
-            />
+      <div className="mb-4 pt-3">
+        <p>
+          In addition to the albums above, I am also compliling playlists of the
+          best tracks of the week. Below you will find three playlists. Each of
+          these is designed to have it's own energy level (high, medium, or
+          high) so that your ears and brain experience minimal listening
+          whiplash. Though I realize that having three playlists introduces an
+          element of choice-paralysis, I did not feel that it was in any of our
+          best interest to throw all of them into one listening bucket. Call me
+          crazy, but I just can't go from Trap this Way straight into Dear
+          April.
+        </p>
+        <p>
+          Next week, I will be looking into functionality to allow for track
+          submissions, as there are undoubtedly some gems from today that are
+          missing from these playlists. Again, if you have any questions,
+          submissions, or feedback, please do not hesitate to contact me.
+        </p>
+      </div>
+
+      <div className="tracksArea d-flex flex-column align-items-center">
+        <div className="d-flex flex-row flex-wrap my-4">
+          <div
+            className="playlistCol"
+            style={{ color: "#37BFDF", borderColor: "#37BFDF" }}
+          >
+            <p
+              className="noMargin horizPadder leftPadder detailText"
+              style={{ fontWeight: "bold" }}
+            >
+              high energy
+            </p>
+          </div>
+          <div className="playlistComponent mr-2">
+            <img src={nmfW} alt="nmf cover" style={{ height: "100%" }} />
+          </div>
+          <div className="playlistComponent">
+            <iframe
+              style={{ marginBottom: "4px" }}
+              src="https://open.spotify.com/embed/playlist/5rDS8dw9NXPKsxPlHA9inN"
+              width="350"
+              height="350"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+              title="singlesPlaylist"
+            ></iframe>
           </div>
         </div>
-        <iframe
-          style={{ marginBottom: "4px" }}
-          src="https://open.spotify.com/embed/playlist/24cQ3PMEkIXeo0o82DkFvK"
-          width="90%"
-          height="400"
-          frameBorder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-          title="singlesPlaylist"
-        ></iframe>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/4kHx3aENOBq5ZMvwZs9IZV"
-          width="90%"
-          height="400"
-          frameBorder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-          title="singlesPlaylist"
-        ></iframe>
+
+        <div className="d-flex flex-row flex-wrap my-4">
+          <div
+            className="playlistCol"
+            style={{ color: "#218ED0", borderColor: "#218ED0" }}
+          >
+            <p
+              className="noMargin horizPadder leftPadder detailText"
+              style={{ fontWeight: "bold" }}
+            >
+              medium energy
+            </p>
+          </div>
+          <div className="playlistComponent mr-2">
+            <img src={nmfB} alt="nmf cover" style={{ height: "100%" }} />
+          </div>
+          <div className="playlistComponent">
+            <iframe
+              style={{ marginBottom: "4px" }}
+              src="https://open.spotify.com/embed/playlist/27CLPaaI06cGDlgkdyuUaY"
+              width="350"
+              height="350"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+              title="singlesPlaylist"
+            ></iframe>
+          </div>
+        </div>
+
+        <div className="d-flex flex-row flex-wrap my-4">
+          <div
+            className="playlistCol"
+            style={{ color: "#15356B", borderColor: "#15356B" }}
+          >
+            <p
+              className="noMargin horizPadder leftPadder detailText"
+              style={{ fontWeight: "bold" }}
+            >
+              low energy
+            </p>
+          </div>
+          <div className="playlistComponent mr-2">
+            <img src={nmfD} alt="nmf cover" style={{ height: "100%" }} />
+          </div>
+          <div className="playlistComponent">
+            <iframe
+              style={{ marginBottom: "4px" }}
+              src="https://open.spotify.com/embed/playlist/27CLPaaI06cGDlgkdyuUaY"
+              width="350"
+              height="350"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+              title="singlesPlaylist"
+            ></iframe>
+          </div>
+        </div>
+        <a href="#top">
+          <div
+            className="d-flex flex-column align-items-center mt-5"
+            style={{ textTransform: "uppercase" }}
+          >
+            <p className="toTopArrow">&#8593;</p>
+            <p>back to top</p>
+          </div>
+        </a>
       </div>
     </div>
   </div>

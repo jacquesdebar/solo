@@ -1,4 +1,18 @@
 
+
+.desktopBanner {
+  display: block;
+}
+
+.mobileBanner {
+  display: none;
+}
+
+.banner {
+  margin-bottom: 24px;
+  width: 100vw;
+}
+
 .nmfTitle {
   text-align: center;
   text-transform: uppercase;
@@ -14,7 +28,7 @@
   align-items: center;
 
   color: white;
-  background-color: #299DDD;
+  background-color: #97936E;
 }
 
 .weekOf p {
@@ -28,6 +42,17 @@
   width: 50vw;
   max-width: 500px;
   min-width: 200px;
+}
+
+.sotwTitle {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sotwArtist {
+  color: #97936E;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .sotwL, .sotwR {
@@ -132,7 +157,40 @@
     position: relative;
 }
 
+.playlistComponent {
+  width: 350px;
+  height: 350px;
+}
+
+.playlistCol {
+  padding-top: 128px;
+  padding-left: 12px;
+  height: 350px;
+  margin-right: 20px;
+  background-color: white;
+  border: 2px solid;
+}
+
+.toTop {
+
+}
+
+.toTopArrow {
+  font-size: 32px;
+
+}
+
+.toTopArrow:hover {
+  text-decoration: none;
+  text-decoration-color: white;
+
+}
+
 @media (max-width: 450px) {
+  .banner {
+    margin-bottom: 8px;
+  }
+
   .albumCard {
     scroll-snap-align: center;
   }
