@@ -416,7 +416,7 @@ export default () => (
           <div className="playlistComponent">
             <iframe
               style={{ marginBottom: "4px" }}
-              src="https://open.spotify.com/embed/playlist/27CLPaaI06cGDlgkdyuUaY"
+              src="https://open.spotify.com/embed/playlist/24cQ3PMEkIXeo0o82DkFvK"
               width="350"
               height="350"
               frameBorder="0"
