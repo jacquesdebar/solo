@@ -7,7 +7,8 @@ import "../css/nmf.css";
 // import te from "../img/327.png"
 import hero from "../img/327bg.jpg";
 
-import nmfBanner from "../img/nb3.png";
+// import nmfBanner from "../img/nb3.png";
+import nmfBanner from "../img/nmfbwb.png";
 import nmfCover from "../img/nmfTBO.png";
 
 import knxwledge from "../img/1988.jpg";
@@ -164,12 +165,12 @@ export default () => (
         <h2 className="nmfTitle">Best New Tracks</h2>
 
         <div className="d-flex justify-content-center mb-1 mt-3">
-          <img src={nmfCover} alt="nmf cover" style={{width: "50%"}} />
+          <img src={nmfCover} alt="nmf cover" style={{width: "90%"}} />
         </div>
         <iframe
           src="https://open.spotify.com/embed/playlist/4kHx3aENOBq5ZMvwZs9IZV"
-          width="50%"
-          height="300"
+          width="90%"
+          height="400"
           frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"

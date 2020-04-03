@@ -31,7 +31,7 @@ const Album = props => {
         className={`spotifyEmbed ${props.elite}`}
         src={srcLink}
         width="300"
-        height="240"
+        height="360"
         frameBorder="0"
         allowtransparency="true"
         allow="encrypted-media"
