@@ -355,7 +355,7 @@ export default () => (
           these is designed to have it's own energy level (high, medium, or
           high) so that your ears and brain experience minimal listening
           whiplash. Though I realize that having three playlists introduces an
-          element of choice-paralysis, I did not feel that it was in any of our
+          element of choice-paralysis (thanks Pari), I did not feel that it was in any of our
           best interest to throw all of them into one listening bucket. Call me
           crazy, but I just can't go from Trap this Way straight into Dear
           April.
