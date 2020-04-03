@@ -368,8 +368,16 @@ export default () => (
         </p>
       </div>
 
-      <div className="tracksArea d-flex flex-column align-items-center">
-        <div className="d-flex flex-row flex-wrap justify-content center my-4">
+      <div className="tracksArea d-flex flex-column align-items-center mt-5">
+        <div
+          className="playlistCol2 mb-2 d-flex justify-content-center d-md-none"
+          style={{ color: "#37BFDF", borderColor: "#37BFDF" }}
+        >
+          <p className="detailText" style={{ fontWeight: "bold" }}>
+            high energy
+          </p>
+        </div>
+        <div className="d-flex flex-row flex-wrap justify-content center mb-5">
           <div
             className="playlistCol d-none d-md-block m-1"
             style={{ color: "#37BFDF", borderColor: "#37BFDF" }}
@@ -398,7 +406,15 @@ export default () => (
           </div>
         </div>
 
-        <div className="d-flex flex-row flex-wrap justify-content center my-4">
+        <div
+          className="playlistCol2 mt-4 mb-2 d-flex justify-content-center d-md-none"
+          style={{ color: "#218ED0", borderColor: "#218ED0" }}
+        >
+          <p className="detailText" style={{ fontWeight: "bold" }}>
+            medium energy
+          </p>
+        </div>
+        <div className="d-flex flex-row flex-wrap justify-content center mb-5">
           <div
             className="playlistCol d-none d-md-block m-1"
             style={{ color: "#218ED0", borderColor: "#218ED0" }}
@@ -427,7 +443,15 @@ export default () => (
           </div>
         </div>
 
-        <div className="d-flex flex-row flex-wrap justify-content-center my-4">
+        <div
+          className="playlistCol2 mt-4 mb-2 d-flex justify-content-center d-md-none"
+          style={{ color: "#15356B", borderColor: "#15356B" }}
+        >
+          <p className="detailText" style={{ fontWeight: "bold" }}>
+            low energy
+          </p>
+        </div>
+        <div className="d-flex flex-row flex-wrap justify-content-center mb-4">
           <div
             className="playlistCol d-none d-md-block m-1"
             style={{ color: "#15356B", borderColor: "#15356B" }}
