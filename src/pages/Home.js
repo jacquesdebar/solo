@@ -7,12 +7,15 @@ export default () => (
   <div className="row">
     <div className="col-12">
       <div className="row mx-4 my-4">
-        <div className="col-8 mx-auto mb-4">
+        <div className="col-8 mx-auto mb-3">
           <Img src="/me-midQual.jpg" alt="me" className="" style={{}} />
         </div>
       </div>
       <div className="row">
         <div className="col-12">
+          <a href="/nmf">
+            <h3 className="mb-4" style={{textAlign: "center", fontSize: "16pt", fontWeight: "bold"}}>NEW MUSIC FRIDAY >></h3>
+          </a>
           <p>
             Hi. My name is Jacques, and I am a 21-year-old graduating senior at
             the University of Washington studying{" "}

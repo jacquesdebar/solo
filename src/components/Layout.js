@@ -90,8 +90,10 @@ const Header = () => (
 const Footer = () => (
   <div className="row mt-2 mb-3 pt-3">
     <div className="col-7 float-left text-left mt-1" id="footer-text">
-      <span>&copy; Jacques DeBar 2020</span>
-      {/*<Resume/>*/}
+      <a href="/">
+        <span>&copy; Jacques DeBar 2020</span>
+        {/*<Resume/>*/}
+      </a>
     </div>
     <div className="col-5 float-right text-right">
       <span id="ikonz" className="d-inline-block">
