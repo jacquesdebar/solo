@@ -66,7 +66,7 @@ export default () => (
         />
       </div>
 
-      <div className="weekOf mb-5">
+      <div className="weekOf mb-4 mb-md-5">
         <p>Week of April 03, 2020</p>
       </div>
 
@@ -369,9 +369,9 @@ export default () => (
       </div>
 
       <div className="tracksArea d-flex flex-column align-items-center">
-        <div className="d-flex flex-row flex-wrap my-4">
+        <div className="d-flex flex-row flex-wrap justify-content center my-4">
           <div
-            className="playlistCol"
+            className="playlistCol d-none d-md-block m-1"
             style={{ color: "#37BFDF", borderColor: "#37BFDF" }}
           >
             <p
@@ -381,10 +381,10 @@ export default () => (
               high energy
             </p>
           </div>
-          <div className="playlistComponent mr-2">
+          <div className="playlistComponent m-1">
             <img src={nmfW} alt="nmf cover" style={{ height: "100%" }} />
           </div>
-          <div className="playlistComponent">
+          <div className="playlistComponent m-1">
             <iframe
               style={{ marginBottom: "4px" }}
               src="https://open.spotify.com/embed/playlist/5rDS8dw9NXPKsxPlHA9inN"
@@ -398,9 +398,9 @@ export default () => (
           </div>
         </div>
 
-        <div className="d-flex flex-row flex-wrap my-4">
+        <div className="d-flex flex-row flex-wrap justify-content center my-4">
           <div
-            className="playlistCol"
+            className="playlistCol d-none d-md-block m-1"
             style={{ color: "#218ED0", borderColor: "#218ED0" }}
           >
             <p
@@ -410,10 +410,10 @@ export default () => (
               medium energy
             </p>
           </div>
-          <div className="playlistComponent mr-2">
+          <div className="playlistComponent m-1">
             <img src={nmfB} alt="nmf cover" style={{ height: "100%" }} />
           </div>
-          <div className="playlistComponent">
+          <div className="playlistComponent m-1">
             <iframe
               style={{ marginBottom: "4px" }}
               src="https://open.spotify.com/embed/playlist/24cQ3PMEkIXeo0o82DkFvK"
@@ -427,9 +427,9 @@ export default () => (
           </div>
         </div>
 
-        <div className="d-flex flex-row flex-wrap my-4">
+        <div className="d-flex flex-row flex-wrap justify-content-center my-4">
           <div
-            className="playlistCol"
+            className="playlistCol d-none d-md-block m-1"
             style={{ color: "#15356B", borderColor: "#15356B" }}
           >
             <p
@@ -439,10 +439,10 @@ export default () => (
               low energy
             </p>
           </div>
-          <div className="playlistComponent mr-2">
+          <div className="playlistComponent m-1">
             <img src={nmfD} alt="nmf cover" style={{ height: "100%" }} />
           </div>
-          <div className="playlistComponent">
+          <div className="playlistComponent m-1">
             <iframe
               style={{ marginBottom: "4px" }}
               src="https://open.spotify.com/embed/playlist/27CLPaaI06cGDlgkdyuUaY"
