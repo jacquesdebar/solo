@@ -49,20 +49,19 @@ export default () => (
           display: "flex",
           justifyContent: "center"
         }}
+        id="top"
       >
         <img
           src={nmfDesktopBanner}
           alt="banner"
           className="d-none d-md-block"
           style={{ width: "100vw" }}
-          id="top"
         />
         <img
           src={nmfMobileBanner}
           alt="banner"
           className="d-block d-md-none"
           style={{ width: "100vw" }}
-          id="top"
         />
       </div>
 
@@ -355,10 +354,10 @@ export default () => (
           these is designed to have it's own energy level (high, medium, or
           high) so that your ears and brain experience minimal listening
           whiplash. Though I realize that having three playlists introduces an
-          element of choice-paralysis (thanks Pari), I did not feel that it was in any of our
-          best interest to throw all of them into one listening bucket. Call me
-          crazy, but I just can't go from Trap this Way straight into Dear
-          April.
+          element of choice-paralysis (thanks Pari), I did not feel that it was
+          in any of our best interest to throw all of them into one listening
+          bucket. Call me crazy, but I just can't go from Trap this Way straight
+          into Dear April.
         </p>
         <p>
           Next week, I will be looking into functionality to allow for track
@@ -481,7 +480,7 @@ export default () => (
         </div>
         <a href="#top">
           <div
-            className="d-flex flex-column align-items-center mt-5"
+            className="d-flex flex-column align-items-center mt-4"
             style={{ textTransform: "uppercase" }}
           >
             <p className="toTopArrow">&#8593;</p>
