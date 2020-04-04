@@ -352,7 +352,7 @@ export default () => (
           In addition to the albums above, I am also compliling playlists of the
           best tracks of the week. Below you will find three playlists. Each of
           these is designed to have it's own energy level (high, medium, or
-          high) so that your ears and brain experience minimal listening
+          low) so that your ears and brain experience minimal listening
           whiplash. Though I realize that having three playlists introduces an
           element of choice-paralysis (thanks Pari), I did not feel that it was
           in any of our best interest to throw all of them into one listening
@@ -364,6 +364,10 @@ export default () => (
           submissions, as there are undoubtedly some gems from today that are
           missing from these playlists. Again, if you have any questions,
           submissions, or feedback, please do not hesitate to contact me.
+        </p>
+        <p style={{fontStyle: "italic", marginTop: "20px"}}>
+          NOTE: The songs in these playlists are unordered and not organized to
+          form a coherent mix, so shuffle away.
         </p>
       </div>
 
