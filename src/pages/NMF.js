@@ -5,31 +5,31 @@ import { Album } from "../components";
 import "../css/nmf.css";
 
 // import te from "../img/327.png"
-import hero from "../img/327bg.jpg";
-import qadir from "../img/qadir.jpg";
+import hero from "../img/nmf/albums/mar/327bg.jpg";
+import qadir from "../img/nmf/albums/apr/qadir.jpg";
+import tree from "../img/nmf/albums/apr/tree.jpg";
 
 // import nmfBanner from "../img/nb3.png";
-import nmfDesktopBanner from "../img/nmfbwb.png";
-import nmfMobileBanner from "../img/nmfbwbCrop.png";
-import nmfW from "../img/nmfW.png";
-import nmfB from "../img/nmfB.png";
-import nmfD from "../img/nmfD.png";
+import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
+import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
+import nmfW from "../img/nmf/nmfW.png";
+import nmfB from "../img/nmf/nmfB.png";
+import nmfD from "../img/nmf/nmfD.png";
 
-import knxwledge from "../img/1988.jpg";
-import gambino from "../img/315.jpg";
-import dragon from "../img/dragon.jpg";
-import waxa from "../img/waxa.jpg";
-import orion from "../img/orion.jpg";
-import somni from "../img/somni.jpg";
+import yves from "../img/nmf/albums/apr/yves.jpg";
+import emp from "../img/nmf/albums/apr/emp.jpg";
+import cat from "../img/nmf/albums/apr/cat.jpg";
+import wilma from "../img/nmf/albums/apr/wilma.jpg";
+import pit from "../img/nmf/albums/apr/pit.jpg";
+import mward from "../img/nmf/albums/apr/mward.jpg";
+import jensen from "../img/nmf/albums/apr/jensen.jpg";
+import ashl from "../img/nmf/albums/apr/ashl.jpg";
 
-import yves from "../img/yves.jpg";
-import emp from "../img/emp.jpg";
-import cat from "../img/cat.jpg";
-import wilma from "../img/wilma.jpg";
-import pit from "../img/pit.jpg";
-import mward from "../img/mward.jpg";
-import jensen from "../img/jensen.jpg";
-import ashl from "../img/ashl.jpg";
+import laura from "../img/nmf/albums/apr/laura.jpg";
+import strokes from "../img/nmf/albums/apr/strokes.jpg";
+import str from "../img/nmf/albums/apr/str.webp";
+import extraa from "../img/nmf/albums/apr/extraa.jpg";
+import butter from "../img/nmf/albums/apr/butter.jpg";
 
 
 export default () => (
@@ -47,7 +47,7 @@ export default () => (
         style={{
           marginBottom: "24px",
           display: "flex",
-          justifyContent: "center"
+          justifyContent: "center",
         }}
         id="top"
       >
@@ -69,6 +69,7 @@ export default () => (
         <p>Week of April 03, 2020</p>
       </div>
 
+      {/*
       <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
         <p className="sotwTitle mb-0">QADIR</p>
         <p className="sotwArtist mb-4">Nick Hakim</p>
@@ -80,6 +81,26 @@ export default () => (
         <iframe
           className="heroImg"
           src="https://open.spotify.com/embed/track/0kE7ayRiDxzu9oSP22olNX"
+          width="60%"
+          height="80"
+          frameBorder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+          title="qadir"
+        ></iframe>
+      </div> */}
+
+      <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
+        <p className="sotwTitle mb-0">Let Me Down</p>
+        <p className="sotwArtist mb-4">Oliver Tree</p>
+        <div className="d-flex justify-content-center align-items-center">
+          <p className="sotwL">single of the week</p>
+          <img className="heroImg mb-1" src={tree} alt="single of the week" />
+          <p className="sotwR">week of april 10</p>
+        </div>
+        <iframe
+          className="heroImg"
+          src="https://open.spotify.com/embed/track/0vVkuvsZVOC83mgZAtemK5"
           width="60%"
           height="80"
           frameBorder="0"
@@ -100,15 +121,18 @@ export default () => (
           feel are worth highlighting. Other weeks may boast a dozen brilliant
           albums to include. This is one of those weeks. I want to stress that{" "}
           <strong>this is a subjective site</strong> based upon my own taste and
-          brief experience with the projects (and a little bit of Hari's as
-          well). If you take issue with projects that were or were not included,
-          cool. Maybe I didn't know about it and completely missed out on a
-          great album. Maybe I heard it and hated listening to it due to our
-          clashing music tastes. Or more likely, maybe I heard it and decided it
-          was a fine album but did not hold up to the others in the collection.
-          That being said, please do reach out and let me know if you think
-          there was something that flew under my radar and should be featured on
-          this page.
+          brief experience with the projects (and a little bit of some friends'
+          as well). If you take issue with projects that were or were not
+          included, cool. Maybe I didn't know about it and completely missed out
+          on a great album. Maybe I heard it and hated listening to it due to
+          our clashing music tastes. Or more likely, maybe I heard it and
+          decided it was a fine album but did not hold up to the others in the
+          collection. That being said, please do reach out and let me know if
+          you think there was something that flew under my radar and should be
+          featured on this page.
+        </p>
+        <p>
+          Special thanks to Hari, Wil, Chloe, and Joe for helping me curate.
         </p>
         <p>
           One last note: I don't display music from artists who have shown to be
@@ -142,6 +166,74 @@ export default () => (
       <div className="d-flex flex-column align-items-center">
         <div className="instructions">scroll &#8594;</div>
         <div className="slider">
+          <div className="weekCol">
+            <p
+              className="noMargin horizPadder leftPadder detailText"
+              style={{ fontWeight: "bold", color: "white" }}
+            >
+              WEEK OF APRIL 10 &nbsp; &#8595;
+            </p>
+          </div>
+          <Album
+            className="albumCard"
+            uri="spotify:album:0ubXthGSkZfe30Nuj91lcu"
+            title="Song For Our Daugher"
+            artist="Laura Marling"
+            genre="folk"
+            date="april 10 2020"
+            tracks="10"
+            runtime="36 MINUTES"
+            img={laura}
+            albumId="laura"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:2xkZV2Hl1Omi8rk2D7t5lN"
+            title="The New Abnormal"
+            artist="the strokes"
+            genre="alternative rock"
+            date="april 10 2020"
+            tracks="9"
+            runtime="45 MINUTES"
+            img={strokes}
+            albumId="strokes"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:72tIS6tPTKymncSkk2ezBJ"
+            title="Future Past Life"
+            artist="STRFKR"
+            genre="indie rock"
+            date="april 10 2020"
+            tracks="10"
+            runtime="36 MINUTES"
+            img={str}
+            albumId="str"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:4r0r0I3ODzbpgOcB3JWDVT"
+            title="Baked"
+            artist="extraa"
+            genre="psych-pop"
+            date="april 10 2020"
+            tracks="9"
+            runtime="30 MINUTES"
+            img={extraa}
+            albumId="extraa"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:5IPRINen7At2f3aKJtuKuH"
+            title="Jazzhound"
+            artist="The Buttertones"
+            genre="surf rock"
+            date="april 10 2020"
+            tracks="10"
+            runtime="36 MINUTES"
+            img={butter}
+            albumId="butter"
+          ></Album>
               
           <div className="weekCol">
             <p
@@ -249,87 +341,6 @@ export default () => (
             img={ashl}
             albumId="ashl"
           ></Album>
-          <div className="weekCol">
-            <p
-              className="noMargin horizPadder leftPadder detailText"
-              style={{ fontWeight: "bold", color: "white" }}
-            >
-              WEEK OF MARCH 27 &nbsp; &#8595;
-            </p>
-          </div>
-          <Album
-            className="albumCard"
-            uri="spotify:album:53gOm5R7JN5DAkIuZymFOZ"
-            title="1988"
-            artist="knxwledge"
-            genre="lo-fi"
-            date="march 27 2020"
-            tracks="22"
-            runtime="37 MINUTES"
-            img={knxwledge}
-            albumId="knxwledge"
-          ></Album>
-          <Album
-            className="albumCard"
-            uri="spotify:album:600ClrWRsAr7jZ0qjaBLHz"
-            title="3.15.20"
-            artist="childish gambino"
-            genre="experimental"
-            date="march 21 2020"
-            tracks="12"
-            runtime="57 minutes"
-            img={gambino}
-            albumId="gambino"
-            elite="elite"
-          ></Album>
-          <Album
-            className="albumCard"
-            uri="spotify:album:3PuofR78j1BFBGBrNCCYUF"
-            title="New Me, Same Us"
-            artist="Little Dragon"
-            genre="synth-pop"
-            date="march 27 2020"
-            tracks="12"
-            runtime="47 minutes"
-            img={dragon}
-            albumId="dragon"
-          ></Album>
-          <Album
-            className="albumCard"
-            uri="spotify:album:04HMMwLmjkftjWy7xc6Bho"
-            title="Saint Cloud"
-            artist="Waxahatchee"
-            genre="indie rock"
-            date="march 27 2020"
-            tracks="12"
-            runtime="40 minutes"
-            img={waxa}
-            albumId="waxa"
-          ></Album>
-          <Album
-            className="albumCard"
-            uri="spotify:album:4Y9r8QQYroasHOYHUwCeSB"
-            title="Hold Space For Me"
-            artist="Orion Sun"
-            genre="R&B / Soul"
-            date="march 27 2020"
-            tracks="11"
-            runtime="32 minutes"
-            img={orion}
-            albumId="orion"
-          ></Album>
-          <Album
-            className="albumCard"
-            uri="spotify:album:7I9rSYvAxc5lcyriRGAG0T"
-            title="Home"
-            artist="Somni"
-            genre="lo-fi"
-            date="march 27 2020"
-            tracks="12"
-            runtime="33 minutes"
-            img={somni}
-            albumId="somni"
-          ></Album>
               
         </div>
       </div>
@@ -351,13 +362,13 @@ export default () => (
         <p>
           In addition to the albums above, I am also compliling playlists of the
           best tracks of the week. Below you will find three playlists. Each of
-          these is designed to have it's own energy level (high, medium, or
-          low) so that your ears and brain experience minimal listening
-          whiplash. Though I realize that having three playlists introduces an
-          element of choice-paralysis (thanks Pari), I did not feel that it was
-          in any of our best interest to throw all of them into one listening
-          bucket. Call me crazy, but I just can't go from Trap this Way straight
-          into Dear April.
+          these is designed to have it's own energy level (high, medium, or low)
+          so that your ears and brain experience minimal listening whiplash.
+          Though I realize that having three playlists introduces an element of
+          choice-paralysis (thanks Pari), I did not feel that it was in any of
+          our best interest to throw all of them into one listening bucket. Call
+          me crazy, but I just can't go from Trap this Way straight into Dear
+          April.
         </p>
         <p>
           Next week, I will be looking into functionality to allow for track
@@ -365,7 +376,7 @@ export default () => (
           missing from these playlists. Again, if you have any questions,
           submissions, or feedback, please do not hesitate to contact me.
         </p>
-        <p style={{fontStyle: "italic", marginTop: "20px"}}>
+        <p style={{ fontStyle: "italic", marginTop: "20px" }}>
           NOTE: The songs in these playlists are unordered and not organized to
           form a coherent mix, so shuffle away.
         </p>

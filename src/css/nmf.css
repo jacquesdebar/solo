@@ -1,4 +1,7 @@
 
+:root {
+  --nmf-highlight-color: #FF05B0;
+}
 
 .desktopBanner {
   display: block;
@@ -28,7 +31,7 @@
   align-items: center;
 
   color: white;
-  background-color: #97936E;
+  background-color: var(--nmf-highlight-color);
 }
 
 .weekOf p {
@@ -50,7 +53,7 @@
 }
 
 .sotwArtist {
-  color: #97936E;
+  color: var(--nmf-highlight-color);
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -64,7 +67,7 @@
   text-transform: uppercase;
   /* color: #F1570D; */
   /* color: #013F78; */
-  color: #97936E;
+  color: var(--nmf-highlight-color);
 }
 
 .sotwL {
