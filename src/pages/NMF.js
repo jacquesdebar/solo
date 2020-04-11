@@ -8,6 +8,7 @@ import "../css/nmf.css";
 import hero from "../img/nmf/albums/mar/327bg.jpg";
 import qadir from "../img/nmf/albums/apr/qadir.jpg";
 import tree from "../img/nmf/albums/apr/tree.jpg";
+import charli from "../img/nmf/albums/apr/charli.jpeg";
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -92,16 +93,16 @@ export default () => (
       </div> */}
 
       <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-        <p className="sotwTitle mb-0">Let Me Down</p>
-        <p className="sotwArtist mb-4">Oliver Tree</p>
+        <p className="sotwTitle mb-0">Forever</p>
+        <p className="sotwArtist mb-4">Charli XCX</p>
         <div className="d-flex justify-content-center align-items-center">
           <p className="sotwL">single of the week</p>
-          <img className="heroImg mb-1" src={tree} alt="single of the week" />
+          <img className="heroImg mb-1" src={charli} alt="single of the week" />
           <p className="sotwR">week of april 10</p>
         </div>
         <iframe
           className="heroImg"
-          src="https://open.spotify.com/embed/track/0vVkuvsZVOC83mgZAtemK5"
+          src="https://open.spotify.com/embed/track/3sVVB8TlYvfB3eR1dKKefv"
           width="60%"
           height="80"
           frameBorder="0"
