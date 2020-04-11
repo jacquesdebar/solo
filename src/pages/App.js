@@ -10,6 +10,10 @@ import "./css/App.css";
 
 import { Layout } from "./components";
 
+import ReactGA from "react-ga";
+import { createBrowserHistory } from "history";
+
+
 const HomePage = () => (
   <Layout>
     <Home />
@@ -40,8 +44,17 @@ const SolsticePage = () => (
   </Layout>
 );
 
+
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen((location) => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
 const App = () => (
-      <BrowserRouter>
+  <BrowserRouter history={history}>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/academics" component={AcademicsPage} />
