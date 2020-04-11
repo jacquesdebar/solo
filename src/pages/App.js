@@ -40,9 +40,7 @@ const SolsticePage = () => (
   </Layout>
 );
 
-class App extends Component {
-  render() {
-    return (
+const App = () => (
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -53,7 +51,5 @@ class App extends Component {
         </Switch>
       </BrowserRouter>
     );
-  }
-}
 
 export default App;
