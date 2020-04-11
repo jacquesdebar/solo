@@ -28,6 +28,7 @@ import ashl from "../img/nmf/albums/apr/ashl.jpg";
 import laura from "../img/nmf/albums/apr/laura.jpg";
 import strokes from "../img/nmf/albums/apr/strokes.jpg";
 import str from "../img/nmf/albums/apr/str.webp";
+import ham from "../img/nmf/albums/apr/ham.jpg";
 import extraa from "../img/nmf/albums/apr/extraa.jpg";
 import butter from "../img/nmf/albums/apr/butter.jpg";
 
@@ -197,6 +198,18 @@ export default () => (
             runtime="45 MINUTES"
             img={strokes}
             albumId="strokes"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:4kBc87iwT7HAqZx8A0aC1f"
+            title="The Loves of Your Life"
+            artist="Hamilton Leithauser"
+            genre="folk rock"
+            date="april 10 2020"
+            tracks="11"
+            runtime="42 MINUTES"
+            img={ham}
+            albumId="ham"
           ></Album>
           <Album
             className="albumCard"
