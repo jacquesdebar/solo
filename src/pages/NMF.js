@@ -66,7 +66,7 @@ export default () => (
       </div>
 
       <div className="weekOf mb-4 mb-md-5">
-        <p>Week of April 03, 2020</p>
+        <p>Week of April 10, 2020</p>
       </div>
 
       {/*
