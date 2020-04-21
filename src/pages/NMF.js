@@ -138,7 +138,7 @@ export default () => (
           featured on this page.
         </p>
         <p>
-          Special thanks to Hari, Wil, Chloe, and Joe for helping me curate.
+          Special thanks to Hari, Joe, Maya, Wil, and Chloe for helping me curate.
         </p>
         <p>
           One last note: I don't display music from artists who have shown to be
