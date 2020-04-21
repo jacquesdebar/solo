@@ -39,7 +39,7 @@ competing against other players to see who is the best predictor */}
 
       <div className="row my-4">
         <div className="col-12">
-          <a href="https://www.possi.life/possi-studios">
+          <a href="https://wltv.info/">
             <h2 className="mb-2">wltv</h2>
           </a>
           <h3 className="course mb-3">web developer</h3>

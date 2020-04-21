@@ -1,5 +1,6 @@
 export { default as Academics } from "./Academics";
 export { default as App } from "./App";
+export { default as Ebrima } from "./Ebrima";
 export { default as Freelance } from "./Freelance";
 export { default as Home } from "./Home";
 export { default as NMF } from "./NMF";

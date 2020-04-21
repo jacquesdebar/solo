@@ -5,10 +5,11 @@ import { Album } from "../components";
 import "../css/nmf.css";
 
 // import te from "../img/327.png"
-import hero from "../img/nmf/albums/mar/327bg.jpg";
-import qadir from "../img/nmf/albums/apr/qadir.jpg";
-import tree from "../img/nmf/albums/apr/tree.jpg";
-import charli from "../img/nmf/albums/apr/charli.jpeg";
+// import hero from "../img/nmf/albums/mar/327bg.jpg";
+// import qadir from "../img/nmf/albums/apr/qadir.jpg";
+// import tree from "../img/nmf/albums/apr/tree.jpg";
+// import charli from "../img/nmf/albums/apr/charli.jpeg";
+import nightrider from "../img/nmf/albums/apr/nightrider.jpg";
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -17,14 +18,14 @@ import nmfW from "../img/nmf/nmfW.png";
 import nmfB from "../img/nmf/nmfB.png";
 import nmfD from "../img/nmf/nmfD.png";
 
-import yves from "../img/nmf/albums/apr/yves.jpg";
-import emp from "../img/nmf/albums/apr/emp.jpg";
-import cat from "../img/nmf/albums/apr/cat.jpg";
-import wilma from "../img/nmf/albums/apr/wilma.jpg";
-import pit from "../img/nmf/albums/apr/pit.jpg";
-import mward from "../img/nmf/albums/apr/mward.jpg";
-import jensen from "../img/nmf/albums/apr/jensen.jpg";
-import ashl from "../img/nmf/albums/apr/ashl.jpg";
+// import yves from "../img/nmf/albums/apr/yves.jpg";
+// import emp from "../img/nmf/albums/apr/emp.jpg";
+// import cat from "../img/nmf/albums/apr/cat.jpg";
+// import wilma from "../img/nmf/albums/apr/wilma.jpg";
+// import pit from "../img/nmf/albums/apr/pit.jpg";
+// import mward from "../img/nmf/albums/apr/mward.jpg";
+// import jensen from "../img/nmf/albums/apr/jensen.jpg";
+// import ashl from "../img/nmf/albums/apr/ashl.jpg";
 
 import laura from "../img/nmf/albums/apr/laura.jpg";
 import strokes from "../img/nmf/albums/apr/strokes.jpg";
@@ -32,6 +33,9 @@ import str from "../img/nmf/albums/apr/str.webp";
 import ham from "../img/nmf/albums/apr/ham.jpg";
 import extraa from "../img/nmf/albums/apr/extraa.jpg";
 import butter from "../img/nmf/albums/apr/butter.jpg";
+
+import fiona from "../img/nmf/albums/apr/fiona.jpg";
+import rina from "../img/nmf/albums/apr/rina.jpg";
 
 
 export default () => (
@@ -68,7 +72,7 @@ export default () => (
       </div>
 
       <div className="weekOf mb-4 mb-md-5">
-        <p>Week of April 10, 2020</p>
+        <p>Week of April 17, 2020</p>
       </div>
 
       {/*
@@ -93,16 +97,16 @@ export default () => (
       </div> */}
 
       <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-        <p className="sotwTitle mb-0">Forever</p>
-        <p className="sotwArtist mb-4">Charli XCX</p>
+        <p className="sotwTitle mb-0">Nightrider</p>
+        <p className="sotwArtist mb-4">Tom Misch & Yussef Dayes (feat. Freddie Gibbs)</p>
         <div className="d-flex justify-content-center align-items-center">
           <p className="sotwL">single of the week</p>
-          <img className="heroImg mb-1" src={charli} alt="single of the week" />
-          <p className="sotwR">week of april 10</p>
+          <img className="heroImg mb-1" src={nightrider} alt="single of the week" />
+          <p className="sotwR">week of april 17</p>
         </div>
         <iframe
           className="heroImg"
-          src="https://open.spotify.com/embed/track/3sVVB8TlYvfB3eR1dKKefv"
+          src="https://open.spotify.com/embed/track/0i7jazn1Rtp51KPM4iSs6z"
           width="60%"
           height="80"
           frameBorder="0"
@@ -168,6 +172,42 @@ export default () => (
       <div className="d-flex flex-column align-items-center">
         <div className="instructions">scroll &#8594;</div>
         <div className="slider">
+          
+          
+          <div className="weekCol">
+            <p
+              className="noMargin horizPadder leftPadder detailText"
+              style={{ fontWeight: "bold", color: "white" }}
+            >
+              WEEK OF APRIL 17 &nbsp; &#8595;
+            </p>
+          </div>
+          <Album
+            className="albumCard"
+            uri="spotify:album:0fO1KemWL2uCCQmM22iKlj"
+            title="Fetch the Bolt Cutters"
+            artist="Fiona Apple"
+            genre="experimental indie"
+            date="april 17 2020"
+            tracks="13"
+            runtime="51 MINUTES"
+            img={fiona}
+            albumId="fiona"
+          ></Album>
+          <Album
+            className="albumCard"
+            uri="spotify:album:3stadz88XVpHcXnVYMHc4J"
+            title="SAWAYAMA"
+            artist="Rina Sawayama"
+            genre="pop"
+            date="april 17 2020"
+            tracks="13"
+            runtime="43 MINUTES"
+            img={rina}
+            albumId="rina"
+          ></Album>
+
+
           <div className="weekCol">
             <p
               className="noMargin horizPadder leftPadder detailText"
@@ -249,6 +289,7 @@ export default () => (
             albumId="butter"
           ></Album>
               
+          {/*
           <div className="weekCol">
             <p
               className="noMargin horizPadder leftPadder detailText"
@@ -354,7 +395,7 @@ export default () => (
             runtime="39 MINUTES"
             img={ashl}
             albumId="ashl"
-          ></Album>
+          ></Album> */}
               
         </div>
       </div>

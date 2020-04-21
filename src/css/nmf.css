@@ -1,6 +1,6 @@
 
 :root {
-  --nmf-highlight-color: #E5051D;
+  --nmf-highlight-color: #DB0267;
 }
 
 .desktopBanner {
@@ -210,5 +210,9 @@
   .sotwL, .sotwR {
     margin: 8px;
     font-size: 16px;
+  }
+
+  .weekOf {
+    width: 40px;
   }
 }
