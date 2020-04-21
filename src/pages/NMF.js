@@ -9,7 +9,7 @@ import "../css/nmf.css";
 // import qadir from "../img/nmf/albums/apr/qadir.jpg";
 // import tree from "../img/nmf/albums/apr/tree.jpg";
 // import charli from "../img/nmf/albums/apr/charli.jpeg";
-import nightrider from "../img/nmf/albums/apr/nightrider.jpg";
+import nightrider from "../img/nmf/albums/apr/nightrider.png";
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
