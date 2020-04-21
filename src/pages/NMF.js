@@ -193,6 +193,7 @@ export default () => (
             runtime="51 MINUTES"
             img={fiona}
             albumId="fiona"
+            elite="elite"
           ></Album>
           <Album
             className="albumCard"
