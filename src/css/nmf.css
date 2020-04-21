@@ -3,6 +3,11 @@
   --nmf-highlight-color: #DB0267;
 }
 
+::-webkit-scrollbar:horizontal {
+    -webkit-appearance: none;
+    height: 0;
+}
+
 .desktopBanner {
   display: block;
 }
