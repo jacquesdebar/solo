@@ -9,7 +9,8 @@ import "../css/nmf.css";
 // import qadir from "../img/nmf/albums/apr/qadir.jpg";
 // import tree from "../img/nmf/albums/apr/tree.jpg";
 // import charli from "../img/nmf/albums/apr/charli.jpeg";
-import nightrider from "../img/nmf/albums/apr/nightrider.png";
+// import nightrider from "../img/nmf/albums/apr/nightrider.png";
+import gus from "../img/nmf/albums/apr/gus.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -72,7 +73,7 @@ export default () => (
       </div>
 
       <div className="weekOf mb-4 mb-md-5">
-        <p>Week of April 17, 2020</p>
+        <p>Week of April 24, 2020 (wip)</p>
       </div>
 
       {/*
@@ -97,22 +98,22 @@ export default () => (
       </div> */}
 
       <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-        <p className="sotwTitle mb-0">Nightrider</p>
-        <p className="sotwArtist mb-4">Tom Misch & Yussef Dayes (feat. Freddie Gibbs)</p>
+        <p className="sotwTitle mb-0">First Aid</p>
+        <p className="sotwArtist mb-4">Gus Dapperton</p>
         <div className="d-flex justify-content-center align-items-center">
           <p className="sotwL">single of the week</p>
-          <img className="heroImg mb-1" src={nightrider} alt="single of the week" />
-          <p className="sotwR">week of april 17</p>
+          <img className="heroImg mb-1" src={gus} alt="single of the week" />
+          <p className="sotwR">week of april 24</p>
         </div>
         <iframe
           className="heroImg"
-          src="https://open.spotify.com/embed/track/0i7jazn1Rtp51KPM4iSs6z"
+          src="https://open.spotify.com/embed/track/2imAA5ofcn4dCRVNjKyEq3"
           width="60%"
           height="80"
           frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"
-          title="qadir"
+          title="sotw"
         ></iframe>
       </div>
 
