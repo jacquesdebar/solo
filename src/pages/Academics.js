@@ -87,6 +87,67 @@ export default class Academics extends React.Component {
           <div className="row my-4">
             <div className="col-12">
               <a href="/solstice">
+                <h2 className="mb-2">Player2</h2>
+              </a>
+              <h3 className="team mb-3">
+                with{" "}
+                <a className="teammate" href="https://www.linkedin.com/in/laurensmith24/">
+                  Lauren Smith
+                </a>,{" "}
+                <a className="teammate" href="https://www.linkedin.com/in/ana-de-las-alas/">
+                  Ana De Las Alas
+                </a>,{" "}
+                <a className="teammate" href="https://www.linkedin.com/in/nathanmagdalera/">
+                  Nathan Magdalera
+                </a>, and{" "}
+                <a className="teammate" href="https://www.linkedin.com/in/alexpark1227/">
+                  Alex Park
+                </a>
+                .
+                </h3>
+              <div className="row justify-content-center my-4">
+                <Img
+                  src="/player2poster.png" 
+                  alt="Player2 poster"
+                  style={{ width: "100%" }}
+                  onClick={this.onOpenModal}
+                />
+                <Modal
+                  open={open}
+                  onClose={this.onCloseModal}
+                  center
+                  styles={{
+                    modal: {
+                      background: "none",
+                      maxWidth: 1200
+                    },
+                    closeIcon: {
+                      color: "white"
+                    }
+                  }}
+                  //   closeIconSize={40}
+                >
+                  <Img src="/player2poster.png" alt="Player2 poster" />
+                </Modal>
+              </div>
+              <div className="mt-2">
+                <p>
+                  Player2 is a dating app built to utilize online games as 
+                  a way to break the ice with potential connections. After 
+                  spending a semester studying existing dating apps, we saw 
+                  the need for an app which gave users an easier way to 
+                  begin bonding. By incoporating cooperative gaming as a 
+                  core element of this app, we predict that users would not 
+                  feel the same social paralysis that apps built on 
+                  open-ended messaging often introduce.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row my-4">
+            <div className="col-12">
+              <a href="/solstice">
                 <h2 className="mb-2">Solstice Operating System</h2>
               </a>
               <h3 className="team mb-3">
@@ -155,7 +216,7 @@ export default class Academics extends React.Component {
               </div>
             </div>
           </div>
-          {/* an operating system centered around balance and funciton */}
+          {/* an operating system centered around balance and function */}
 
           <div className="row my-4">
             <div className="col-12">

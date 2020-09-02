@@ -13,6 +13,29 @@ export default () => (
       {/* sections */}
       <div className="row my-4">
         <div className="col-12">
+          <h2 className="mb-2">Player2</h2>
+          <h3 className="team mb-3">with <a className="teammate" href="https://www.linkedin.com/in/laurensmith24/">Lauren
+          Smith</a>, <a className="teammate" href="https://www.linkedin.com/in/ana-de-las-alas/">Ana
+          De Las Alas</a>, <a className="teammate" href="https://www.linkedin.com/in/nathanmagdalera/">Nathan
+          Magdalera</a>, <a className="teammate" href="https://www.linkedin.com/in/alexpark1227/">and Alex
+          Park</a>.</h3>
+          <div className="row justify-content-center my-4">
+            <Img src="/player2poster.png" alt="Player2 poster" style={{width:"60%", marginLeft: "-80px"}} />
+          </div>
+          <div className="mt-2">
+            <p>Player2 is a dating app built to utilize online games as a way to break the ice with
+                potential connections. After spending a semester studying existing dating apps, we saw 
+                the need for an app which gave users an easier way to begin bonding. By incoporating cooperative
+                gaming as a core element of this app, we predict that users would not feel the same social paralysis
+                that apps built on open-ended messaging often introduce.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* an operating system centered around balance and function */}
+
+      <div className="row my-4">
+        <div className="col-12">
           <h2 className="mb-2">Solstice Operating System</h2>
           <h3 className="team mb-3">with <a className="teammate" href="https://www.ajayqi.com/">Ajay
           Qi</a>, <a className="teammate" href="https://www.jessicaprasetyo.com/about">Jessica
@@ -22,7 +45,7 @@ export default () => (
           In</a>, and <a className="teammate" href="https://carmelitogutierrez.com/">Carmelito
           Gutierrez</a>.</h3>
           <div className="row justify-content-center my-4">
-            <Img src="/SOLSTICE1/SOLSTICE1-09.jpg" alt="SportsPrediction screencaps" style={{width:"60%", marginLeft: "-80px"}} />
+            <Img src="/SOLSTICE1/SOLSTICE1-09.jpg" alt="Solstice operating system screencaps" style={{width:"60%", marginLeft: "-80px"}} />
           </div>
           <div className="mt-2">
             <p>Solstice is an operating system centered around balance and function. Consisting of 15 apps in total,
@@ -32,7 +55,7 @@ export default () => (
           </div>
         </div>
       </div>
-      {/* an operating system centered around balance and funciton */}
+      {/* an operating system centered around balance and function */}
 
       <div className="row my-4">
         <div className="col-12">
@@ -66,7 +89,7 @@ export default () => (
                     {/*<h3 className="course mb-3">INFO 362: Visual Information Design</h3>*/}
                     <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
                     <div className="row justify-content-center">
-                        <Img src="/scBHF.png" alt="BROCKHAMPTON infographics" style={{ width: "100%" }} />
+                        <Img src="/scBHF.png" alt="BROCKHAMPTON infographic" style={{ width: "100%" }} />
                     </div>
                     <div className="mt-2">
                         <p>

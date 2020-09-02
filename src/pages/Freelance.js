@@ -17,6 +17,27 @@ export default () => (
 
       <div className="row my-4">
         <div className="col-12">
+          <a href="/nmf">
+            <h2 className="mb-2">NMF: New Music Friday</h2>
+          </a>
+          <h3 className="course mb-3">end-to-end sole creation and ownership</h3>
+          <p>
+            a new music discovery and curation hotspot
+          </p>
+          <div className="row justify-content-center my-4">
+            <a href="/nmf" className="row justify-content-center">
+            <Img
+                  src="/nmfBGG.jpg" 
+                  alt="new music friday logo"
+                  style={{ width: "50%" }}
+                />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="row my-4">
+        <div className="col-12">
           <a href="https://www.possi.life/possi-studios">
             <h2 className="mb-2">Possi</h2>
           </a>

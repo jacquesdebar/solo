@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 import { Album } from "../components";
 
@@ -41,7 +41,7 @@ import rina from "../img/nmf/albums/apr/rina.jpg";
 
 export default () => {
 
-  useEffect(() => alert('Due to the urgent issues of systemic racism and the toxic police state, NMF is on pause until further notice.'), []);
+  useEffect(() => alert('Due to the urgent issues of systemic racism and police brutality, NMF is on pause until further notice.'), []);
 
   return (
     <div className="row">
