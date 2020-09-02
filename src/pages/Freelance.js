@@ -20,7 +20,7 @@ export default () => (
           <a href="/nmf">
             <h2 className="mb-2">NMF: New Music Friday</h2>
           </a>
-          <h3 className="course mb-3">end-to-end sole creation and ownership</h3>
+          <h3 className="course mb-3">sole creation and ownership</h3>
           <p>
             a new music discovery and curation hotspot
           </p>
