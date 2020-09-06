@@ -4,6 +4,7 @@ import { Img } from "../components";
 import possi from "../img/possi2s.gif";
 import trax from "../img/trax.gif";
 import wltvShow from "../img/wltvShow2.gif";
+import "../css/freelance.css"
 
 export default () => (
   <div className="row">
@@ -26,11 +27,16 @@ export default () => (
           </p>
           <div className="row justify-content-center my-4">
             <a href="/nmf" className="row justify-content-center">
-            <Img
-                  src="/nmfBGG.jpg" 
+              <Img
+                  src="/nmfMock1.png" 
                   alt="new music friday logo"
-                  style={{ width: "50%" }}
+                  style={{ width: "40%" }}
                 />
+              <Img
+                src="/nmfMock2.png" 
+                alt="new music friday logo"
+                style={{ width: "40%" }}
+              />
             </a>
           </div>
         </div>
@@ -46,12 +52,14 @@ export default () => (
             creative agency specializing in lifestyle, music, and entertainment
           </p>
           <div className="row justify-content-center my-5">
-            <img
-              src={possi}
-              alt="loading..."
-              className
-              style={{ width: "80%" }}
-            />
+            <a href="https://www.possi.life/possi-studios" className="row justify-content-center">
+              <img
+                src={possi}
+                alt="loading..."
+                className
+                style={{ width: "80%" }}
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -63,18 +71,20 @@ competing against other players to see who is the best predictor */}
           <a href="https://wltv.info/">
             <h2 className="mb-2">wltv</h2>
           </a>
-          <h3 className="course mb-3">web developer</h3>
+          <h3 className="course mb-3">web design and development</h3>
           <p>
             wltv (wilsonlikethevolleyball) is an electronic artist and offers
             professional mixing and mastering to clients
           </p>
           <div className="row justify-content-center my-5">
-            <img
-              src={wltvShow}
-              alt="loading..."
-              className
-              style={{ width: "80%" }}
-            />
+            <a href="https://wltv.info/" className="row justify-content-center">
+              <img
+                src={wltvShow}
+                alt="loading..."
+                className
+                style={{ width: "80%" }}
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -110,16 +120,18 @@ competing against other players to see who is the best predictor */}
             <h2 className="mb-2">i///u</h2>
           </a>
           <h3 className="course mb-3">
-            web design, graphic design, & videography
+            web design/development, graphic design, & videography
           </h3>
           <p>a neo-soul band based out of seattle</p>
           <div className="row justify-content-center my-4">
-            <Img
-              src="/iuSite.png"
-              alt="iustew.com screencap"
-              className
-              style={{ width: "80%" }}
-            />
+            <a href="https://iustew.com" className="row justify-content-center">
+              <Img
+                src="/iuSite.png"
+                alt="iustew.com screencap"
+                className
+                style={{ width: "80%" }}
+              />
+            </a>
           </div>
         </div>
       </div>

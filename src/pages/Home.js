@@ -17,23 +17,23 @@ export default () => (
             <h3 className="mb-4" style={{textAlign: "center", fontSize: "16pt", fontWeight: "bold"}}>NEW MUSIC FRIDAY >></h3>
           </a>
           <p>
-            Hi. My name is Jacques, and I am a 21-year-old graduating senior at
-            the University of Washington studying{" "}
+            Hi. My name is Jacques, and I am a 22-year-old creative and a recent graduate of
+            the University of Washington's {" "}
             <a href="https://ischool.uw.edu/programs/informatics">
-              informatics
+              informatics program
             </a>
             . I work heavily with user interfaces, databases, and most of all,
-            people. Through my studies I have learned and continue to learn how
+            people. Through my studies I have learned how
             to build accessible technology and collaborate with development
             teams. My long-term goal is to utilize my skills in informatics
             towards a role in the music industry, but for now I am seeking to
             get famliar with the creative industry as a whole.
             <br />
             <br />
-            On campus, I am involved in UW Arts & Entertainment, HHSA (Hip Hop
-            Student Association), and an untitled new project helping serve
-            formerly-incarcerated UW students. Outside of class, I enjoy playing
-            soccer, cooking, and exploring the Seattle arts scene. Throughout my
+            During my time at school, I was involved in UW Arts & Entertainment, HHSA (Hip Hop
+            Student Association), and SEJ (Students for Educational Justice), a project helping serve
+            formerly-incarcerated UW students. Outside of class, I spent most of my time playing
+            soccer, cooking, or exploring the Seattle arts scene. Throughout my
             time in Seattle, I have been fortunate enough to meet an abundance
             of wonderfully-talented creatives who continue to push and inspire
             me every day. Special thanks to{" "}
@@ -45,9 +45,7 @@ export default () => (
             and <a href="https://www.instagram.com/possilife/">Possi</a> for
             igniting my own creative drive and providing Seattle with a blooming
             young creative community than is becoming more and more
-            interconnected and collaborative. After I graduate, I will be
-            working for <a href="https://www.quadio.com/">Quadio</a> in New York
-            City.
+            interconnected and collaborative.
             <br />
             <br />
             You can contact me at{" "}

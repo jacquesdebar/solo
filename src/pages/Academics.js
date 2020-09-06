@@ -4,19 +4,28 @@ import Modal from "react-responsive-modal";
 
 export default class Academics extends React.Component {
   state = {
-    open: false
+    openBH: false,
+    openP2: false
   };
 
-  onOpenModal = () => {
-    this.setState({ open: true });
+  onOpenBHModal = () => {
+    this.setState({ openBH: true });
   };
 
-  onCloseModal = () => {
-    this.setState({ open: false });
+  onOpenP2Modal = () => {
+    this.setState({ openP2: true });
+  };
+
+  onCloseBHModal = () => {
+    this.setState({ openBH: false });
+  };
+
+  onCloseP2Modal = () => {
+    this.setState({ openP2: false });
   };
 
   render() {
-    const { open } = this.state;
+    const { openBH, openP2 } = this.state;
 
     return (
       <div className="row">
@@ -34,17 +43,16 @@ export default class Academics extends React.Component {
                 <h2 className="mb-2">BROCKHAMPTON Infographic</h2>
               </a>
               {/*<h3 className="course mb-3">INFO 362: Visual Information Design</h3>*/}
-              <p>a detailed infographic about hip-hop group BROCKHAMPTON</p>
               <div className="row justify-content-center">
                 <Img
                   src="/scBHF.png"
                   alt="BROCKHAMPTON infographics"
-                  style={{ width: "100%" }}
-                  onClick={this.onOpenModal}
+                  style={{ width: "100%", cursor: "pointer" }}
+                  onClick={this.onOpenBHModal}
                 />
                 <Modal
-                  open={open}
-                  onClose={this.onCloseModal}
+                  open={openBH}
+                  onClose={this.onCloseBHModal}
                   center
                   styles={{
                     modal: {
@@ -86,9 +94,7 @@ export default class Academics extends React.Component {
           {/* sections */}
           <div className="row my-4">
             <div className="col-12">
-              <a href="/solstice">
-                <h2 className="mb-2">Player2</h2>
-              </a>
+              <h2 className="mb-2">Player2</h2>
               <h3 className="team mb-3">
                 with{" "}
                 <a className="teammate" href="https://www.linkedin.com/in/laurensmith24/">
@@ -109,12 +115,13 @@ export default class Academics extends React.Component {
                 <Img
                   src="/player2poster.png" 
                   alt="Player2 poster"
-                  style={{ width: "100%" }}
-                  onClick={this.onOpenModal}
+                  className="hover pointer"
+                  style={{ width: "100%", cursor: "pointer" }}
+                  onClick={this.onOpenP2Modal}
                 />
                 <Modal
-                  open={open}
-                  onClose={this.onCloseModal}
+                  open={openP2}
+                  onClose={this.onCloseP2Modal}
                   center
                   styles={{
                     modal: {
