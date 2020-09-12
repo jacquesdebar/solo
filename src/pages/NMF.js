@@ -46,6 +46,7 @@ import nmfD from "../img/nmf/nmfD.png";
 import kelly from "../img/nmf/albums/sep/kelly.jpg"
 import pvris from "../img/nmf/albums/sep/pvris.jpg"
 import sev from "../img/nmf/albums/sep/sev.jpg"
+import redveil from "../img/nmf/albums/sep/redveil.jpeg"
 
 // SEP 4
 import yelle from "../img/nmf/albums/sep/yelle.jpg"
@@ -322,6 +323,18 @@ export default () => {
             ></Album>
             <Album
                 className="albumCard"
+                uri="spotify:album:3wINP6SbT7TqiaYGo3Lj8f"
+                title="Niagara"
+                artist="redveil"
+                genre="hip-hop"
+                date="august 25 2020"
+                tracks="10"
+                runtime="24 minutes"
+                img={redveil}
+                albumId="redveil"
+            ></Album>
+            <Album
+                className="albumCard"
                 uri="spotify:album:40J4xZREcFpeJVnXDXntvk"
                 title="Use Me"
                 artist="pvris"
@@ -335,7 +348,7 @@ export default () => {
             <Album
                 className="albumCard"
                 uri="spotify:album:3DzlkHEQtb0ABoxze4Zxi7"
-                title="inner song"
+                title="Inner Song"
                 artist="kelly lee owens"
                 genre="tech house"
                 date="august 28 2020"
