@@ -10,7 +10,8 @@ import "../css/nmf.css";
 // import tree from "../img/nmf/albums/apr/tree.jpg";
 // import charli from "../img/nmf/albums/apr/charli.jpeg";
 // import nightrider from "../img/nmf/albums/apr/nightrider.png";
-import gus from "../img/nmf/albums/apr/gus.jpg"
+// import gus from "../img/nmf/albums/apr/gus.jpg"
+import bs from "../img/nmf/albums/sep/bs.jpeg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -19,6 +20,7 @@ import nmfW from "../img/nmf/nmfW.png";
 import nmfB from "../img/nmf/nmfB.png";
 import nmfD from "../img/nmf/nmfD.png";
 
+// APR 10
 // import yves from "../img/nmf/albums/apr/yves.jpg";
 // import emp from "../img/nmf/albums/apr/emp.jpg";
 // import cat from "../img/nmf/albums/apr/cat.jpg";
@@ -28,20 +30,38 @@ import nmfD from "../img/nmf/nmfD.png";
 // import jensen from "../img/nmf/albums/apr/jensen.jpg";
 // import ashl from "../img/nmf/albums/apr/ashl.jpg";
 
-import laura from "../img/nmf/albums/apr/laura.jpg";
-import strokes from "../img/nmf/albums/apr/strokes.jpg";
-import str from "../img/nmf/albums/apr/str.webp";
-import ham from "../img/nmf/albums/apr/ham.jpg";
-import extraa from "../img/nmf/albums/apr/extraa.jpg";
-import butter from "../img/nmf/albums/apr/butter.jpg";
+// APR 17
+// import laura from "../img/nmf/albums/apr/laura.jpg";
+// import strokes from "../img/nmf/albums/apr/strokes.jpg";
+// import str from "../img/nmf/albums/apr/str.webp";
+// import ham from "../img/nmf/albums/apr/ham.jpg";
+// import extraa from "../img/nmf/albums/apr/extraa.jpg";
+// import butter from "../img/nmf/albums/apr/butter.jpg";
 
-import fiona from "../img/nmf/albums/apr/fiona.jpg";
-import rina from "../img/nmf/albums/apr/rina.jpg";
+// APR 24
+// import fiona from "../img/nmf/albums/apr/fiona.jpg";
+// import rina from "../img/nmf/albums/apr/rina.jpg";
+
+// AUG 28
+import kelly from "../img/nmf/albums/sep/kelly.jpg"
+import pvris from "../img/nmf/albums/sep/pvris.jpg"
+import sev from "../img/nmf/albums/sep/sev.jpg"
+
+// SEP 4
+import yelle from "../img/nmf/albums/sep/yelle.jpg"
+import sancisco from "../img/nmf/albums/sep/sancisco.jpg"
+import declan from "../img/nmf/albums/sep/declan.jpg"
+import afel from "../img/nmf/albums/sep/afel.jpg"
+import bill from "../img/nmf/albums/sep/bill.jpg"
+
+// SEP 11
+import flame from "../img/nmf/albums/sep/flame.jpg"
+import doves from "../img/nmf/albums/sep/doves.jpg"
 
 
 export default () => {
 
-  useEffect(() => alert('Due to the urgent issues of systemic racism and police brutality, NMF is on pause until further notice.'), []);
+  // useEffect(() => alert('Due to the urgent issues of systemic racism and police brutality, NMF is on pause until further notice.'), []);
 
   return (
     <div className="row">
@@ -77,7 +97,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of April 24, 2020 (wip)</p>
+          <p>Week of September 11, 2020</p>
         </div>
 
         {/*
@@ -102,16 +122,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">First Aid</p>
-          <p className="sotwArtist mb-4">Gus Dapperton</p>
+          <p className="sotwTitle mb-0">BS</p>
+          <p className="sotwArtist mb-4">Still Woozy</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={gus} alt="single of the week" />
-            <p className="sotwR">week of april 24</p>
+            <img className="heroImg mb-1" src={bs} alt="single of the week" />
+            <p className="sotwR">week of september 11</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/2imAA5ofcn4dCRVNjKyEq3"
+            src="https://open.spotify.com/embed/track/1qxZswAdBvM0JMUoV83J1b"
             width="60%"
             height="80"
             frameBorder="0"
@@ -177,8 +197,155 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+
+            <div className="weekCol">
+              <p
+                className="noMargin horizPadder leftPadder detailText"
+                style={{ fontWeight: "bold", color: "white" }}
+              >
+                week of september 11 &nbsp; &#8595;
+              </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:4H8NX3ovAZdY2iJmwSNqlw"
+                title="American Head"
+                artist="The Flaming Lips"
+                genre="psych rock"
+                date="september 11 2020"
+                tracks="13"
+                runtime="50 minutes"
+                img={flame}
+                albumId="flame"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6Te4QI3zfiqePHm4tViGzq"
+                title="The Universal Want"
+                artist="doves"
+                genre="indie rock"
+                date="september 11 2020"
+                tracks="10"
+                runtime="47 minutes"
+                img={doves}
+                albumId="doves"
+            ></Album>
+
+            <div className="weekCol">
+              <p
+                className="noMargin horizPadder leftPadder detailText"
+                style={{ fontWeight: "bold", color: "white" }}
+              >
+                week of september 4 &nbsp; &#8595;
+              </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5iCfp2KefljOSPdRqpAvyW"
+                title="L'Ére du Verseau"
+                artist="Yelle"
+                genre="synthpop"
+                date="september 4 2020"
+                tracks="10"
+                runtime="33 minutes"
+                img={yelle}
+                albumId="yelle"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:2RzJHpS75xaOmdDyu6tKWn"
+                title="Between You and Me"
+                artist="san cisco"
+                genre="indie rock/pop"
+                date="september 4 2020"
+                tracks="11"
+                runtime="38 minutes"
+                img={sancisco}
+                albumId="sancisco"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:18hrkvndprWjt9olhQlRcH"
+                title="Zeros"
+                artist="declan mckenna"
+                genre="indie rock"
+                date="september 4 2020"
+                tracks="10"
+                runtime="40 minutes"
+                img={declan}
+                albumId="declan"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:7kE6YsxkrkvTnbr1TILCrO"
+                title="Lindé"
+                artist="afel bocoum"
+                genre="desert blues"
+                date="september 4 2020"
+                tracks="11"
+                runtime="45 minutes"
+                img={afel}
+                albumId="afel"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:309GzmwSB1Aj3gh8Tpp3Fo"
+                title="Gold Record"
+                artist="Bill Callahan"
+                genre="americana"
+                date="september 4 2020"
+                tracks="10"
+                runtime="40 minutes"
+                img={bill}
+                albumId="bill"
+            ></Album>
+
+            <div className="weekCol">
+              <p
+                className="noMargin horizPadder leftPadder detailText"
+                style={{ fontWeight: "bold", color: "white" }}
+              >
+                week of august 28 &nbsp; &#8595;
+              </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:54tTC9UQtLnu5Wldhlnstr"
+                title="Shabrang"
+                artist="sevdaliza"
+                genre="art pop"
+                date="august 28 2020"
+                tracks="15"
+                runtime="1 hr 2 minutes"
+                img={sev}
+                albumId="sev"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:40J4xZREcFpeJVnXDXntvk"
+                title="Use Me"
+                artist="pvris"
+                genre="pop rock"
+                date="august 28 2020"
+                tracks="11"
+                runtime="40 minutes"
+                img={pvris}
+                albumId="pvris"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:3DzlkHEQtb0ABoxze4Zxi7"
+                title="inner song"
+                artist="kelly lee owens"
+                genre="tech house"
+                date="august 28 2020"
+                tracks="10"
+                runtime="50 minutes"
+                img={kelly}
+                albumId="kelly"
+            ></Album>
             
-            
+            {/*
             <div className="weekCol">
               <p
                 className="noMargin horizPadder leftPadder detailText"
@@ -212,7 +379,6 @@ export default () => {
               img={rina}
               albumId="rina"
             ></Album>
-
 
             <div className="weekCol">
               <p
@@ -295,7 +461,6 @@ export default () => {
               albumId="butter"
             ></Album>
                 
-            {/*
             <div className="weekCol">
               <p
                 className="noMargin horizPadder leftPadder detailText"
