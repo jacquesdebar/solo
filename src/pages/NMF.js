@@ -57,6 +57,7 @@ import bill from "../img/nmf/albums/sep/bill.jpg"
 
 // SEP 11
 import flame from "../img/nmf/albums/sep/flame.jpg"
+import conway from "../img/nmf/albums/sep/conway.jpg"
 import doves from "../img/nmf/albums/sep/doves.jpg"
 
 
@@ -218,6 +219,18 @@ export default () => {
                 runtime="50 minutes"
                 img={flame}
                 albumId="flame"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6Te4QI3zfiqePHm4tViGzq"
+                title="From King To A GOD"
+                artist="conway the machine"
+                genre="hip-hop"
+                date="september 11 2020"
+                tracks="14"
+                runtime="49 minutes"
+                img={conway}
+                albumId="conway"
             ></Album>
             <Album
                 className="albumCard"
