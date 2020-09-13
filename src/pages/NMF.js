@@ -51,6 +51,7 @@ import redveil from "../img/nmf/albums/sep/redveil.jpeg"
 // SEP 4
 import yelle from "../img/nmf/albums/sep/yelle.jpg"
 import sancisco from "../img/nmf/albums/sep/sancisco.jpg"
+import hannah from "../img/nmf/albums/sep/hannah.jpg"
 import declan from "../img/nmf/albums/sep/declan.jpg"
 import afel from "../img/nmf/albums/sep/afel.jpg"
 import bill from "../img/nmf/albums/sep/bill.jpg"
@@ -222,7 +223,7 @@ export default () => {
             ></Album>
             <Album
                 className="albumCard"
-                uri="spotify:album:6Te4QI3zfiqePHm4tViGzq"
+                uri="spotify:album:6DGCEJKSnaK626YgoElkjk"
                 title="From King To A GOD"
                 artist="conway the machine"
                 genre="hip-hop"
@@ -276,6 +277,18 @@ export default () => {
                 runtime="38 minutes"
                 img={sancisco}
                 albumId="sancisco"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:0xyYtBmta0jBeqXOJsocSJ"
+                title="Hannah"
+                artist="lomelda"
+                genre="indie rock"
+                date="september 4 2020"
+                tracks="14"
+                runtime="40 minutes"
+                img={hannah}
+                albumId="hannah"
             ></Album>
             <Album
                 className="albumCard"
