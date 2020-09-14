@@ -28,7 +28,7 @@ export default class Resume extends React.Component {
           Résumé
         </button>
         <Modal open={open} onClose={this.onCloseModal} center>
-          <Img src="/mar2020resume.png" alt="me" className="" style={{}} />
+          <Img src="/sep2020resume.png" alt="me" className="" style={{}} />
         </Modal>
       </div>
     );
