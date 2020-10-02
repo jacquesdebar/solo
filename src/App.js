@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ReactDom from "react-dom";
-import Popup from "react-popup";
 
 import Home from "./pages/Home";
 import Academics from "./pages/Academics";
