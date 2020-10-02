@@ -105,15 +105,15 @@ const Footer = () => (
 
         <a href="mailto:jacques.debar@gmail.com"><i className="fas fa-envelope-square"></i></a>
          */}
-        <a id="instagram" href="https://www.instagram.com/jacquesdebar">
+        {/* <a id="instagram" href="https://www.instagram.com/jacquesdebar">
           <i className="fab fa-instagram" aria-label="instagram" />
-        </a>
+        </a> */}
         <a id="linkedin" href="https://www.linkedin.com/in/jacquesdebar/">
           <i className="fab fa-linkedin" aria-label="linkedin" />
         </a>
-        <a id="facebook" href="https://www.facebook.com/jacques.debar/">
+        {/* <a id="facebook" href="https://www.facebook.com/jacques.debar/">
           <i className="fab fa-facebook" aria-label="facebook" />
-        </a>
+        </a> */}
         <a id="github" href="https://github.com/jacquesdebar/">
           <i className="fab fa-github" aria-label="facebook" />
         </a>
