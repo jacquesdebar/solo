@@ -16,11 +16,11 @@ export default () => (
                     allow="encrypted-media"
                     title="gemini offseason"
                 ></iframe>
-                <img width="600" className="goai mobileHide" src={goai} alt="cover art" />
+                <img width="480" className="goai mobileHide" src={goai} alt="cover art" />
                 <iframe 
                     className="mobileHide"
                     src="https://open.spotify.com/embed/playlist/6IWMk9cDXnYk2Bvoa5cNWN" 
-                    width="600" 
+                    width="480" 
                     height="1200" 
                     frameBorder="0" 
                     allowtransparency="true" 
