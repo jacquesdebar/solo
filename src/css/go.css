@@ -1,0 +1,51 @@
+.goBg {
+    width: 100vw;
+    background: url("../img/govstars2.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.doubleCenter {
+    min-height: 100vh;
+    width: 100%;
+    padding: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.goai {
+    margin-bottom: 8px;
+}
+
+.fromGo {
+    position: fixed;
+    top: 20px;
+    left: 40px;
+}
+
+.fromGo p {
+    color: white;
+    font-family: Garamond, serif;
+    font-size: 24px;
+    display: inline;
+}
+
+#toHome:hover {
+    text-decoration: underline;
+}
+
+.mobileShow {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .mobileShow {
+        display: block;
+    }
+
+    .mobileHide {
+        display: none;
+    }
+  }
