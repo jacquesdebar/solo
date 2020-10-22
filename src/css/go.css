@@ -2,13 +2,14 @@
     width: 100vw;
     background: url("../img/govstars2.png");
     background-size: contain;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 .doubleCenter {
     min-height: 100vh;
     width: 100%;
-    padding-top: 25vh;
+    padding-top: 15vh;
     padding-bottom: 25vh;
     display: flex;
     flex-direction: column;
