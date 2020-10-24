@@ -11,7 +11,8 @@ import "../css/nmf.css";
 // import charli from "../img/nmf/albums/apr/charli.jpeg";
 // import nightrider from "../img/nmf/albums/apr/nightrider.png";
 // import gus from "../img/nmf/albums/apr/gus.jpg"
-import bs from "../img/nmf/albums/sep/bs.jpeg"
+// import bs from "../img/nmf/albums/sep/bs.jpeg"
+import biig from "../img/nmf/albums/oct/biig.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -61,6 +62,16 @@ import flame from "../img/nmf/albums/sep/flame.jpg"
 import conway from "../img/nmf/albums/sep/conway.jpg"
 import doves from "../img/nmf/albums/sep/doves.jpg"
 
+// OCT 23
+import adrianne from "../img/nmf/albums/oct/adrianne.jpg"
+import jean from "../img/nmf/albums/oct/jean.jpg"
+import wallows from "../img/nmf/albums/oct/wallows.jpg"
+import kit from "../img/nmf/albums/oct/kit.jpg"
+import jp4 from "../img/nmf/albums/oct/jp4.jpg"
+import ela from "../img/nmf/albums/oct/ela.jpg"
+import loma from "../img/nmf/albums/oct/loma.jpg"
+import actress from "../img/nmf/albums/oct/actress.jpg"
+
 
 export default () => {
 
@@ -100,7 +111,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of September 11, 2020</p>
+          <p>Week of October 23, 2020</p>
         </div>
 
         {/*
@@ -125,16 +136,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">BS</p>
-          <p className="sotwArtist mb-4">Still Woozy</p>
+          <p className="sotwTitle mb-0">Oh No</p>
+          <p className="sotwArtist mb-4">Biig Piig</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={bs} alt="single of the week" />
-            <p className="sotwR">week of september 11</p>
+            <img className="heroImg mb-1" src={biig} alt="single of the week" />
+            <p className="sotwR">week of october 23</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/1qxZswAdBvM0JMUoV83J1b"
+            src="https://open.spotify.com/embed/track/5OplD6jkrUT7XJFFIM6mph"
             width="60%"
             height="80"
             frameBorder="0"
@@ -200,7 +211,112 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+          <div className="weekCol">
+              <p
+                className="noMargin horizPadder leftPadder detailText"
+                style={{ fontWeight: "bold", color: "white" }}
+              >
+                week of october 23 &nbsp; &#8595;
+              </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:2WKfCjW3EDmgHswj5eVXuG"
+                title="songs"
+                artist="adrianne lenker"
+                genre="indie acoustic"
+                date="september 23 2020"
+                tracks="11"
+                runtime="39 minutes"
+                img={adrianne}
+                albumId="adrianne"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:121Hqnfr9tMBdL0LJuIstL"
+                title="Pixel Bath"
+                artist="jean dawson"
+                genre="???"
+                date="september 23 2020"
+                tracks="13"
+                runtime="38 minutes"
+                img={jean}
+                albumId="jean"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:0BophHCa4MkK5zg0oTZ0v4"
+                title="Off Off On"
+                artist="this is the kit"
+                genre="folk rock"
+                date="september 23 2020"
+                tracks="11"
+                runtime="46 minutes"
+                img={kit}
+                albumId="kit"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5agYNY4IFgl4yQ3gIGLW65"
+                title="Jp4"
+                artist="junglepussy"
+                genre="experimental hip hop"
+                date="september 23 2020"
+                tracks="10"
+                runtime="28 minutes"
+                img={jp4}
+                albumId="jp4"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5tDW2Im2auURmW8IOA8dQ1"
+                title="Karma & Desire"
+                artist="actress"
+                genre="experimental"
+                date="september 23 2020"
+                tracks="17"
+                runtime="68 minutes"
+                img={actress}
+                albumId="actress"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:4vsLKnYI68IqPSxIalqcIA"
+                title="Don't Shy Away"
+                artist="loma"
+                genre="indie"
+                date="september 23 2020"
+                tracks="11"
+                runtime="43 minutes"
+                img={loma}
+                albumId="loma"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6PhhsnbohAEOXBdqsURBeh"
+                title="acts of rebellion"
+                artist="ela minus"
+                genre="dance"
+                date="september 23 2020"
+                tracks="12"
+                runtime="41 minutes"
+                img={ela}
+                albumId="ela"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6tjwdDsjnG6RNFdt0qXHmd"
+                title="Remote"
+                artist="wallows"
+                genre="indie rock"
+                date="september 23 2020"
+                tracks="6"
+                runtime="16 minutes"
+                img={wallows}
+                albumId="wallows"
+            ></Album>
 
+            {/*
             <div className="weekCol">
               <p
                 className="noMargin horizPadder leftPadder detailText"
@@ -384,7 +500,6 @@ export default () => {
                 albumId="kelly"
             ></Album>
             
-            {/*
             <div className="weekCol">
               <p
                 className="noMargin horizPadder leftPadder detailText"
