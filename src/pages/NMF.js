@@ -44,23 +44,23 @@ import nmfD from "../img/nmf/nmfD.png";
 // import rina from "../img/nmf/albums/apr/rina.jpg";
 
 // AUG 28
-import kelly from "../img/nmf/albums/sep/kelly.jpg"
-import pvris from "../img/nmf/albums/sep/pvris.jpg"
-import sev from "../img/nmf/albums/sep/sev.jpg"
-import redveil from "../img/nmf/albums/sep/redveil.jpeg"
+// import kelly from "../img/nmf/albums/sep/kelly.jpg"
+// import pvris from "../img/nmf/albums/sep/pvris.jpg"
+// import sev from "../img/nmf/albums/sep/sev.jpg"
+// import redveil from "../img/nmf/albums/sep/redveil.jpeg"
 
 // SEP 4
-import yelle from "../img/nmf/albums/sep/yelle.jpg"
-import sancisco from "../img/nmf/albums/sep/sancisco.jpg"
-import hannah from "../img/nmf/albums/sep/hannah.jpg"
-import declan from "../img/nmf/albums/sep/declan.jpg"
-import afel from "../img/nmf/albums/sep/afel.jpg"
-import bill from "../img/nmf/albums/sep/bill.jpg"
+// import yelle from "../img/nmf/albums/sep/yelle.jpg"
+// import sancisco from "../img/nmf/albums/sep/sancisco.jpg"
+// import hannah from "../img/nmf/albums/sep/hannah.jpg"
+// import declan from "../img/nmf/albums/sep/declan.jpg"
+// import afel from "../img/nmf/albums/sep/afel.jpg"
+// import bill from "../img/nmf/albums/sep/bill.jpg"
 
 // SEP 11
-import flame from "../img/nmf/albums/sep/flame.jpg"
-import conway from "../img/nmf/albums/sep/conway.jpg"
-import doves from "../img/nmf/albums/sep/doves.jpg"
+// import flame from "../img/nmf/albums/sep/flame.jpg"
+// import conway from "../img/nmf/albums/sep/conway.jpg"
+// import doves from "../img/nmf/albums/sep/doves.jpg"
 
 // OCT 23
 import adrianne from "../img/nmf/albums/oct/adrianne.jpg"
