@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/go.css"
-import goai from "../img/finalGo.jpg";
+import goai from "../img/final2Go.jpg";
 
 export default () => (
     <div className="goBg">
