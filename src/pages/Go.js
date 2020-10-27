@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/go.css"
-import goai from "../img/goai2.png";
+import goai from "../img/goai3.png";
 
 export default () => (
     <div className="goBg">
@@ -29,5 +29,9 @@ export default () => (
                 ></iframe>
             </div>
             <a className="fromGo" href="/"><em><p id="toHome">← back</p></em></a>
+            <a className="streamingIcon apple mobileShow" href="https://music.apple.com/us/playlist/gemini-offseason/pl.u-EdAVVLGF5yY7N4"><i className="fab fa-apple fa-2x" aria-label="apple" /></a>
+            <a className="streamingIcon spotify mobileShow" href="https://open.spotify.com/playlist/6IWMk9cDXnYk2Bvoa5cNWN?si=jFopWDdZSha93_No4qgE0A"><i className="fab fa-spotify fa-2x" aria-label="spotify" /></a>
+            <a className="streamingIcon apple mobileHide" href="https://music.apple.com/us/playlist/gemini-offseason/pl.u-EdAVVLGF5yY7N4"><i className="fab fa-apple fa-3x" aria-label="apple" /></a>
+            <a className="streamingIcon spotify mobileHide" href="https://open.spotify.com/playlist/6IWMk9cDXnYk2Bvoa5cNWN?si=jFopWDdZSha93_No4qgE0A"><i className="fab fa-spotify fa-3x" aria-label="spotify" /></a>
     </div>
 );

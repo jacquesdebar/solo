@@ -42,6 +42,24 @@
     display: none;
 }
 
+.streamingIcon {
+    position: fixed;
+    bottom: 32px;
+    color: white;
+}
+
+.streamingIcon:hover {
+    color: #c3baff;
+}
+
+.apple {
+    right: 120px;
+}
+
+.spotify {
+    right: 48px;
+}
+
 @media (max-width: 850px) {
     .mobileShow {
         display: block;
@@ -50,4 +68,16 @@
     .mobileHide {
         display: none;
     }
-  }
+
+    .streamingIcon {
+        top: 24px;
+    }
+
+    .apple {
+        right: 72px;
+    }
+
+    .spotify {
+        right: 28px;
+    }
+}
