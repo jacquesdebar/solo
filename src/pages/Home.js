@@ -48,7 +48,7 @@ export default () => (
             interconnected and collaborative.
             <br />
             <br />
-            You can contact me at{" "}
+            Here's what I've been listening to recently <a className="" href="/go"><i class="fas fa-external-link-alt" aria-label="open in new tab"></i></a>. You can contact me at{" "}
             <a href="mailto:j@jacquesdebar.com">jacques.debar@gmail.com</a>.
           </p>
           {/* <Link to="/spotify" hover={true}>
