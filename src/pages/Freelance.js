@@ -5,8 +5,25 @@ import possi from "../img/possi2s.gif";
 import trax from "../img/trax.gif";
 import wltvShow from "../img/wltvShow2.gif";
 import "../css/freelance.css"
+import Modal from "react-responsive-modal";
 
-export default () => (
+export default class Academics extends React.Component {
+  state = {
+    openCP: false
+  };
+
+  onOpenCPModal = () => {
+    this.setState({ openCP: true });
+  };
+
+  onCloseCPModal = () => {
+    this.setState({ openCP: false });
+  };
+
+  render() {
+    const { openCP } = this.state;
+
+    return (
   <div className="row">
     <div className="col-12">
       {/* page title */}
@@ -65,6 +82,47 @@ export default () => (
       </div>
       {/* an ios app that allows for predicting the outcomes of sporting events and
 competing against other players to see who is the best predictor */}
+
+      <div className="row my-5">
+        <div className="col-12">
+          <h2 className="mb-2">Common Power Infographic</h2>
+          {/*<h3 className="course mb-3">INFO 362: Visual Information Design</h3>*/}
+          <div className="row justify-content-center">
+            <Img
+              src="/cpPreviewEmbed.png"
+              alt="Common Power Infographic"
+              style={{ width: "100%", cursor: "pointer" }}
+              onClick={this.onOpenCPModal}
+              className="cpImage"
+            />
+            <Modal
+              open={openCP}
+              onClose={this.onCloseCPModal}
+              center
+              styles={{
+                modal: {
+                  background: "none",
+                  maxWidth: 1200
+                },
+                closeIcon: {
+                  color: "white"
+                }
+              }}
+              //   closeIconSize={40}
+            >
+              <Img src="/cpInfographic.jpg" alt="Common Power Infographic" />
+            </Modal>
+          </div>
+          <div className="mt-2">
+            <p>
+              <a href="https://commonpower.org/">Common Power</a> is a Seattle organization dedicated to civic engagement. 
+              In order to help them track and share their 2020 election efforts, I created an infographic meant for sharing
+              in weekly email newsletters. The vertical infographic is optimized for mobile email viewing and incorporates
+              new weekly data each Monday. Click or tap the preview above to see the full, uncut infographic.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="row my-4">
         <div className="col-12">
@@ -183,3 +241,6 @@ competing against other players to see who is the best predictor */}
     </div>
   </div>
 );
+
+}
+}
