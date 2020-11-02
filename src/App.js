@@ -8,6 +8,7 @@ import Personal from "./pages/Personal";
 import Solstice from "./pages/Solstice";
 import NMF from "./pages/NMF";
 import Go from "./pages/Go"
+import Hunch from "./pages/Hunch"
 // import Spotify from "./pages/Spotify";
 import "./css/App.css";
 
@@ -53,6 +54,9 @@ const NMFPage = () => (
 
 const GoPage = () => <Go />
 
+
+const HunchPage = () => <Hunch />
+
 // const SpotifyPage = () => (
 //   <Spotify />
 // )
@@ -69,6 +73,7 @@ class App extends Component {
           <Route exact path="/solstice" component={SolsticePage} />
           <Route exact path="/nmf" component={NMFPage} />
           <Route exact path="/go" component={GoPage} />
+          <Route exact path="/hunch" component={HunchPage} />
           {/* <Route exact path="/spotify" component ={SpotifyPage} /> */}
         </Switch>
       </BrowserRouter>
