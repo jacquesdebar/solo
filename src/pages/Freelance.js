@@ -38,7 +38,7 @@ export default class Academics extends React.Component {
           <a href="/nmf">
             <h2 className="mb-2">NMF: New Music Friday</h2>
           </a>
-          <h3 className="course mb-3">sole creation and ownership</h3>
+          <h3 className="course mb-3">a solo project</h3>
           <p>
             a new music discovery and curation hotspot
           </p>
@@ -85,7 +85,7 @@ competing against other players to see who is the best predictor */}
 
       <div className="row my-5">
         <div className="col-12">
-          <h2 className="mb-2">Common Power Infographic</h2>
+          <h2 className="mb-2"><a href="https://commonpower.org/">Common Power Infographic</a></h2>
           {/*<h3 className="course mb-3">INFO 362: Visual Information Design</h3>*/}
           <div className="row justify-content-center">
             <Img
@@ -153,7 +153,7 @@ competing against other players to see who is the best predictor */}
       <div className="row my-4">
         <div className="col-12">
           <h2 className="mb-2">Spotify Tracker</h2>
-          <h3 className="course mb-3">start-to-finish creation</h3>
+          <h3 className="course mb-3">a solo project</h3>
           <p>
             designed and built a web app using the Spotify API to help me track
             new music releases and examine my own listening habits.
