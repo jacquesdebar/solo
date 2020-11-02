@@ -19,7 +19,7 @@ export default () => (
           <p>
             Hi. My name is Jacques, and I am a 22-year-old creative and a recent graduate of
             the University of Washington's {" "}
-            <a href="https://ischool.uw.edu/programs/informatics">
+            <a href="https://ischool.uw.edu/programs/informatics" target="_blank">
               informatics program
             </a>
             . I work heavily with user interfaces, databases, and most of all,
@@ -37,18 +37,18 @@ export default () => (
             time in Seattle, I have been fortunate enough to meet an abundance
             of wonderfully-talented creatives who continue to push and inspire
             me every day. Special thanks to{" "}
-            <a href="https://www.instagram.com/iu.band/">i///u</a> as well as my
+            <a href="https://www.instagram.com/iu.band/" target="_blank">i///u</a> as well as my
             friends at{" "}
-            <a href="https://www.instagram.com/h_mancondition/">
+            <a href="https://www.instagram.com/h_mancondition/" target="_blank">
               Human Condition
             </a>{" "}
-            and <a href="https://www.instagram.com/possilife/">Possi</a> for
+            and <a href="https://www.instagram.com/possilife/" target="_blank">Possi</a> for
             igniting my own creative drive and providing Seattle with a blooming
             young creative community than is becoming more and more
             interconnected and collaborative.
             <br />
             <br />
-            Here's what I've been listening to recently <a className="" href="/go"><i class="fas fa-external-link-alt" aria-label="open in new tab"></i></a>. You can contact me at{" "}
+            Here's what I've been listening to recently <a className="" href="/go" target="_blank"><i class="fas fa-external-link-alt" aria-label="open in new tab"></i></a>. You can contact me at{" "}
             <a href="mailto:j@jacquesdebar.com">jacques.debar@gmail.com</a>.
           </p>
           {/* <Link to="/spotify" hover={true}>
