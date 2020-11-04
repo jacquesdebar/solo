@@ -4,6 +4,22 @@ import { Album } from "../components";
 
 import "../css/nmf.css";
 
+/*
+
+            <Album
+                className="albumCard"
+                uri="SPOTIFYURIHERE"
+                title="TITLEHERE"
+                artist="ARTISTHERE"
+                genre="GENREHERE"
+                date="DATE"
+                tracks="NUMTRACKS"
+                runtime="XXX minutes"
+                img={XXX}
+                albumId="ALBUMID"
+            ></Album>
+*/
+
 // import te from "../img/327.png"
 // import hero from "../img/nmf/albums/mar/327bg.jpg";
 // import qadir from "../img/nmf/albums/apr/qadir.jpg";
@@ -12,7 +28,8 @@ import "../css/nmf.css";
 // import nightrider from "../img/nmf/albums/apr/nightrider.png";
 // import gus from "../img/nmf/albums/apr/gus.jpg"
 // import bs from "../img/nmf/albums/sep/bs.jpeg"
-import biig from "../img/nmf/albums/oct/biig.jpg"
+// import biig from "../img/nmf/albums/oct/biig.jpg"
+import sunsick from "../img/nmf/albums/oct/sunsick.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -20,6 +37,7 @@ import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 import nmfW from "../img/nmf/nmfW.png";
 import nmfB from "../img/nmf/nmfB.png";
 import nmfD from "../img/nmf/nmfD.png";
+import XXX from "../img/nmf/albums/apr/wilma.jpg"
 
 // APR 10
 // import yves from "../img/nmf/albums/apr/yves.jpg";
@@ -70,7 +88,10 @@ import kit from "../img/nmf/albums/oct/kit.jpg"
 import jp4 from "../img/nmf/albums/oct/jp4.jpg"
 import ela from "../img/nmf/albums/oct/ela.jpg"
 import loma from "../img/nmf/albums/oct/loma.jpg"
-import actress from "../img/nmf/albums/oct/actress.jpg"
+// import actress from "../img/nmf/albums/oct/actress.jpg"
+
+// OCT 30
+import oneoh from "../img/nmf/albums/oct/oneoh.jpg"
 
 
 export default () => {
@@ -111,7 +132,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of October 23, 2020</p>
+          <p>Week of October 30, 2020</p>
         </div>
 
         {/*
@@ -136,16 +157,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Oh No</p>
-          <p className="sotwArtist mb-4">Biig Piig</p>
+          <p className="sotwTitle mb-0">Sunsick</p>
+          <p className="sotwArtist mb-4">Bennett Coast</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={biig} alt="single of the week" />
-            <p className="sotwR">week of october 23</p>
+            <img className="heroImg mb-1" src={sunsick} alt="single of the week" />
+            <p className="sotwR">week of october 30</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/5OplD6jkrUT7XJFFIM6mph"
+            src="https://open.spotify.com/embed/track/5bRhKVGEj14xo6S5mHz7rh"
             width="60%"
             height="80"
             frameBorder="0"
@@ -211,13 +232,60 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
-          <div className="weekCol">
-              <p
-                className="noMargin horizPadder leftPadder detailText"
-                style={{ fontWeight: "bold", color: "white" }}
-              >
-                week of october 23 &nbsp; &#8595;
-              </p>
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of october 30 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:0oGzSazidykcL5XNTEuS9z"
+                title="Magic Oneohtrix Point Never"
+                artist="Oneohtrix Point Never"
+                genre="experimental"
+                date="october 30 2020"
+                tracks="17"
+                runtime="47 minutes"
+                img={oneoh}
+                albumId="oneoh"
+            ></Album>
+            {/*
+            <Album
+                className="albumCard"
+                uri="SPOTIFYURIHERE"
+                title="TITLEHERE"
+                artist="ARTISTHERE"
+                genre="GENREHERE"
+                date="DATE"
+                tracks="NUMTRACKS"
+                runtime="XXX minutes"
+                img={XXX}
+                albumId="ALBUMID"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="SPOTIFYURIHERE"
+                title="TITLEHERE"
+                artist="ARTISTHERE"
+                genre="GENREHERE"
+                date="DATE"
+                tracks="NUMTRACKS"
+                runtime="XXX minutes"
+                img={XXX}
+                albumId="ALBUMID"
+            ></Album>
+            */}
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of october 23 &nbsp; &#8595;
+                </p>
             </div>
             <Album
                 className="albumCard"
@@ -269,18 +337,6 @@ export default () => {
             ></Album>
             <Album
                 className="albumCard"
-                uri="spotify:album:5tDW2Im2auURmW8IOA8dQ1"
-                title="Karma & Desire"
-                artist="actress"
-                genre="experimental"
-                date="september 23 2020"
-                tracks="17"
-                runtime="68 minutes"
-                img={actress}
-                albumId="actress"
-            ></Album>
-            <Album
-                className="albumCard"
                 uri="spotify:album:4vsLKnYI68IqPSxIalqcIA"
                 title="Don't Shy Away"
                 artist="loma"
@@ -315,7 +371,6 @@ export default () => {
                 img={wallows}
                 albumId="wallows"
             ></Album>
-
             {/*
             <div className="weekCol">
               <p
