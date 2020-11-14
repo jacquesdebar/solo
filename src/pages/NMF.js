@@ -101,7 +101,7 @@ import pinksiifu from "../img/nmf/albums/nov/pinksiifu.jpg"
 import coventry from "../img/nmf/albums/nov/coventry.jpg"
 import hachiku from "../img/nmf/albums/nov/hachiku.jpg"
 import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
-import joni from "../img/nmf/albums/nov/joni.jpg"
+import gal from "../img/nmf/albums/nov/gal.jpg"
 
 
 export default () => {
@@ -167,16 +167,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">People's Parties</p>
-          <p className="sotwArtist mb-4">Joni Mitchell</p>
+          <p className="sotwTitle mb-0">Avarandado</p>
+          <p className="sotwArtist mb-4">Gal Costa & Rodrigo Amarante</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={joni} alt="single of the week" />
+            <img className="heroImg mb-1" src={gal} alt="single of the week" />
             <p className="sotwR">week of november 13</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/5RI0qk5rSvAJwCwxtDSKKM"
+            src="https://open.spotify.com/embed/track/4HW3qBemcKJYaoW0iFqGJV"
             width="60%"
             height="80"
             frameBorder="0"
