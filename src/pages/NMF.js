@@ -96,12 +96,12 @@ import oneoh from "../img/nmf/albums/oct/oneoh.jpg"
 // NOV 6
 
 // NOV 13
-import amaarae from "../img/nmf/albumns/nov/amaarae.jpg"
-import pinksiifu from "../img/nmf/albumns/nov/pinksiifu.jpg"
-import coventry from "../img/nmf/albumns/nov/coventry.jpg"
-import hachiku from "../img/nmf/albumns/nov/hachiku.jpg"
-import anaroxanne from "../img/nmf/albumns/nov/anaroxanne.jpg"
-import joni from "../img/nmf/albumns/nov/joni.jpg"
+import amaarae from "../img/nmf/albums/nov/amaarae.jpg"
+import pinksiifu from "../img/nmf/albums/nov/pinksiifu.jpg"
+import coventry from "../img/nmf/albums/nov/coventry.jpg"
+import hachiku from "../img/nmf/albums/nov/hachiku.jpg"
+import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
+import joni from "../img/nmf/albums/nov/joni.jpg"
 
 
 export default () => {
