@@ -93,6 +93,16 @@ import loma from "../img/nmf/albums/oct/loma.jpg"
 // OCT 30
 import oneoh from "../img/nmf/albums/oct/oneoh.jpg"
 
+// NOV 6
+
+// NOV 13
+import amaarae from "../img/nmf/albumns/nov/amaarae.jpg"
+import pinksiifu from "../img/nmf/albumns/nov/pinksiifu.jpg"
+import coventry from "../img/nmf/albumns/nov/coventry.jpg"
+import hachiku from "../img/nmf/albumns/nov/hachiku.jpg"
+import anaroxanne from "../img/nmf/albumns/nov/anaroxanne.jpg"
+import joni from "../img/nmf/albumns/nov/joni.jpg"
+
 
 export default () => {
 
@@ -132,7 +142,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of October 30, 2020</p>
+          <p>Week of November 13, 2020</p>
         </div>
 
         {/*
@@ -157,16 +167,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Sunsick</p>
-          <p className="sotwArtist mb-4">Bennett Coast</p>
+          <p className="sotwTitle mb-0">People's Parties</p>
+          <p className="sotwArtist mb-4">Joni Mitchell</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={sunsick} alt="single of the week" />
-            <p className="sotwR">week of october 30</p>
+            <img className="heroImg mb-1" src={joni} alt="single of the week" />
+            <p className="sotwR">week of november 13</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/5bRhKVGEj14xo6S5mHz7rh"
+            src="https://open.spotify.com/embed/track/5RI0qk5rSvAJwCwxtDSKKM"
             width="60%"
             height="80"
             frameBorder="0"
@@ -232,6 +242,87 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of november 13 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5tQesfLO9KsUNVR01BNehy"
+                title="The Angel You Don't Know"
+                artist="Amaarae"
+                genre="afro / experimental"
+                date="november 12 2020"
+                tracks="14"
+                runtime="35 minutes"
+                img={amaarae}
+                albumId="ALBUMID"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:3PgdbGumg1YyXSOVsyDvjn"
+                title="FlySiifu's"
+                artist="Pink Siifu & Fly Anakin"
+                genre="hip-hop"
+                date="november 13 2020"
+                tracks="22"
+                runtime="46 minutes"
+                img={pinksiifu}
+                albumId="pinksiifu"
+            ></Album> 
+            <Album
+                className="albumCard"
+                uri="spotify:album:07XuUjDVxufzEQI5bGpzhT"
+                title="Send Them To Coventry"
+                artist="Pa Salieu"
+                genre="uk hip-hop"
+                date="november 13 2020"
+                tracks="16"
+                runtime="38 minutes"
+                img={coventry}
+                albumId="coventry"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:4JShepplFefZ43GXoE4bRd"
+                title="Because of a Flower"
+                artist="Ana Roxanne"
+                genre="ambient"
+                date="november 13 2020"
+                tracks="7"
+                runtime="39 minutes"
+                img={anaroxanne}
+                albumId="anaroxanne"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5KKkoPJZNTxNK9HPVOxyXU"
+                title="I'll Probably Be Asleep"
+                artist="Hachiku"
+                genre="indie rock"
+                date="november 13"
+                tracks="8"
+                runtime="34 minutes"
+                img={hachiku}
+                albumId="hachiku"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="SPOTIFYURIHERE"
+                title="TITLEHERE"
+                artist="ARTISTHERE"
+                genre="GENREHERE"
+                date="DATE"
+                tracks="NUMTRACKS"
+                runtime="XXX minutes"
+                img={XXX}
+                albumId="ALBUMID"
+            ></Album>
+
             <div className="weekCol">
                 <p
                   className="noMargin horizPadder leftPadder detailText"
