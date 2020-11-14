@@ -310,18 +310,6 @@ export default () => {
                 img={hachiku}
                 albumId="hachiku"
             ></Album>
-            <Album
-                className="albumCard"
-                uri="SPOTIFYURIHERE"
-                title="TITLEHERE"
-                artist="ARTISTHERE"
-                genre="GENREHERE"
-                date="DATE"
-                tracks="NUMTRACKS"
-                runtime="XXX minutes"
-                img={XXX}
-                albumId="ALBUMID"
-            ></Album>
 
             <div className="weekCol">
                 <p
