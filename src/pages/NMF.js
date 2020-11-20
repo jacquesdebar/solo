@@ -29,7 +29,9 @@ import "../css/nmf.css";
 // import gus from "../img/nmf/albums/apr/gus.jpg"
 // import bs from "../img/nmf/albums/sep/bs.jpeg"
 // import biig from "../img/nmf/albums/oct/biig.jpg"
-import sunsick from "../img/nmf/albums/oct/sunsick.jpg"
+// import sunsick from "../img/nmf/albums/oct/sunsick.jpg"
+// import gal from "../img/nmf/albums/nov/gal.jpg"
+import skate from "../img/nmf/albums/nov/skate.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -37,7 +39,7 @@ import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 import nmfW from "../img/nmf/nmfW.png";
 import nmfB from "../img/nmf/nmfB.png";
 import nmfD from "../img/nmf/nmfD.png";
-import XXX from "../img/nmf/albums/apr/wilma.jpg"
+// import XXX from "../img/nmf/albums/apr/wilma.jpg"
 
 // APR 10
 // import yves from "../img/nmf/albums/apr/yves.jpg";
@@ -81,13 +83,13 @@ import XXX from "../img/nmf/albums/apr/wilma.jpg"
 // import doves from "../img/nmf/albums/sep/doves.jpg"
 
 // OCT 23
-import adrianne from "../img/nmf/albums/oct/adrianne.jpg"
-import jean from "../img/nmf/albums/oct/jean.jpg"
-import wallows from "../img/nmf/albums/oct/wallows.jpg"
-import kit from "../img/nmf/albums/oct/kit.jpg"
-import jp4 from "../img/nmf/albums/oct/jp4.jpg"
-import ela from "../img/nmf/albums/oct/ela.jpg"
-import loma from "../img/nmf/albums/oct/loma.jpg"
+// import adrianne from "../img/nmf/albums/oct/adrianne.jpg"
+// import jean from "../img/nmf/albums/oct/jean.jpg"
+// import wallows from "../img/nmf/albums/oct/wallows.jpg"
+// import kit from "../img/nmf/albums/oct/kit.jpg"
+// import jp4 from "../img/nmf/albums/oct/jp4.jpg"
+// import ela from "../img/nmf/albums/oct/ela.jpg"
+// import loma from "../img/nmf/albums/oct/loma.jpg"
 // import actress from "../img/nmf/albums/oct/actress.jpg"
 
 // OCT 30
@@ -101,8 +103,10 @@ import pinksiifu from "../img/nmf/albums/nov/pinksiifu.jpg"
 import coventry from "../img/nmf/albums/nov/coventry.jpg"
 import hachiku from "../img/nmf/albums/nov/hachiku.jpg"
 import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
-import gal from "../img/nmf/albums/nov/gal.jpg"
 
+// NOV 20
+import meg from "../img/nmf/albums/nov/meg.jpg"
+import shygirl from "../img/nmf/albums/nov/shygirl.jpg"
 
 export default () => {
 
@@ -142,7 +146,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of November 13, 2020</p>
+          <p>Week of November 20, 2020</p>
         </div>
 
         {/*
@@ -167,16 +171,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Avarandado</p>
-          <p className="sotwArtist mb-4">Gal Costa & Rodrigo Amarante</p>
+          <p className="sotwTitle mb-0">Skate</p>
+          <p className="sotwArtist mb-4">BIA</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={gal} alt="single of the week" />
-            <p className="sotwR">week of november 13</p>
+            <img className="heroImg mb-1" src={skate} alt="single of the week" />
+            <p className="sotwR">week of november 20</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/4HW3qBemcKJYaoW0iFqGJV"
+            src="https://open.spotify.com/embed/track/6WQiTSAAuWGSA9lkb0COcr"
             width="60%"
             height="80"
             frameBorder="0"
@@ -242,6 +246,40 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of november 20 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:0KjckH1EE6HRRurMIXSc0r"
+                title="Good News"
+                artist="Megan Thee Stallion"
+                genre="hip-hop"
+                date="november 20 2020"
+                tracks="17"
+                runtime="49 minutes"
+                img={meg}
+                albumId="meg"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:3lpcZOAsYJzvPepNSbzMSb"
+                title="ALIAS"
+                artist="Shygirl"
+                genre="experimental / dance"
+                date="november 20 2020"
+                tracks="7"
+                runtime="19 minutes"
+                img={shygirl}
+                albumId="shygirl"
+            ></Album>
+
             <div className="weekCol">
                 <p
                   className="noMargin horizPadder leftPadder detailText"
@@ -260,7 +298,7 @@ export default () => {
                 tracks="14"
                 runtime="35 minutes"
                 img={amaarae}
-                albumId="ALBUMID"
+                albumId="amaarae"
             ></Album>
             <Album
                 className="albumCard"
@@ -334,7 +372,7 @@ export default () => {
             {/*
             <Album
                 className="albumCard"
-                uri="SPOTIFYURIHERE"
+                uri="spotify:album:0KjckH1EE6HRRurMIXSc0r"
                 title="TITLEHERE"
                 artist="ARTISTHERE"
                 genre="GENREHERE"
@@ -357,7 +395,7 @@ export default () => {
                 albumId="ALBUMID"
             ></Album>
             */}
-
+            {/*
             <div className="weekCol">
                 <p
                   className="noMargin horizPadder leftPadder detailText"
@@ -450,7 +488,7 @@ export default () => {
                 img={wallows}
                 albumId="wallows"
             ></Album>
-            {/*
+            
             <div className="weekCol">
               <p
                 className="noMargin horizPadder leftPadder detailText"
