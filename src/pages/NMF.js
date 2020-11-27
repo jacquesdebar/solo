@@ -108,6 +108,7 @@ import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
 // NOV 20
 import meg from "../img/nmf/albums/nov/meg.jpg"
 import shygirl from "../img/nmf/albums/nov/shygirl.jpg"
+import war from "../img/nmf/albums/nov/war.jpg"
 
 // NOV 27
 import miley from "../img/nmf/albums/nov/miley.jpg"
