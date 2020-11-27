@@ -303,6 +303,18 @@ export default () => {
                 img={shygirl}
                 albumId="shygirl"
             ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6wkH6InYGqr5hXxzLkt5Rz"
+                title="LIVE DRUGS"
+                artist="The War On Drugs"
+                genre="live rock"
+                date="november 20 2020"
+                tracks="10"
+                runtime="74 minutes"
+                img={war}
+                albumId="war"
+            ></Album>
 
             <div className="weekCol">
                 <p
