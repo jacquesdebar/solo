@@ -112,6 +112,9 @@ import war from "../img/nmf/albums/nov/war.jpg"
 
 // NOV 27
 import miley from "../img/nmf/albums/nov/miley.jpg"
+import flohio from "../img/nmf/albums/nov/flohio.jpg"
+import ane from "../img/nmf/albums/nov/ane.jpg"
+import statik from "../img/nmf/albums/nov/statik.jpg"
 
 export default () => {
 
@@ -270,6 +273,42 @@ export default () => {
                 runtime="50 minutes"
                 img={miley}
                 albumId="miley"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:7K0LNLvjx54vssCWX26PzR"
+                title="No Panic No Pain"
+                artist="Flohio"
+                genre="uk hip-hop"
+                date="november 27 2020"
+                tracks="10"
+                runtime="29 minutes"
+                img={flohio}
+                albumId="flohio"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:7cvGvQ4o2mWFLMfyqhLtT2"
+                title="How Beauty Holds The Hands Of Sorrow"
+                artist="Ane Brun"
+                genre="acoustic folk"
+                date="november 27 2020"
+                tracks="9"
+                runtime="38 minutes"
+                img={ane}
+                albumId="ane"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="https://open.spotify.com/album/3pc2lFIjcR56ZAdBLJ7S1N?si=MNtkLpsPTbG57s8h3BXSPA"
+                title="The Balancing Act"
+                artist="Statik Selektah"
+                genre="hip-hop"
+                date="november 27 2020"
+                tracks="16"
+                runtime="46 minutes"
+                img={statik}
+                albumId="statik"
             ></Album>
 
             <div className="weekCol">
