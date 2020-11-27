@@ -289,7 +289,7 @@ export default () => {
             <Album
                 className="albumCard"
                 uri="spotify:album:7cvGvQ4o2mWFLMfyqhLtT2"
-                title="How Beauty Holds The Hands Of Sorrow"
+                title="How Beauty Holds The Hands..."
                 artist="Ane Brun"
                 genre="acoustic folk"
                 date="november 27 2020"
