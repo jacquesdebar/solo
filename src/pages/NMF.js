@@ -31,7 +31,8 @@ import "../css/nmf.css";
 // import biig from "../img/nmf/albums/oct/biig.jpg"
 // import sunsick from "../img/nmf/albums/oct/sunsick.jpg"
 // import gal from "../img/nmf/albums/nov/gal.jpg"
-import skate from "../img/nmf/albums/nov/skate.jpg"
+// import skate from "../img/nmf/albums/nov/skate.jpg"
+import franco from "../img/nmf/albums/nov/franco.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -108,6 +109,9 @@ import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
 import meg from "../img/nmf/albums/nov/meg.jpg"
 import shygirl from "../img/nmf/albums/nov/shygirl.jpg"
 
+// NOV 27
+import miley from "../img/nmf/albums/nov/miley.jpg"
+
 export default () => {
 
   // useEffect(() => alert('Due to the urgent issues of systemic racism and police brutality, NMF is on pause until further notice.'), []);
@@ -146,7 +150,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of November 20, 2020</p>
+          <p>Week of November 27, 2020</p>
         </div>
 
         {/*
@@ -171,16 +175,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Skate</p>
-          <p className="sotwArtist mb-4">BIA</p>
+          <p className="sotwTitle mb-0">Fallin' Apart</p>
+          <p className="sotwArtist mb-4">Young Franco (ft. Denzel Curry & Pell)</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={skate} alt="single of the week" />
-            <p className="sotwR">week of november 20</p>
+            <img className="heroImg mb-1" src={franco} alt="single of the week" />
+            <p className="sotwR">week of november 27</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/6WQiTSAAuWGSA9lkb0COcr"
+            src="https://open.spotify.com/embed/album/7LK33wpZ5LmLwWkCMxDXdp"
             width="60%"
             height="80"
             frameBorder="0"
@@ -246,6 +250,26 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of november 27 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5BRhg6NSEZOj0BR6Iz56fR"
+                title="Plastic Hearts"
+                artist="Miley Cyrus"
+                genre="pop / blues"
+                date="november 27 2020"
+                tracks="15"
+                runtime="50 minutes"
+                img={miley}
+                albumId="miley"
+            ></Album>
 
             <div className="weekCol">
                 <p
