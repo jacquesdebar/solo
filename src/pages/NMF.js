@@ -300,7 +300,7 @@ export default () => {
             ></Album>
             <Album
                 className="albumCard"
-                uri="https://open.spotify.com/album/3pc2lFIjcR56ZAdBLJ7S1N?si=MNtkLpsPTbG57s8h3BXSPA"
+                uri="spotify:album:3pc2lFIjcR56ZAdBLJ7S1N"
                 title="The Balancing Act"
                 artist="Statik Selektah"
                 genre="hip-hop"
