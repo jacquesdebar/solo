@@ -112,7 +112,7 @@ import war from "../img/nmf/albums/nov/war.jpg"
 
 // NOV 27
 import miley from "../img/nmf/albums/nov/miley.jpg"
-import flohio from "../img/nmf/albums/nov/flohio.jpg"
+// import flohio from "../img/nmf/albums/nov/flohio.jpg"
 import ane from "../img/nmf/albums/nov/ane.jpg"
 import statik from "../img/nmf/albums/nov/statik.jpg"
 
@@ -273,18 +273,6 @@ export default () => {
                 runtime="50 minutes"
                 img={miley}
                 albumId="miley"
-            ></Album>
-            <Album
-                className="albumCard"
-                uri="spotify:album:7K0LNLvjx54vssCWX26PzR"
-                title="No Panic No Pain"
-                artist="Flohio"
-                genre="uk hip-hop"
-                date="november 27 2020"
-                tracks="10"
-                runtime="29 minutes"
-                img={flohio}
-                albumId="flohio"
             ></Album>
             <Album
                 className="albumCard"
