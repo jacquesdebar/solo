@@ -32,7 +32,8 @@ import "../css/nmf.css";
 // import sunsick from "../img/nmf/albums/oct/sunsick.jpg"
 // import gal from "../img/nmf/albums/nov/gal.jpg"
 // import skate from "../img/nmf/albums/nov/skate.jpg"
-import franco from "../img/nmf/albums/nov/franco.jpg"
+// import franco from "../img/nmf/albums/nov/franco.jpg"
+import sza from "../img/nmf/albums/dec/sza.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -104,6 +105,7 @@ import pinksiifu from "../img/nmf/albums/nov/pinksiifu.jpg"
 import coventry from "../img/nmf/albums/nov/coventry.jpg"
 import hachiku from "../img/nmf/albums/nov/hachiku.jpg"
 import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
+import aya from "../img/nmf/albums/nov/aya.jpg"
 
 // NOV 20
 import meg from "../img/nmf/albums/nov/meg.jpg"
@@ -115,6 +117,13 @@ import miley from "../img/nmf/albums/nov/miley.jpg"
 // import flohio from "../img/nmf/albums/nov/flohio.jpg"
 import ane from "../img/nmf/albums/nov/ane.jpg"
 import statik from "../img/nmf/albums/nov/statik.jpg"
+
+// DEC 11
+import taylor from "../img/nmf/albums/dec/taylor.jpg"
+import avalanches from "../img/nmf/albums/dec/avalanches.jpg"
+
+// DEC 25
+import carti from "../img/nmf/albums/dec/carti.jpg"
 
 export default () => {
 
@@ -154,7 +163,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of November 27, 2020</p>
+          <p>Week of December 25, 2020</p>
         </div>
 
         {/*
@@ -179,16 +188,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Fallin' Apart</p>
-          <p className="sotwArtist mb-4">Young Franco (ft. Denzel Curry & Pell)</p>
+          <p className="sotwTitle mb-0">Good Days</p>
+          <p className="sotwArtist mb-4">SZA</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={franco} alt="single of the week" />
-            <p className="sotwR">week of november 27</p>
+            <img className="heroImg mb-1" src={sza} alt="single of the week" />
+            <p className="sotwR">week of december 25</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/album/7LK33wpZ5LmLwWkCMxDXdp"
+            src="https://open.spotify.com/embed/track/3YJJjQPAbDT7mGpX3WtQ9A"
             width="60%"
             height="80"
             frameBorder="0"
@@ -254,6 +263,61 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of december 25 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:2QRedhP5RmKJiJ1i8VgDGR"
+                title="whole lotta red"
+                artist="playboi carti"
+                genre="trap / experimental"
+                date="december 25 2020"
+                tracks="24"
+                runtime="63 minutes"
+                img={carti}
+                albumId="carti"
+            ></Album>
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of december 11 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:2Xoteh7uEpea4TohMxjtaq"
+                title="evermore"
+                artist="Taylor Swift"
+                genre="indie / folk"
+                date="december 11 2020"
+                tracks="15"
+                runtime="60 minutes"
+                img={taylor}
+                albumId="taylor"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:755yBlrk0Sz8tIgMMTgyr1"
+                title="we will always love you"
+                artist="the avalanches"
+                genre="experimental"
+                date="december 11 2020"
+                tracks="25"
+                runtime="71 minutes"
+                img={avalanches}
+                albumId="avalanches"
+            ></Album>
+
             <div className="weekCol">
                 <p
                   className="noMargin horizPadder leftPadder detailText"
@@ -399,6 +463,18 @@ export default () => {
                 runtime="39 minutes"
                 img={anaroxanne}
                 albumId="anaroxanne"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:0BUPS678TfgTmCMVOviolC"
+                title="AYA"
+                artist="Aya Nakamura"
+                genre="afrobeats / r&b"
+                date="november 13 2020"
+                tracks="15"
+                runtime="42 minutes"
+                img={aya}
+                albumId="aya"
             ></Album>
             <Album
                 className="albumCard"
