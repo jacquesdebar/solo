@@ -2,6 +2,7 @@ import React from "react";
 // import { Link, Img } from './components'
 import { Img } from "../components";
 import possi from "../img/possi2s.gif";
+import raki from "../img/raki2.gif";
 import trax from "../img/trax.gif";
 import wltvShow from "../img/wltvShow2.gif";
 import "../css/freelance.css"
@@ -72,6 +73,30 @@ export default class Academics extends React.Component {
             <a href="https://www.possi.life/possi-studios" className="row justify-content-center">
               <img
                 src={possi}
+                alt="loading..."
+                className
+                style={{ width: "80%" }}
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* an ios app that allows for predicting the outcomes of sporting events and
+competing against other players to see who is the best predictor */}
+
+      <div className="row my-4">
+        <div className="col-12">
+          <a href="https://www.rakicollective.com/">
+            <h2 className="mb-2">Raki</h2>
+          </a>
+          <h3 className="course mb-3">web design and development</h3>
+          <p>
+            hip-hop and lifestyle collective
+          </p>
+          <div className="row justify-content-center my-5">
+            <a href="https://www.rakicollective.com/" className="row justify-content-center">
+              <img
+                src={raki}
                 alt="loading..."
                 className
                 style={{ width: "80%" }}
