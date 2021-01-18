@@ -193,8 +193,8 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Good Days</p>
-          <p className="sotwArtist mb-4">SZA</p>
+          <p className="sotwTitle mb-0">Doorman - Vegyn Remix</p>
+          <p className="sotwArtist mb-4">SebastiAn, Vegyn, & Syd</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
             <img className="heroImg mb-1" src={doorman} alt="single of the week" />
