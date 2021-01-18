@@ -33,7 +33,8 @@ import "../css/nmf.css";
 // import gal from "../img/nmf/albums/nov/gal.jpg"
 // import skate from "../img/nmf/albums/nov/skate.jpg"
 // import franco from "../img/nmf/albums/nov/franco.jpg"
-import sza from "../img/nmf/albums/dec/sza.jpg"
+// import sza from "../img/nmf/albums/dec/sza.jpg"
+import doorman from "../img/nmf/albums/jan/doorman.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -125,6 +126,10 @@ import avalanches from "../img/nmf/albums/dec/avalanches.jpg"
 // DEC 25
 import carti from "../img/nmf/albums/dec/carti.jpg"
 
+// JAN 15
+import shame from "../img/nmf/albums/jan/shame.jpg"
+import hether from "../img/nmf/albums/jan/hether.jpg"
+
 export default () => {
 
   // useEffect(() => alert('Due to the urgent issues of systemic racism and police brutality, NMF is on pause until further notice.'), []);
@@ -192,12 +197,12 @@ export default () => {
           <p className="sotwArtist mb-4">SZA</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={sza} alt="single of the week" />
-            <p className="sotwR">week of december 25</p>
+            <img className="heroImg mb-1" src={doorman} alt="single of the week" />
+            <p className="sotwR">week of january 15</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/3YJJjQPAbDT7mGpX3WtQ9A"
+            src="https://open.spotify.com/embed/track/0QyOGi3zEgYVO0PXt8avlA"
             width="60%"
             height="80"
             frameBorder="0"
@@ -263,6 +268,39 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of january 15 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:7hl54HF6Nykh5IDrbqhiJX"
+                title="drunk tank pink"
+                artist="shame"
+                genre="alternative rock"
+                date="january 15 2020"
+                tracks="11"
+                runtime="41 minutes"
+                img={shame}
+                albumId="shame"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5fRFL33mS6f2EtH9RjOz68"
+                title="sticky thumb"
+                artist="hether"
+                genre="indie rock"
+                date="january 15 2020"
+                tracks="8"
+                runtime="27 minutes"
+                img={hether}
+                albumId="hether"
+            ></Album>
 
             <div className="weekCol">
                 <p
