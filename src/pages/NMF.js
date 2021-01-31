@@ -34,7 +34,8 @@ import "../css/nmf.css";
 // import skate from "../img/nmf/albums/nov/skate.jpg"
 // import franco from "../img/nmf/albums/nov/franco.jpg"
 // import sza from "../img/nmf/albums/dec/sza.jpg"
-import doorman from "../img/nmf/albums/jan/doorman.jpg"
+// import doorman from "../img/nmf/albums/jan/doorman.jpg"
+import badbroods from "../img/nmf/albums/jan/badbroods.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -96,39 +97,44 @@ import nmfD from "../img/nmf/nmfD.png";
 // import actress from "../img/nmf/albums/oct/actress.jpg"
 
 // OCT 30
-import oneoh from "../img/nmf/albums/oct/oneoh.jpg"
+// import oneoh from "../img/nmf/albums/oct/oneoh.jpg"
 
 // NOV 6
 
 // NOV 13
-import amaarae from "../img/nmf/albums/nov/amaarae.jpg"
-import pinksiifu from "../img/nmf/albums/nov/pinksiifu.jpg"
-import coventry from "../img/nmf/albums/nov/coventry.jpg"
-import hachiku from "../img/nmf/albums/nov/hachiku.jpg"
-import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
-import aya from "../img/nmf/albums/nov/aya.jpg"
+// import amaarae from "../img/nmf/albums/nov/amaarae.jpg"
+// import pinksiifu from "../img/nmf/albums/nov/pinksiifu.jpg"
+// import coventry from "../img/nmf/albums/nov/coventry.jpg"
+// import hachiku from "../img/nmf/albums/nov/hachiku.jpg"
+// import anaroxanne from "../img/nmf/albums/nov/anaroxanne.jpg"
+// import aya from "../img/nmf/albums/nov/aya.jpg"
 
 // NOV 20
-import meg from "../img/nmf/albums/nov/meg.jpg"
-import shygirl from "../img/nmf/albums/nov/shygirl.jpg"
-import war from "../img/nmf/albums/nov/war.jpg"
+// import meg from "../img/nmf/albums/nov/meg.jpg"
+// import shygirl from "../img/nmf/albums/nov/shygirl.jpg"
+// import war from "../img/nmf/albums/nov/war.jpg"
 
 // NOV 27
-import miley from "../img/nmf/albums/nov/miley.jpg"
+// import miley from "../img/nmf/albums/nov/miley.jpg"
 // import flohio from "../img/nmf/albums/nov/flohio.jpg"
-import ane from "../img/nmf/albums/nov/ane.jpg"
-import statik from "../img/nmf/albums/nov/statik.jpg"
+// import ane from "../img/nmf/albums/nov/ane.jpg"
+// import statik from "../img/nmf/albums/nov/statik.jpg"
 
 // DEC 11
-import taylor from "../img/nmf/albums/dec/taylor.jpg"
-import avalanches from "../img/nmf/albums/dec/avalanches.jpg"
+// import taylor from "../img/nmf/albums/dec/taylor.jpg"
+// import avalanches from "../img/nmf/albums/dec/avalanches.jpg"
 
 // DEC 25
-import carti from "../img/nmf/albums/dec/carti.jpg"
+// import carti from "../img/nmf/albums/dec/carti.jpg"
 
 // JAN 15
 import shame from "../img/nmf/albums/jan/shame.jpg"
 import hether from "../img/nmf/albums/jan/hether.jpg"
+
+// JAN 15
+import madlib from "../img/nmf/albums/jan/madlib.jpg"
+import arlo from "../img/nmf/albums/jan/arlo.jpg"
+import yasmin from "../img/nmf/albums/jan/yasmin.jpg"
 
 export default () => {
 
@@ -168,7 +174,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of January 15, 2020</p>
+          <p>Week of January 29, 2020</p>
         </div>
 
         {/*
@@ -193,16 +199,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Doorman - Vegyn Remix</p>
-          <p className="sotwArtist mb-4">SebastiAn, Vegyn, & Syd</p>
+          <p className="sotwTitle mb-0">Move into Me</p>
+          <p className="sotwArtist mb-4">Bad Sounds (ft. Broods)</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={doorman} alt="single of the week" />
-            <p className="sotwR">week of january 15</p>
+            <img className="heroImg mb-1" src={badbroods} alt="single of the week" />
+            <p className="sotwR">week of january 29</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/0QyOGi3zEgYVO0PXt8avlA"
+            src="https://open.spotify.com/embed/track/7IRbgq1DtrYhCVe5DMCme7"
             width="60%"
             height="80"
             frameBorder="0"
@@ -268,6 +274,50 @@ export default () => {
         <div className="d-flex flex-column align-items-center">
           <div className="instructions">scroll &#8594;</div>
           <div className="slider">
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of january 29 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5ftKZ7X2vjjJ1HFQYQn1UF"
+                title="Sound Ancestors"
+                artist="Madlib & Four Tet"
+                genre="experimental"
+                date="january 29 2021"
+                tracks="16"
+                runtime="41 minutes"
+                img={madlib}
+                albumId="madlib"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:42joEEymK7EIHODfNB4yug"
+                title="Collapsed In Sunbeams"
+                artist="Arlo Parks"
+                genre="pop"
+                date="january 29 2021"
+                tracks="12"
+                runtime="39 minutes"
+                img={arlo}
+                albumId="arlo"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:233gqBTj1syIvhppH8NV7w"
+                title="Urban Driftwood"
+                artist="Yasmin Williams"
+                genre="acoustic"
+                date="january 29 2021"
+                tracks="10"
+                runtime="45 minutes"
+                img={yasmin}
+                albumId="yasmin"
+            ></Album>
 
             <div className="weekCol">
                 <p
@@ -301,7 +351,7 @@ export default () => {
                 img={hether}
                 albumId="hether"
             ></Album>
-
+{/*
             <div className="weekCol">
                 <p
                   className="noMargin horizPadder leftPadder detailText"
@@ -547,7 +597,7 @@ export default () => {
                 img={oneoh}
                 albumId="oneoh"
             ></Album>
-            {/*
+            
             <Album
                 className="albumCard"
                 uri="spotify:album:0KjckH1EE6HRRurMIXSc0r"
