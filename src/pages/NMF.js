@@ -373,7 +373,7 @@ export default () => {
             <Album
                 className="albumCard"
                 uri="spotify:album:1NzOdSkSNmBhhg72KlNcsE"
-                title="An Overview on Phenomenal Nature"
+                title="An Overview on Phen..."
                 artist="Cassandra Jenkins"
                 genre="indie rock"
                 date="february 19 2021"
