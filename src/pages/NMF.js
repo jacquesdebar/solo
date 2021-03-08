@@ -138,22 +138,22 @@ import madlib from "../img/nmf/albums/jan/madlib.jpg"
 import arlo from "../img/nmf/albums/jan/arlo.jpg"
 import yasmin from "../img/nmf/albums/jan/yasmin.jpg"
 
-// FEB XXX
+// FEB 5
 import weather from "../img/nmf/2021/feb/weather.jpg"
 import bcnr from "../img/nmf/2021/feb/bcnr.jpg"
 
-// FEB XXX
+// FEB 12
 import claud from "../img/nmf/2021/feb/claud.jpg"
 import slowthai from "../img/nmf/2021/feb/slowthai.jpg"
 
-// FEB XXX
+// FEB 19
 import tash from "../img/nmf/2021/feb/tash.jpg"
 import cassandra from "../img/nmf/2021/feb/cassandra.jpg"
 
-// FEB XXX
+// FEB 26
 import carnage from "../img/nmf/2021/feb/carnage.jpg"
 
-// MAR XXX
+// MAR 5
 import genesis from "../img/nmf/2021/mar/genesis.jpg"
 import arabstrap from "../img/nmf/2021/mar/arabstrap.jpg"
 
