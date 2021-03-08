@@ -405,7 +405,7 @@ export default () => {
             ></Album>
             <Album
                 className="albumCard"
-                uri="https://open.spotify.com/album/7qE3WaOVAAIxgH8WtjbBBj?si=QqTxOhgXQJeDnVIhT3YdVg"
+                uri="spotify:album:7qE3WaOVAAIxgH8WtjbBBj"
                 title="TYRON"
                 artist="slowthai"
                 genre="hip-hop"
