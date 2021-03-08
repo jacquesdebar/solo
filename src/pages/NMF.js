@@ -133,10 +133,30 @@ import nmfD from "../img/nmf/nmfD.png";
 import shame from "../img/nmf/albums/jan/shame.jpg"
 import hether from "../img/nmf/albums/jan/hether.jpg"
 
-// JAN 15
+// JAN 29
 import madlib from "../img/nmf/albums/jan/madlib.jpg"
 import arlo from "../img/nmf/albums/jan/arlo.jpg"
 import yasmin from "../img/nmf/albums/jan/yasmin.jpg"
+
+// FEB XXX
+import weather from "../img/nmf/2021/feb/weather.jpg"
+import bcnr from "../img/nmf/2021/feb/bcnr.jpg"
+
+// FEB XXX
+import claud from "../img/nmf/2021/feb/claud.jpg"
+import slowthai from "../img/nmf/2021/feb/slowthai.jpg"
+
+// FEB XXX
+import tash from "../img/nmf/2021/feb/tash.jpg"
+import cassandra from "../img/nmf/2021/feb/cassandra.jpg"
+
+// FEB XXX
+import carnage from "../img/nmf/2021/feb/carnage.jpg"
+
+// MAR XXX
+import genesis from "../img/nmf/2021/mar/genesis.jpg"
+import arabstrap from "../img/nmf/2021/mar/arabstrap.jpg"
+
 
 export default () => {
 
@@ -281,6 +301,159 @@ export default () => {
                   className="noMargin horizPadder leftPadder detailText"
                   style={{ fontWeight: "bold", color: "white" }}
                 >
+                  week of march 5 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:7LI6T5cy6Et8RDZXCoCEtJ"
+                title="Smiling with No Teeth"
+                artist="Genesis Owusu"
+                genre="???"
+                date="march 5 2021"
+                tracks="15"
+                runtime="53 minutes"
+                img={genesis}
+                albumId="genesis"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:5TE0TunG17dIPzrsGZAtjp"
+                title="As Days Get Dark"
+                artist="Arab Strap"
+                genre="rock / slowcore"
+                date="march 5 2021"
+                tracks="11"
+                runtime="47 minutes"
+                img={arabstrap}
+                albumId="arabstrap"
+            ></Album>
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of february 26 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6xWNh0mUOdEg77U1f6oojz"
+                title="CARNAGE"
+                artist="Nick Cave & Warren Ellis"
+                genre="experimental rock"
+                date="february 25 2021"
+                tracks="8"
+                runtime="40 minutes"
+                img={carnage}
+                albumId="carnage"
+            ></Album>
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of february 19 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:6CubvryZSNI5UsrftXJqhK"
+                title="Terra Firma"
+                artist="Tash Sultana"
+                genre="neo-soul"
+                date="february 19 2021"
+                tracks="14"
+                runtime="60 minutes"
+                img={tash}
+                albumId="tash"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:1NzOdSkSNmBhhg72KlNcsE"
+                title="An Overview on Phenomenal Nature"
+                artist="Cassandra Jenkins"
+                genre="indie rock"
+                date="february 19 2021"
+                tracks="7"
+                runtime="31 minutes"
+                img={cassandra}
+                albumId="cassandra"
+            ></Album>
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of february 12 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:1S0ZLW9sEo7yb5wKxYSeYp"
+                title="Super Monster"
+                artist="Claud"
+                genre="indie pop"
+                date="february 12 2021"
+                tracks="13"
+                runtime="37 minutes"
+                img={claud}
+                albumId="claud"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="https://open.spotify.com/album/7qE3WaOVAAIxgH8WtjbBBj?si=QqTxOhgXQJeDnVIhT3YdVg"
+                title="TYRON"
+                artist="slowthai"
+                genre="hip-hop"
+                date="february 12 2021"
+                tracks="14"
+                runtime="35 minutes"
+                img={slowthai}
+                albumId="slowthai"
+            ></Album>
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
+                  week of february 5 &nbsp; &#8595;
+                </p>
+            </div>
+            <Album
+                className="albumCard"
+                uri="spotify:album:3KeR5BDM2giFr8zoSXBrgE"
+                title="Ignorance"
+                artist="The Weather Station"
+                genre="folk / art pop"
+                date="february 5 2021"
+                tracks="10"
+                runtime="40 minutes"
+                img={weather}
+                albumId="weather"
+            ></Album>
+            <Album
+                className="albumCard"
+                uri="spotify:album:2PfgptDcfJTFtoZIS3AukX"
+                title="For the first time"
+                artist="Black Country, New Road"
+                genre="post-punk"
+                date="february 5 2021"
+                tracks="6"
+                runtime="40 minutes"
+                img={bcnr}
+                albumId="bcnr"
+            ></Album>
+
+            <div className="weekCol">
+                <p
+                  className="noMargin horizPadder leftPadder detailText"
+                  style={{ fontWeight: "bold", color: "white" }}
+                >
                   week of january 29 &nbsp; &#8595;
                 </p>
             </div>
@@ -335,7 +508,7 @@ export default () => {
                 title="drunk tank pink"
                 artist="shame"
                 genre="alternative rock"
-                date="january 15 2020"
+                date="january 15 2021"
                 tracks="11"
                 runtime="41 minutes"
                 img={shame}
@@ -347,7 +520,7 @@ export default () => {
                 title="sticky thumb"
                 artist="hether"
                 genre="indie rock"
-                date="january 15 2020"
+                date="january 15 2021"
                 tracks="8"
                 runtime="27 minutes"
                 img={hether}
