@@ -277,7 +277,7 @@ export default () => {
             feedback, please email me at{" "}
             <a href="mailto:jacques.debar@gmail.com">jacques.debar@gmail.com</a>{" "}
             or DM me on Instagram (
-            <a href="https://www.instagram.com/jacquesdebar/">@jacquesdebar</a>).
+            <a href="https://www.instagram.com/jacquesdebar/" target="_blank">@jacquesdebar</a>).
           </p>
 
           <p style={{ color: "#ff2121" }}>
