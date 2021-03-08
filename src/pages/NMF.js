@@ -225,7 +225,7 @@ export default () => {
           <p className="sotwArtist mb-4">Silk Sonic</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={badbroods} alt="single of the week" />
+            <img className="heroImg mb-1" src={leaveDoor} alt="single of the week" />
             <p className="sotwR">week of march 5</p>
           </div>
           <iframe
