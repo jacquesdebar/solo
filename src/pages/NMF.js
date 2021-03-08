@@ -314,6 +314,7 @@ export default () => {
                 runtime="53 minutes"
                 img={genesis}
                 albumId="genesis"
+                elite="elite"
             ></Album>
             <Album
                 className="albumCard"
