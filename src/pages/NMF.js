@@ -35,7 +35,8 @@ import "../css/nmf.css";
 // import franco from "../img/nmf/albums/nov/franco.jpg"
 // import sza from "../img/nmf/albums/dec/sza.jpg"
 // import doorman from "../img/nmf/albums/jan/doorman.jpg"
-import badbroods from "../img/nmf/albums/jan/badbroods.jpg"
+// import badbroods from "../img/nmf/albums/jan/badbroods.jpg"
+import leaveDoor from "../img/nmf/2021/mar/leaveDoor.jpg"
 
 // import nmfBanner from "../img/nb3.png";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
@@ -174,7 +175,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of January 29, 2020</p>
+          <p>Week of March 5, 2021</p>
         </div>
 
         {/*
@@ -199,16 +200,16 @@ export default () => {
         </div> */}
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Move into Me</p>
-          <p className="sotwArtist mb-4">Bad Sounds (ft. Broods)</p>
+          <p className="sotwTitle mb-0">Leave The Door Open</p>
+          <p className="sotwArtist mb-4">Silk Sonic</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
             <img className="heroImg mb-1" src={badbroods} alt="single of the week" />
-            <p className="sotwR">week of january 29</p>
+            <p className="sotwR">week of march 5</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/track/7IRbgq1DtrYhCVe5DMCme7"
+            src="https://open.spotify.com/embed/album/7dfPqXck6BB9wpThrVYBss"
             width="60%"
             height="80"
             frameBorder="0"
