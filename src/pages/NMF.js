@@ -360,6 +360,19 @@ export default () => {
             </div>
             <Album
                 className="albumCard"
+                uri="spotify:album:1NzOdSkSNmBhhg72KlNcsE"
+                title="An Overview on Phen..."
+                artist="Cassandra Jenkins"
+                genre="indie rock"
+                date="february 19 2021"
+                tracks="7"
+                runtime="31 minutes"
+                img={cassandra}
+                albumId="cassandra"
+                elite="elite"
+            ></Album>
+            <Album
+                className="albumCard"
                 uri="spotify:album:6CubvryZSNI5UsrftXJqhK"
                 title="Terra Firma"
                 artist="Tash Sultana"
@@ -370,19 +383,7 @@ export default () => {
                 img={tash}
                 albumId="tash"
             ></Album>
-            <Album
-                className="albumCard"
-                uri="spotify:album:1NzOdSkSNmBhhg72KlNcsE"
-                title="An Overview on Phen..."
-                artist="Cassandra Jenkins"
-                genre="indie rock"
-                date="february 19 2021"
-                tracks="7"
-                runtime="31 minutes"
-                img={cassandra}
-                albumId="cassandra"
-            ></Album>
-
+                        
             <div className="weekCol">
                 <p
                   className="noMargin horizPadder leftPadder detailText"
