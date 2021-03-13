@@ -9,6 +9,20 @@ const Album = props => {
   if (props.elite) {
     isElite = "elite";
   }
+  
+  const ellipsize = (string, breaker, ellipsePoint) => {
+    console.log("string")
+    console.log(string)
+    console.log("length")
+    console.log(string.length)
+    const cass = "An Overview on Phenomenal Nature"
+    console.log(cass.substring(0,18))
+    if (string.length > breaker) {
+      return (`${string.substring(0,ellipsePoint)}...`)
+    } else {
+      return string
+    }
+  }
 
   return (
     <div
@@ -18,7 +32,7 @@ const Album = props => {
       <div
         className={`d-flex flex-column justify-content-center align-items-center coverBox mb-2 ${isElite}`}
       >
-        <p className="vertPadder noMargin topPad">{props.title}</p>
+        <p className="vertPadder noMargin topPad">{ellipsize(props.title, 27, 24)}</p>
         <div className="d-flex flex-row justify-content-center align-items-center">
           <p className="noMargin horizPadder leftPadder detailText">
             {props.genre}
@@ -28,7 +42,7 @@ const Album = props => {
           {/* <p className="noMargin horizPadder detailText">{`${props.tracks} TRACKS`}</p> */}
         </div>
         <p className="vertPadder noMargin bottomPad detailText">
-          {props.artist}
+          {ellipsize(props.artist, 34, 30)}
         </p>
       </div>
       <iframe
