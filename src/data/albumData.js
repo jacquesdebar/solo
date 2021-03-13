@@ -164,21 +164,6 @@ const ALBUM_DATA = [
       },
       albums: [
         {
-          artist: "Tash Sultana",
-          title: "Terra Firma",
-          uri: "spotify:album:6CubvryZSNI5UsrftXJqhK",
-          genre: "neo-soul",
-          tracks: 14,
-          runtime: 60,
-          date: {
-            month: 2,
-            day: 19,
-            year: 2021,
-          },
-          img: tash,
-          elite: false,
-        },
-        {
           artist: "Cassandra Jenkins",
           title: "An Overview on Phenomenal Nature",
           uri: "spotify:album:1NzOdSkSNmBhhg72KlNcsE",
@@ -191,6 +176,21 @@ const ALBUM_DATA = [
             year: 2021,
           },
           img: cassandra,
+          elite: true,
+        },
+        {
+          artist: "Tash Sultana",
+          title: "Terra Firma",
+          uri: "spotify:album:6CubvryZSNI5UsrftXJqhK",
+          genre: "neo-soul",
+          tracks: 14,
+          runtime: 60,
+          date: {
+            month: 2,
+            day: 19,
+            year: 2021,
+          },
+          img: tash,
           elite: false,
         },
       ],
