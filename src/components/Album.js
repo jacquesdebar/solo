@@ -11,12 +11,6 @@ const Album = props => {
   }
   
   const ellipsize = (string, breaker, ellipsePoint) => {
-    console.log("string")
-    console.log(string)
-    console.log("length")
-    console.log(string.length)
-    const cass = "An Overview on Phenomenal Nature"
-    console.log(cass.substring(0,18))
     if (string.length > breaker) {
       return (`${string.substring(0,ellipsePoint)}...`)
     } else {
