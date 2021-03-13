@@ -74,8 +74,8 @@ const ALBUM_DATA = [
           elite: false,
         },
         {
-          artist: "Notes With Attachments",
-          title: "Pino Palladino & Blake Mills",
+          artist: "Pino Palladino & Blake Mills & Another Person",
+          title: "Notes With Attachments",
           uri: "spotify:album:5fsq4qeIWboRRPG7mGGfxr",
           genre: "Jazz Fusion",
           tracks: 8,

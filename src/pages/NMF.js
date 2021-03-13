@@ -5,15 +5,26 @@ import "../css/nmf.css";
 import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
 import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 
-import leaveDoor from "../img/nmf/2021/mar/leaveDoor.jpg"
+// import leaveDoor from "../img/nmf/2021/mar/leaveDoor.jpg"
+import thumbs from "../img/nmf/2021/mar/thumbs.jpg"
 
 import { ALBUM_DATA } from "../data"
+import days from "../data/days.json";
 
 export default () => {
 
   // useEffect(() => alert('Due to the urgent issues of systemic racism and police brutality, NMF is on pause until further notice.'), []);
 
-  console.log(ALBUM_DATA)
+  const todayDate = ALBUM_DATA[0].date;
+
+  const sotw = {
+    artist: "Lucy Dacus",
+    title: "Thumbs",
+    uri: "spotify:track:79pcC3KJRMA2L8xIb5mu3G",
+    art: thumbs,
+  }
+
+  const sotwLink = `https://open.spotify.com/embed/track/${sotw.uri.substring(14)}`
 
   return (
     <div className="row">
@@ -41,20 +52,20 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of March 5, 2021</p>
+          <p>Week of {days[todayDate.month]} {todayDate.day}, {todayDate.year}</p>
         </div>
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">
-          <p className="sotwTitle mb-0">Leave The Door Open</p>
-          <p className="sotwArtist mb-4">Silk Sonic</p>
+          <p className="sotwTitle mb-0">{sotw.title}</p>
+          <p className="sotwArtist mb-4">{sotw.artist}</p>
           <div className="d-flex justify-content-center align-items-center">
             <p className="sotwL">single of the week</p>
-            <img className="heroImg mb-1" src={leaveDoor} alt="single of the week" />
-            <p className="sotwR">week of march 5</p>
+            <img className="heroImg mb-1" src={sotw.art} alt="single of the week" />
+            <p className="sotwR">week of {days[todayDate.month]} {todayDate.day}</p>
           </div>
           <iframe
             className="heroImg"
-            src="https://open.spotify.com/embed/album/7dfPqXck6BB9wpThrVYBss"
+            src={sotwLink}
             width="60%"
             height="80"
             frameBorder="0"
