@@ -1,5 +1,5 @@
 .narrowPanel {
-  width: 800px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   min-height: 800px;

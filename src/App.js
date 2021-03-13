@@ -9,6 +9,7 @@ import Freelance from "./pages/Freelance";
 import Personal from "./pages/Personal";
 import Solstice from "./pages/Solstice";
 import NMF from "./pages/NMF";
+import Tester from "./pages/Tester";
 import Go from "./pages/Go"
 import Hunch from "./pages/Hunch"
 // import Spotify from "./pages/Spotify";
@@ -71,6 +72,12 @@ const NMFPage = () => (
   </Layout2>
 );
 
+const TesterPage = () => (
+  <Layout2>
+    <Tester />
+  </Layout2>
+);
+
 const GoPage = () => <Go />
 
 const HunchPage = () => <Hunch />
@@ -87,6 +94,7 @@ const FreelancePageTitled = withTitle({ component: FreelancePage, title: 'Freela
 const PersonalPageTitled = withTitle({ component: PersonalPage, title: 'Personal' });
 const SolsticePageTitled = withTitle({ component: SolsticePage, title: 'Solstice' });
 const NMFPageTitled = withTitle({ component: NMFPage, title: 'NMF' });
+const TesterPageTitled = withTitle({ component: TesterPage, title: 'Tester' });
 const GoPageTitled = withTitle({ component: GoPage, title: 'Gemini Offseason' });
 const HunchPageTitled = withTitle({ component: HunchPage, title: 'NPR Hunch' });
 
@@ -110,6 +118,7 @@ class App extends Component {
           <Route exact path="/personal" component={PersonalPageTitled} />
           <Route exact path="/solstice" component={SolsticePageTitled} />
           <Route exact path="/nmf" component={NMFPageTitled} />
+          <Route exact path="/tester" component={TesterPageTitled} />
           <Route exact path="/go" component={GoPageTitled} />
           <Route exact path="/hunch" component={HunchPageTitled} />
           {/* <Route exact path="/spotify" component ={SpotifyPage} /> */}

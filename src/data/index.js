@@ -1,0 +1,1 @@
+export { default as ALBUM_DATA } from "./albumData";

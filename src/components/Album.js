@@ -4,7 +4,11 @@ import '../css/Album.css';
 
 const Album = props => {
 
-    const srcLink = `https://open.spotify.com/embed/album/${props.uri.substring(14)}`
+  const srcLink = `https://open.spotify.com/embed/album/${props.uri.substring(14)}`
+  let isElite = "";
+  if (props.elite) {
+    isElite = "elite";
+  }
 
   return (
     <div
@@ -12,7 +16,7 @@ const Album = props => {
       id={props.albumId}
     >
       <div
-        className={`d-flex flex-column justify-content-center align-items-center coverBox mb-2 ${props.elite}`}
+        className={`d-flex flex-column justify-content-center align-items-center coverBox mb-2 ${isElite}`}
       >
         <p className="vertPadder noMargin topPad">{props.title}</p>
         <div className="d-flex flex-row justify-content-center align-items-center">
@@ -20,7 +24,7 @@ const Album = props => {
             {props.genre}
           </p>
           <img src={props.img} alt={props.title} className="coverArt" />
-          <p className="noMargin horizPadder detailText">{props.runtime}</p>
+          <p className="noMargin horizPadder detailText">{props.runtime} minutes</p>
           {/* <p className="noMargin horizPadder detailText">{`${props.tracks} TRACKS`}</p> */}
         </div>
         <p className="vertPadder noMargin bottomPad detailText">
@@ -28,7 +32,7 @@ const Album = props => {
         </p>
       </div>
       <iframe
-        className={`spotifyEmbed ${props.elite}`}
+        className={`spotifyEmbed ${isElite}`}
         src={srcLink}
         width="300"
         height="360"
