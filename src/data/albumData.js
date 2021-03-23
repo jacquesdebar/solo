@@ -1,5 +1,9 @@
 
 
+// MAR 19
+import batiste from "../img/nmf/2021/mar/batiste.jpg"
+import yeek from "../img/nmf/2021/mar/yeek.jpg"
+
 // MAR 12
 import leanne from "../img/nmf/2021/mar/leanne.jpg"
 import cee from "../img/nmf/2021/mar/cee.jpg"
@@ -33,8 +37,68 @@ import yasmin from "../img/nmf/albums/jan/yasmin.jpg"
 import shame from "../img/nmf/albums/jan/shame.jpg"
 import hether from "../img/nmf/albums/jan/hether.jpg"
 
+import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 
-const ALBUM_DATA = [
+/*
+
+        {
+          artist: "XX_ARTIST_XX",
+          title: "XX_TITLE_XX",
+          uri: "XX_URI_XX",
+          genre: "XX_GENRE_XX",
+          tracks: 99,
+          runtime: 999,
+          date: {
+            month: 3,
+            day: 19,
+            year: 2021,
+          },
+          img: XXX_IMAGE_XXX,
+          elite: false,
+        },
+
+*/
+
+const ALBUM_DATA = [{
+      active: true,
+      date: {
+        month: 3,
+        day: 19,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "Jon Batiste",
+          title: "WE ARE",
+          uri: "spotify:album:6kHFkPvL2X3rZPuS3CEMUE",
+          genre: "neo-soul",
+          tracks: 13,
+          runtime: 38,
+          date: {
+            month: 3,
+            day: 19,
+            year: 2021,
+          },
+          img: batiste,
+          elite: false,
+        },
+        {
+          artist: "Yeek",
+          title: "Valencia",
+          uri: "spotify:album:77Wq66HlKZgyKOtN5Whdbr",
+          genre: "anti-pop",
+          tracks: 10,
+          runtime: 23,
+          date: {
+            month: 3,
+            day: 19,
+            year: 2021,
+          },
+          img: yeek,
+          elite: false,
+        },
+      ],
+    },
     {
       active: true,
       date: {

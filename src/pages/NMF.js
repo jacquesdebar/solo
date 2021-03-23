@@ -6,7 +6,8 @@ import nmfDesktopBanner from "../img//nmf/nmfbwb.png";
 import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 
 // import leaveDoor from "../img/nmf/2021/mar/leaveDoor.jpg"
-import thumbs from "../img/nmf/2021/mar/thumbs.jpg"
+// import thumbs from "../img/nmf/2021/mar/thumbs.jpg"
+import glaive from "../img/nmf/2021/mar/glaive.jpg"
 
 import { ALBUM_DATA } from "../data"
 import days from "../data/days.json";
@@ -18,10 +19,10 @@ export default () => {
   const todayDate = ALBUM_DATA[0].date;
 
   const sotw = {
-    artist: "Lucy Dacus",
-    title: "Thumbs",
-    uri: "spotify:track:79pcC3KJRMA2L8xIb5mu3G",
-    art: thumbs,
+    artist: "glaive",
+    title: "i wanna slam my head against the wall",
+    uri: "spotify:track:4dVR8jBG0RQ7jbdi8GRkyd",
+    art: glaive,
   }
 
   const sotwLink = `https://open.spotify.com/embed/track/${sotw.uri.substring(14)}`
