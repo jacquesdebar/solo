@@ -7,7 +7,7 @@ import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 
 // import leaveDoor from "../img/nmf/2021/mar/leaveDoor.jpg"
 // import thumbs from "../img/nmf/2021/mar/thumbs.jpg"
-import glaive from "../img/nmf/2021/mar/glaive.jpg"
+import glaive from "../img/nmf/2021/mar/glaive.jpeg"
 
 import { ALBUM_DATA } from "../data"
 import days from "../data/days.json";

@@ -1,8 +1,8 @@
 
 
 // MAR 19
-import batiste from "../img/nmf/2021/mar/batiste.jpg"
-import yeek from "../img/nmf/2021/mar/yeek.jpg"
+import batiste from "../img/nmf/2021/mar/batiste.jpeg"
+import yeek from "../img/nmf/2021/mar/yeek.jpeg"
 
 // MAR 12
 import leanne from "../img/nmf/2021/mar/leanne.jpg"
