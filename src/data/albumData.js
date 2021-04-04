@@ -1,5 +1,14 @@
 
 
+// APR 2
+import dryclean from "../img/nmf/2021/apr/dryclean.jpeg"
+import agclub from "../img/nmf/2021/apr/agclub.jpeg"
+import lafemme from "../img/nmf/2021/apr/lafemme.jpeg"
+
+// MAR 26
+import serpent from "../img/nmf/2021/mar/serpent.jpeg"
+import floating from "../img/nmf/2021/mar/floating.jpeg"
+
 // MAR 19
 import batiste from "../img/nmf/2021/mar/batiste.jpeg"
 import yeek from "../img/nmf/2021/mar/yeek.jpeg"
@@ -59,7 +68,103 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 
 */
 
-const ALBUM_DATA = [{
+const ALBUM_DATA = [
+    {
+      active: true,
+      date: {
+        month: 4,
+        day: 2,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "Dry Cleaning",
+          title: "New Long Leg",
+          uri: "spotify:album:4oNy189uvEgnJKNLsWx9Zz",
+          genre: "art rock",
+          tracks: 10,
+          runtime: 42,
+          date: {
+            month: 4,
+            day: 2,
+            year: 2021,
+          },
+          img: dryclean,
+          elite: true,
+        },
+        {
+          artist: "AG Club",
+          title: "Fuck Your Expectations PT.1",
+          uri: "spotify:album:5M25d4hSmTEN9WM1EtAsfv",
+          genre: "hip-hop",
+          tracks: 9,
+          runtime: 27,
+          date: {
+            month: 4,
+            day: 2,
+            year: 2021,
+          },
+          img: agclub,
+          elite: false,
+        },
+        {
+          artist: "La Femme",
+          title: "Paradigme",
+          uri: "spotify:album:1u2Q5MFWptOdPpldjC0xO9",
+          genre: "synth-pop",
+          tracks: 15,
+          runtime: 55,
+          date: {
+            month: 4,
+            day: 2,
+            year: 2021,
+          },
+          img: lafemme,
+          elite: false,
+        },
+      ],
+    },
+    {
+      active: true,
+      date: {
+        month: 3,
+        day: 26,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "serpentwithfeet",
+          title: "DEACON",
+          uri: "spotify:album:15i2CVbvZzxiv9LfUkl2wU",
+          genre: "art pop/r&b",
+          tracks: 11,
+          runtime: 29,
+          date: {
+            month: 3,
+            day: 26,
+            year: 2021,
+          },
+          img: serpent,
+          elite: false,
+        },
+        {
+          artist: "Floating Points & Pharoah Sanders",
+          title: "Promises",
+          uri: "spotify:album:3ShtO5VCYa3ctlR5uzLWBa",
+          genre: "neoclassical",
+          tracks: 9,
+          runtime: 47,
+          date: {
+            month: 3,
+            day: 26,
+            year: 2021,
+          },
+          img: floating,
+          elite: false,
+        },
+      ],
+    },
+    {
       active: true,
       date: {
         month: 3,

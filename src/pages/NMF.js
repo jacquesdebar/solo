@@ -7,7 +7,8 @@ import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 
 // import leaveDoor from "../img/nmf/2021/mar/leaveDoor.jpg"
 // import thumbs from "../img/nmf/2021/mar/thumbs.jpg"
-import glaive from "../img/nmf/2021/mar/glaive.jpeg"
+// import glaive from "../img/nmf/2021/mar/glaive.jpeg"
+import marea from "../img/nmf/2021/apr/marea.jpeg"
 
 import { ALBUM_DATA } from "../data"
 import days from "../data/days.json";
@@ -19,10 +20,10 @@ export default () => {
   const todayDate = ALBUM_DATA[0].date;
 
   const sotw = {
-    artist: "glaive",
-    title: "i wanna slam my head against the wall",
-    uri: "spotify:track:4dVR8jBG0RQ7jbdi8GRkyd",
-    art: glaive,
+    artist: "Fred Again... & The Blessed Maradonna",
+    title: "Marea (We've Lost Dancing)",
+    uri: "spotify:track:1t0Jmqg1pKVBbxjQFZebeR",
+    art: marea,
   }
 
   const sotwLink = `https://open.spotify.com/embed/track/${sotw.uri.substring(14)}`
