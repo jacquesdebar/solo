@@ -1,5 +1,14 @@
 
 
+// MAY 7
+import iceage from "../img/nmf/2021/may/dryclean.jpeg"
+import czarface from "../img/nmf/2021/may/dryclean.jpeg"
+import squid from "../img/nmf/2021/may/dryclean.jpeg"
+import alfie from "../img/nmf/2021/may/dryclean.jpeg"
+
+// APR 30
+import dawn from "../img/nmf/2021/apr/dawn.jpeg"
+
 // APR 2
 import dryclean from "../img/nmf/2021/apr/dryclean.jpeg"
 import agclub from "../img/nmf/2021/apr/agclub.jpeg"
@@ -69,6 +78,101 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 */
 
 const ALBUM_DATA = [
+    {
+      active: true,
+      date: {
+        month: 5,
+        day: 7,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "Iceage",
+          title: "Seek Shelter",
+          uri: "spotify:album:6wH4W7BWjBiXNM3xIccgOR",
+          genre: "post-punk",
+          tracks: 9,
+          runtime: 51,
+          date: {
+            month: 5,
+            day: 7,
+            year: 2021,
+          },
+          img: iceage,
+          elite: false,
+        },
+        {
+          artist: "Czarface & MF Doom",
+          title: "Super What?",
+          uri: "spotify:album:4odeNH2Qe9DAxT3sC1qq9p",
+          genre: "hip-hop",
+          tracks: 10,
+          runtime: 27,
+          date: {
+            month: 5,
+            day: 7,
+            year: 2021,
+          },
+          img: czarface,
+          elite: false,
+        },
+        {
+          artist: "Squid",
+          title: "Bright Green Field",
+          uri: "spotify:album:4z44Wir05QzQYSCs0KwsKX",
+          genre: "post-punk",
+          tracks: 11,
+          runtime: 55,
+          date: {
+            month: 5,
+            day: 7,
+            year: 2021,
+          },
+          img: squid,
+          elite: false,
+        },
+        {
+          artist: "Alfie Templeman",
+          title: "Forever Isn't Long Enough",
+          uri: "spotify:album:25LHRDp5Wbc0fJilUkf04W",
+          genre: "indie",
+          tracks: 8,
+          runtime: 30,
+          date: {
+            month: 5,
+            day: 7,
+            year: 2021,
+          },
+          img: alfie,
+          elite: false,
+        },
+      ],
+    },
+    {
+      active: true,
+      date: {
+        month: 4,
+        day: 30,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "Dawn Richard",
+          title: "Second Line",
+          uri: "spotify:album:4ZZPaImVERqe30KPt1EOHv",
+          genre: "XX_GENRE_XX",
+          tracks: 16,
+          runtime: 51,
+          date: {
+            month: 4,
+            day: 30,
+            year: 2021,
+          },
+          img: dawn,
+          elite: false,
+        },
+      ],
+    },
     {
       active: true,
       date: {
