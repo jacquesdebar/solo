@@ -33,7 +33,7 @@ export default function DaySlot(props) {
                     className="noMargin horizPadder leftPadder detailText"
                     style={{ fontWeight: "bold", color: "white" }}
                 >
-                    week of {days[data.date.month]} {data.date.day} &nbsp; &#8595;
+                    week of {days[data.date.month - 1]} {data.date.day} &nbsp; &#8595;
                 </p>
             </div>
             {albums}
