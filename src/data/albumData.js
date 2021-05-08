@@ -1,10 +1,10 @@
 
 
 // MAY 7
-import iceage from "../img/nmf/2021/may/dryclean.jpeg"
-import czarface from "../img/nmf/2021/may/dryclean.jpeg"
-import squid from "../img/nmf/2021/may/dryclean.jpeg"
-import alfie from "../img/nmf/2021/may/dryclean.jpeg"
+import iceage from "../img/nmf/2021/may/iceage.jpeg"
+import czarface from "../img/nmf/2021/may/czarface.jpeg"
+import squid from "../img/nmf/2021/may/squid.jpeg"
+import alfie from "../img/nmf/2021/may/alfie.jpeg"
 
 // APR 30
 import dawn from "../img/nmf/2021/apr/dawn.jpeg"
