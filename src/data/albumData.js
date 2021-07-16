@@ -2,6 +2,7 @@
 
 // JULY 16
 import clairo from "../img/nmf/2021/july/clairo.jpeg"
+import yves from "../img/nmf/2021/july/yves.jpeg"
 import midwife from "../img/nmf/2021/july/midwife.jpeg"
 import willow from "../img/nmf/2021/july/willow.jpeg"
 
@@ -143,6 +144,21 @@ const ALBUM_DATA = [
           elite: false,
         },
         {
+          artist: "Yves Tumor",
+          title: "The Asymptotical World EP",
+          uri: "spotify:album:2julo3Z5rNzSod7DoEuTz7",
+          genre: "experimental rock",
+          tracks: 6,
+          runtime: 18,
+          date: {
+            month: 7,
+            day: 15,
+            year: 2021,
+          },
+          img: yves,
+          elite: false,
+        },
+        {
           artist: "Midwife",
           title: "Luminol",
           uri: "spotify:album:4bga9m78vaVd0aXbUpfcHa",
@@ -151,7 +167,7 @@ const ALBUM_DATA = [
           runtime: 33,
           date: {
             month: 7,
-            day: 169,
+            day: 16,
             year: 2021,
           },
           img: midwife,
