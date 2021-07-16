@@ -1,5 +1,15 @@
 
 
+// JULY 16
+import clairo from "../img/nmf/2021/july/clairo.jpeg"
+import midwife from "../img/nmf/2021/july/midwife.jpeg"
+import willow from "../img/nmf/2021/july/willow.jpeg"
+
+// JULY 9
+import vince from "../img/nmf/2021/july/vince.jpeg"
+import charlotte from "../img/nmf/2021/july/charlotte.jpeg"
+import tkay from "../img/nmf/2021/july/tkay.jpeg"
+
 // MAY 7
 import iceage from "../img/nmf/2021/may/iceage.jpeg"
 import czarface from "../img/nmf/2021/may/czarface.jpeg"
@@ -59,6 +69,37 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 
 /*
 
+{
+      active: true,
+      date: {
+        month: XXX,
+        day: XXX,
+        year: XXX,
+      },
+      albums: [
+        {
+          artist: "XX_ARTIST_XX",
+          title: "XX_TITLE_XX",
+          uri: "XX_URI_XX",
+          genre: "XX_GENRE_XX",
+          tracks: 99,
+          runtime: 999,
+          date: {
+            month: 3,
+            day: 19,
+            year: 2021,
+          },
+          img: XXX_IMAGE_XXX,
+          elite: false,
+        },
+
+      ],
+    },
+
+*/
+
+/*
+
         {
           artist: "XX_ARTIST_XX",
           title: "XX_TITLE_XX",
@@ -80,6 +121,116 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 const ALBUM_DATA = [
     {
       active: true,
+      date: {
+        month: 7,
+        day: 16,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "Clairo",
+          title: "Sling",
+          uri: "spotify:album:32ium7Cxb1Xwp2MLzH2459",
+          genre: "indie rock",
+          tracks: 12,
+          runtime: 44,
+          date: {
+            month: 7,
+            day: 16,
+            year: 2021,
+          },
+          img: clairo,
+          elite: false,
+        },
+        {
+          artist: "Midwife",
+          title: "Luminol",
+          uri: "spotify:album:4bga9m78vaVd0aXbUpfcHa",
+          genre: "experimental rock",
+          tracks: 6,
+          runtime: 33,
+          date: {
+            month: 7,
+            day: 169,
+            year: 2021,
+          },
+          img: midwife,
+          elite: false,
+        },
+        {
+          artist: "Willow",
+          title: "lately I feel EVERYTHING",
+          uri: "spotify:album:1dg0gmrCaEbENVXpPIvi1m",
+          genre: "rock",
+          tracks: 11,
+          runtime: 26,
+          date: {
+            month: 7,
+            day: 16,
+            year: 2021,
+          },
+          img: willow,
+          elite: false,
+        },
+      ],
+    },
+    {
+      active: true,
+      date: {
+        month: 7,
+        day: 9,
+        year: 2021,
+      },
+      albums: [
+        {
+          artist: "Vince Staples",
+          title: "Vince Staples",
+          uri: "spotify:album:2suR5CCbtL2Wq8ShFo8rFr",
+          genre: "hip-hop",
+          tracks: 10,
+          runtime: 22,
+          date: {
+            month: 7,
+            day: 9,
+            year: 2021,
+          },
+          img: vince,
+          elite: false,
+        },
+        {
+          artist: "Charlotte Day Wilson",
+          title: "ALPHA",
+          uri: "spotify:album:1BFl2k9tZL0Jm6ebJHGQ5K",
+          genre: "neo-soul",
+          tracks: 11,
+          runtime: 33,
+          date: {
+            month: 7,
+            day: 9,
+            year: 2021,
+          },
+          img: charlotte,
+          elite: false,
+        },
+        {
+          artist: "Tkay Maidza",
+          title: "Last Year Was Weird, Vol. 3",
+          uri: "spotify:album:5dtpyo5nsi19czgSeL9MHH",
+          genre: "hip hop / r&b",
+          tracks: 8,
+          runtime: 22,
+          date: {
+            month: 7,
+            day: 9,
+            year: 2021,
+          },
+          img: tkay,
+          elite: false,
+        },
+      ],
+    },
+    {
+      active: false,
       date: {
         month: 5,
         day: 7,
@@ -149,7 +300,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 4,
         day: 30,
@@ -174,7 +325,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 4,
         day: 2,
@@ -229,7 +380,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 3,
         day: 26,
@@ -269,7 +420,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 3,
         day: 19,
@@ -309,7 +460,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 3,
         day: 12,
@@ -364,7 +515,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 3,
         day: 5,
@@ -404,7 +555,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 2,
         day: 26,
@@ -429,7 +580,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 2,
         day: 19,
@@ -468,7 +619,7 @@ const ALBUM_DATA = [
         },
       ],
     },{
-      active: true,
+      active: false,
       date: {
         month: 2,
         day: 12,
@@ -507,7 +658,7 @@ const ALBUM_DATA = [
         },
       ],
     },{
-      active: true,
+      active: false,
       date: {
         month: 2,
         day: 5,
@@ -547,7 +698,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 1,
         day: 29,
@@ -627,7 +778,7 @@ const ALBUM_DATA = [
       ],
     },
     {
-      active: true,
+      active: false,
       date: {
         month: 1,
         day: 15,

@@ -9,7 +9,8 @@ import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 // import thumbs from "../img/nmf/2021/mar/thumbs.jpg"
 // import glaive from "../img/nmf/2021/mar/glaive.jpeg"
 // import marea from "../img/nmf/2021/apr/marea.jpeg"
-import agcharli from "../img/nmf/2021/may/agcharli.jpeg"
+// import agcharli from "../img/nmf/2021/may/agcharli.jpeg"
+import hovvdy from "../img/nmf/2021/july/hovvdy.jpeg"
 
 import { ALBUM_DATA } from "../data"
 import days from "../data/days.json";
@@ -21,10 +22,10 @@ export default () => {
   const todayDate = ALBUM_DATA[0].date;
 
   const sotw = {
-    artist: "Xcxcoplex (ft. Charli XCX)",
-    title: "A. G. Cook",
-    uri: "spotify:track:3Qtc8RGzuzbDGBpZ3tya7s",
-    art: agcharli,
+    artist: "Hovvdy",
+    title: "True Love",
+    uri: "spotify:track:7dAebAx3nuX2lea0yIETh5",
+    art: hovvdy,
   }
 
   const sotwLink = `https://open.spotify.com/embed/track/${sotw.uri.substring(14)}`
