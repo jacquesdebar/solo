@@ -1,5 +1,9 @@
 
 
+// JULY 23
+import dave  from "../img/nmf/2021/july/dave.jpeg"
+import darkside  from "../img/nmf/2021/july/darkside.jpeg"
+
 // JULY 16
 import clairo from "../img/nmf/2021/july/clairo.jpeg"
 import yves from "../img/nmf/2021/july/yves.jpeg"
@@ -71,31 +75,31 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 /*
 
 {
-      active: true,
-      date: {
-        month: XXX,
-        day: XXX,
-        year: XXX,
-      },
-      albums: [
-        {
-          artist: "XX_ARTIST_XX",
-          title: "XX_TITLE_XX",
-          uri: "XX_URI_XX",
-          genre: "XX_GENRE_XX",
-          tracks: 99,
-          runtime: 999,
-          date: {
-            month: 3,
-            day: 19,
-            year: 2021,
-          },
-          img: XXX_IMAGE_XXX,
-          elite: false,
-        },
-
-      ],
+    active: true,
+    date: {
+      month: XXX,
+      day: XXX,
+      year: XXX,
     },
+    albums: [
+      {
+        artist: "XX_ARTIST_XX",
+        title: "XX_TITLE_XX",
+        uri: "XX_URI_XX",
+        genre: "XX_GENRE_XX",
+        tracks: 99,
+        runtime: 999,
+        date: {
+          month: 3,
+          day: 19,
+          year: 2021,
+        },
+        img: XXX_IMAGE_XXX,
+        elite: false,
+      },
+
+    ],
+  },
 
 */
 
@@ -120,76 +124,117 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 */
 
 const ALBUM_DATA = [
-    {
-      active: true,
-      date: {
-        month: 7,
-        day: 16,
-        year: 2021,
-      },
-      albums: [
-        {
-          artist: "Clairo",
-          title: "Sling",
-          uri: "spotify:album:32ium7Cxb1Xwp2MLzH2459",
-          genre: "indie rock",
-          tracks: 12,
-          runtime: 44,
-          date: {
-            month: 7,
-            day: 16,
-            year: 2021,
-          },
-          img: clairo,
-          elite: false,
-        },
-        {
-          artist: "Yves Tumor",
-          title: "The Asymptotical World EP",
-          uri: "spotify:album:2julo3Z5rNzSod7DoEuTz7",
-          genre: "experimental rock",
-          tracks: 6,
-          runtime: 18,
-          date: {
-            month: 7,
-            day: 15,
-            year: 2021,
-          },
-          img: yves,
-          elite: false,
-        },
-        {
-          artist: "Midwife",
-          title: "Luminol",
-          uri: "spotify:album:4bga9m78vaVd0aXbUpfcHa",
-          genre: "experimental rock",
-          tracks: 6,
-          runtime: 33,
-          date: {
-            month: 7,
-            day: 16,
-            year: 2021,
-          },
-          img: midwife,
-          elite: false,
-        },
-        {
-          artist: "Willow",
-          title: "lately I feel EVERYTHING",
-          uri: "spotify:album:1dg0gmrCaEbENVXpPIvi1m",
-          genre: "rock",
-          tracks: 11,
-          runtime: 26,
-          date: {
-            month: 7,
-            day: 16,
-            year: 2021,
-          },
-          img: willow,
-          elite: false,
-        },
-      ],
+  {
+    active: true,
+    date: {
+      month: 7,
+      day: 23,
+      year: 2021,
     },
+    albums: [
+      {
+        artist: "Dave",
+        title: "We're All Alone In This Together",
+        uri: "spotify:album:6HwzIlrCDq3WF9vMq8meqG",
+        genre: "uk hip-hop",
+        tracks: 12,
+        runtime: 60,
+        date: {
+          month: 7,
+          day: 23,
+          year: 2021,
+        },
+        img: dave,
+        elite: true,
+      },
+      {
+        artist: "Darkside",
+        title: "Spiral",
+        uri: "spotify:album:09JglS9OxbpOkj5LXBsxYN",
+        genre: "indie rock",
+        tracks: 9,
+        runtime: 52,
+        date: {
+          month: 7,
+          day: 23,
+          year: 2021,
+        },
+        img: darkside,
+        elite: false,
+      },
+
+    ],
+  },
+  {
+    active: true,
+    date: {
+      month: 7,
+      day: 16,
+      year: 2021,
+    },
+    albums: [
+      {
+        artist: "Clairo",
+        title: "Sling",
+        uri: "spotify:album:32ium7Cxb1Xwp2MLzH2459",
+        genre: "indie rock",
+        tracks: 12,
+        runtime: 44,
+        date: {
+          month: 7,
+          day: 16,
+          year: 2021,
+        },
+        img: clairo,
+        elite: false,
+      },
+      {
+        artist: "Yves Tumor",
+        title: "The Asymptotical World EP",
+        uri: "spotify:album:2julo3Z5rNzSod7DoEuTz7",
+        genre: "experimental rock",
+        tracks: 6,
+        runtime: 18,
+        date: {
+          month: 7,
+          day: 15,
+          year: 2021,
+        },
+        img: yves,
+        elite: false,
+      },
+      {
+        artist: "Midwife",
+        title: "Luminol",
+        uri: "spotify:album:4bga9m78vaVd0aXbUpfcHa",
+        genre: "experimental rock",
+        tracks: 6,
+        runtime: 33,
+        date: {
+          month: 7,
+          day: 16,
+          year: 2021,
+        },
+        img: midwife,
+        elite: false,
+      },
+      {
+        artist: "Willow",
+        title: "lately I feel EVERYTHING",
+        uri: "spotify:album:1dg0gmrCaEbENVXpPIvi1m",
+        genre: "rock",
+        tracks: 11,
+        runtime: 26,
+        date: {
+          month: 7,
+          day: 16,
+          year: 2021,
+        },
+        img: willow,
+        elite: false,
+      },
+    ],
+  },
     {
       active: true,
       date: {
