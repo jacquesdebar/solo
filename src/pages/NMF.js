@@ -10,7 +10,8 @@ import nmfMobileBanner from "../img/nmf/nmfbwbCrop.png";
 // import glaive from "../img/nmf/2021/mar/glaive.jpeg"
 // import marea from "../img/nmf/2021/apr/marea.jpeg"
 // import agcharli from "../img/nmf/2021/may/agcharli.jpeg"
-import hovvdy from "../img/nmf/2021/july/hovvdy.jpeg"
+// import hovvdy from "../img/nmf/2021/july/hovvdy.jpeg"
+import tiptoe from "../img/nmf/2021/oct/tiptoe.jpeg"
 
 import { ALBUM_DATA } from "../data"
 import days from "../data/days.json";
@@ -22,10 +23,10 @@ export default () => {
   const todayDate = ALBUM_DATA[0].date;
 
   const sotw = {
-    artist: "Hovvdy",
-    title: "True Love",
-    uri: "spotify:track:7dAebAx3nuX2lea0yIETh5",
-    art: hovvdy,
+    artist: "Hope Tala",
+    title: "Tiptoeing",
+    uri: "spotify:track:3ZptYblxFPhvIJ0RRRozk9",
+    art: tiptoe,
   }
 
   const sotwLink = `https://open.spotify.com/embed/track/${sotw.uri.substring(14)}`
@@ -56,7 +57,7 @@ export default () => {
         </div>
 
         <div className="weekOf mb-4 mb-md-5">
-          <p>Week of {days[todayDate.month]} {todayDate.day}, {todayDate.year}</p>
+          <p>Week of {days[todayDate.month - 1]} {todayDate.day}, {todayDate.year}</p>
         </div>
 
         <div className="heroBox d-flex flex-column justify-content-center align-items-center mb-4">

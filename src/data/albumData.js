@@ -1,8 +1,16 @@
 
+// OCT 22
+import grouper from "../img/nmf/2021/oct/grouper.jpeg"
+import esteem from "../img/nmf/2021/oct/esteem.jpeg"
+import maxo from "../img/nmf/2021/oct/maxo.jpeg"
+import jpeg from "../img/nmf/2021/oct/jpeg.jpeg"
+import circuit from "../img/nmf/2021/oct/circuit.jpeg"
+import helado from "../img/nmf/2021/oct/helado.jpeg"
+import biffy from "../img/nmf/2021/oct/biffy.jpeg"
 
 // JULY 23
-import dave  from "../img/nmf/2021/july/dave.jpeg"
-import darkside  from "../img/nmf/2021/july/darkside.jpeg"
+import dave from "../img/nmf/2021/july/dave.jpeg"
+import darkside from "../img/nmf/2021/july/darkside.jpeg"
 
 // JULY 16
 import clairo from "../img/nmf/2021/july/clairo.jpeg"
@@ -74,7 +82,7 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 
 /*
 
-{
+  {
     active: true,
     date: {
       month: XXX,
@@ -124,6 +132,121 @@ import XX_IMAGE_XX from "../img/nmf/placeholder.jpg"
 */
 
 const ALBUM_DATA = [
+  {
+    active: true,
+    date: {
+      month: 10,
+      day: 22,
+      year: 2021,
+    },
+    albums: [
+      {
+        artist: "Self Esteem",
+        title: "Prioritise Pleasure",
+        uri: "spotify:album:6Q4b8zTe5hFiDaUxNOiBih",
+        genre: "pop",
+        tracks: 13,
+        runtime: 45,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: esteem,
+        elite: false,
+      },
+      {
+        artist: "Grouper",
+        title: "shade",
+        uri: "spotify:album:1w3EOCPDwqWIiu2c1pHylJ",
+        genre: "experimental / acoustic",
+        tracks: 9,
+        runtime: 35,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: grouper,
+        elite: false,
+      },
+      {
+        artist: "Maxo Kream",
+        title: "WEIGHT OF THE WORLD",
+        uri: "spotify:album:6DY8Tci3yCd6teXbxoPGN6",
+        genre: "hip-hop",
+        tracks: 16,
+        runtime: 44,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: maxo,
+        elite: false,
+      },
+      {
+        artist: "JPEGMAFIA",
+        title: "LP!",
+        uri: "spotify:album:4inXqcdjG79gV4m2mU8dQh",
+        genre: "hip-hop / experimental",
+        tracks: 18,
+        runtime: 49,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: jpeg,
+        elite: false,
+      },
+      {
+        artist: "Circuit Des Yeux",
+        title: "-io",
+        uri: "spotify:album:79TV8acvMeGKGbsBUKvwCI",
+        genre: "alternative",
+        tracks: 10,
+        runtime: 41,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: circuit,
+        elite: false,
+      },
+      {
+        artist: "Helado Negro",
+        title: "Far In",
+        uri: "spotify:album:6VuufjwylS8CGaUcq3Vs4e",
+        genre: "alternative / indie",
+        tracks: 15,
+        runtime: 68,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: helado,
+        elite: false,
+      },
+      {
+        artist: "Biffy Clyro",
+        title: "The Myth of The Happily Ever After",
+        uri: "spotify:album:79TV8acvMeGKGbsBUKvwCI",
+        genre: "rock",
+        tracks: 11,
+        runtime: 50,
+        date: {
+          month: 10,
+          day: 22,
+          year: 2021,
+        },
+        img: biffy,
+        elite: false,
+      },
+    ],
+  },
   {
     active: true,
     date: {
