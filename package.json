@@ -16,7 +16,7 @@
     "d3-svg-legend": "2.25.6",
     "d3-transition": "1.2.0",
     "gatsby-image": "^2.2.37",
-    "gatsby-plugin-sharp": "^2.3.10",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-transformer-sharp": "^2.3.9",
     "history": "^4.10.1",
     "inline-style-prefixer": "^5.1.0",
